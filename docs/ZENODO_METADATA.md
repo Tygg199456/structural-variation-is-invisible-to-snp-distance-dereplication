@@ -7,8 +7,7 @@ Structural variation is invisible to SNP-distance dereplication: the reference s
 of *Yersinia pestis* merges with its own attenuated derivative
 
 **Creators** (one row per author, in manuscript order; add affiliation and ORCID)
-1. `<Family name>, <Given name>` — `<Affiliation>` — ORCID `<0000-0000-0000-0000>`
-2. …
+1. `Tong, Guangwei` — *affiliation to be added* — ORCID *to be added*
 
 **Description** (plain text is fine; the 3–5 sentences below can be pasted as is)
 
@@ -33,19 +32,24 @@ bias; reproducible analysis
 > the record contains derived data and figures; the code is MIT, and the split is
 > stated in the repository README and in `LICENSE` / `LICENSE-DATA`.
 
-**Version**　`<tag of the release>`
+**Version**　`v1.0.0`
+
+**DOI**　concept `10.5281/zenodo.23353814` · this version `10.5281/zenodo.23353815`
 
 **Language**　English
 
 **Related identifiers**
-- `is identical to` → `https://github.com/Tygg199456/structural-variation-is-invisible-to-snp-distance-dereplication/tree/<tag>`
-- `is documented by` → `https://github.com/Tygg199456/structural-variation-is-invisible-to-snp-distance-dereplication/blob/<tag>/README.md`
+- `is identical to` → `https://github.com/Tygg199456/structural-variation-is-invisible-to-snp-distance-dereplication`
+- `is documented by` → `https://github.com/Tygg199456/structural-variation-is-invisible-to-snp-distance-dereplication/blob/main/README.md`
 
 ## Which DOI goes in the manuscript
 
 Paste the **version DOI** of the published record, or the **concept DOI** (which
 resolves to the latest version) — decide once and keep it consistent with the
 repository README badge. `results/numbers.json` and the manuscript must agree.
+
+This archive uses the **concept DOI `10.5281/zenodo.23353814`** (version v1.0.0 is
+`10.5281/zenodo.23353815`) in the README, `CITATION.cff` and the manuscript.
 
 The concept DOI also goes in the repository README, as the entry point to every
 version.

@@ -2,14 +2,17 @@ cff-version: 1.2.0
 message: "If you use this code or these derived tables, please cite the manuscript and this archive."
 title: "Structural variation is invisible to SNP-distance dereplication: the reference strain of Yersinia pestis merges with its own attenuated derivative"
 type: software
-license: MIT
-doi: 10.5281/zenodo.23342892
+version: "v1.0.0"
+license:
+  - MIT
+  - CC-BY-4.0
+doi: 10.5281/zenodo.23353814
 repository-code: "https://github.com/Tygg199456/structural-variation-is-invisible-to-snp-distance-dereplication"
 authors:
-  - name: "To be completed before submission"
+  - name: "Guangwei Tong"
 preferred-citation:
   type: article
   title: "Structural variation is invisible to SNP-distance dereplication: the reference strain of Yersinia pestis merges with its own attenuated derivative"
   year: 2026
   authors:
-    - name: "To be completed before submission"
+    - name: "Guangwei Tong"

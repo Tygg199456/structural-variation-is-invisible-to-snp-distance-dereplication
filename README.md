@@ -1,8 +1,11 @@
 # Structural variation is invisible to SNP-distance dereplication
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23342892.svg)](https://doi.org/10.5281/zenodo.23342892)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23353814.svg)](https://doi.org/10.5281/zenodo.23353814)
 
 **the reference strain of *Yersinia pestis* merges with its own attenuated derivative**
+
+Archive version **v1.0.0** · version DOI [10.5281/zenodo.23353815](https://doi.org/10.5281/zenodo.23353815)
+(cite the concept DOI above to always resolve to the latest version)
 
 Analysis code, derived tables and figure scripts for the manuscript.
 

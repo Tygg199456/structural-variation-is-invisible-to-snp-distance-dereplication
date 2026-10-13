@@ -4,16 +4,12 @@ Manuscript: *Structural variation is invisible to SNP-distance dereplication: th
 reference strain of Yersinia pestis merges with its own attenuated derivative*
 (Research Article).
 
-> **To complete before submission** — replace every `<…>` below. The Funding and
-> Conflicts sentences are the standard formulations; confirm or edit them.
+> Author declarations for submission.
 
 ## Funding
 
 This research received no specific grant from any funding agency, commercial or
 not-for-profit sectors.
-
-*`<If there is a grant, replace with: This work was supported by <funder> (grant
-number <…>).>`*
 
 ## Conflicts of interest
 
@@ -23,20 +19,9 @@ The authors declare that there are no conflicts of interest.
 
 | Author | CRediT roles |
 |---|---|
-| `<Author 1>` | `<e.g. Conceptualization, Methodology, Software, Formal analysis, Data curation, Validation, Visualization, Writing – original draft>` |
-| `<Author 2>` | `<e.g. Conceptualization, Methodology, Supervision, Project administration, Writing – review & editing>` |
-| `<Author 3>` | `<…>` |
+| Guangwei Tong | Conceptualization, Methodology, Software, Formal analysis, Investigation, Data curation, Visualization, Writing – original draft, Writing – review & editing |
 
 All authors read and approved the final manuscript.
-
-*CRediT roles available:* Conceptualization · Data curation · Formal analysis ·
-Funding acquisition · Investigation · Methodology · Project administration ·
-Resources · Software · Supervision · Validation · Visualization ·
-Writing – original draft · Writing – review & editing.
-
-*Do not assign all fourteen roles to one person to fill the table.* With one or two
-authors, five to eight roles each is the norm; `Funding acquisition` and `Resources`
-are simply absent when there is no funding.
 
 ## Ethical approval
 
@@ -58,7 +43,7 @@ diagnostic.
 All data are previously published, publicly available archived genomes. Analysis
 code, the derived deletion-profile, distance, polarity and threshold-scan tables and
 the software version manifest are archived at
-https://github.com/Tygg199456/structural-variation-is-invisible-to-snp-distance-dereplication and `<Zenodo DOI>`.
+https://github.com/Tygg199456/structural-variation-is-invisible-to-snp-distance-dereplication and https://doi.org/10.5281/zenodo.23353814 (concept DOI; version v1.0.0 is 10.5281/zenodo.23353815).
 
 ## Related manuscript
 

@@ -2,12 +2,12 @@
   "title": "Structural variation is invisible to SNP-distance dereplication: the reference strain of Yersinia pestis merges with its own attenuated derivative",
   "description": "Analysis code, derived tables and figure scripts for a study of reference-relative measurements in <i>Yersinia pestis</i> comparative genomics: reference-based quality metrics act as divergence filters, a SNP distance over jointly called sites cannot see a 102.6 kb deletion, and absence relative to the reference has unknown polarity. Contains the Snakemake pipeline, the six figure scripts, every derived table, results/numbers.json plus docs/NUMBER_REGISTRY.md mapping every number in the Results to the file and code version that produced it, the supplementary tables, and the second-reference replication.",
   "upload_type": "software",
-  "license": "MIT",
+  "version": "v1.0.0",
+  "license": "CC-BY-4.0",
   "access_right": "open",
   "creators": [
     {
-      "name": "To be completed before submission",
-      "affiliation": "To be completed before submission"
+      "name": "Tong, Guangwei"
     }
   ],
   "keywords": [
@@ -25,5 +25,5 @@
       "resource_type": "software"
     }
   ],
-  "notes": "Creators, affiliations and ORCIDs must be completed before the next release; see docs/ZENODO_METADATA.md. Licence split: code is MIT (LICENSE); derived tables and figures are CC BY 4.0 (LICENSE-DATA)."
+  "notes": "Licence split: code is MIT (LICENSE); derived tables and figures are CC BY 4.0 (LICENSE-DATA). Concept DOI 10.5281/zenodo.23353814; this version (v1.0.0) DOI 10.5281/zenodo.23353815."
 }

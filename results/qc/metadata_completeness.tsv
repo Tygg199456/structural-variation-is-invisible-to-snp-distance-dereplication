@@ -1,0 +1,9 @@
+dataset	field	nonnull	total	fraction
+all	collection_date	4163	4585	0.908
+all	geo_loc_name	4137	4585	0.9023
+all	host	1591	4585	0.347
+all	isolation_source	2656	4585	0.5793
+complete_chromosome	collection_date	444	500	0.888
+complete_chromosome	geo_loc_name	468	500	0.936
+complete_chromosome	host	294	500	0.588
+complete_chromosome	isolation_source	187	500	0.374

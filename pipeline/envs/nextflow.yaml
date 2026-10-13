@@ -1,0 +1,8 @@
+name: nextflow
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - nextflow=23.10
+  - openjdk=17

@@ -1,0 +1,20 @@
+# operational / large / private — deliberately not archived
+results/snippy/
+data/genomes/
+data/ref/
+data/models/
+db/
+logs/
+run/
+scratch/
+benchmarks/
+.snakemake/
+__pycache__/
+*.pyc
+*.Rhistory
+.Rhistory
+.RData
+.env
+*.token
+.ssh/
+.DS_Store

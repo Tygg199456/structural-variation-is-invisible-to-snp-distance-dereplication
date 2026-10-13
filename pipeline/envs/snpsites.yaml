@@ -1,0 +1,8 @@
+name: snpsites
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - snp-sites=2.5.1
+  - snp-dists=0.8.2

@@ -1,0 +1,6 @@
+pyhmmer 0.10.15 bakta 1.9.4 pyrodigal 3.7.1
+4.2.7
+amrfinder DB: 2026-08-07.1
+bakta DB: 5 1 full 10.5281/zenodo.10522951
+env: <HOME>/envs/snakemake-envs/0caaed5c77c955f207146e971db64093_/bin
+threads: 8 per genome, --cores 16

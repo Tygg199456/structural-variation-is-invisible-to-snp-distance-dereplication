@@ -1,0 +1,183 @@
+# ==============================================================================
+# plague-decay | Snakefile
+#
+# Yersinia pestis reductive evolution: phylogenomics + genome-scale metabolism
+#
+# Run:
+#   snakemake -n                              # dry run
+#   snakemake --use-conda -c32 tier_counts    # STOP HERE, inspect the counts
+#   snakemake --use-conda -c32 mvp            # MVP target (~5-7 days)
+#   snakemake --use-conda -c32 all            # full (~3 weeks)
+# ==============================================================================
+
+import os
+import subprocess
+import sys
+from pathlib import Path
+
+configfile: "config.yaml"
+
+# BUG 4 guard: snakemake's `script:` directive prepends a preamble to every
+# script, so a `from __future__` import stops being the first statement and
+# the script dies at runtime -- after the upstream work is already paid for.
+# Fail here instead, in the first second.
+subprocess.run([sys.executable, os.path.join(workflow.basedir, "scripts/_lint_scripts.py")],
+               check=True)
+
+RES   = config["paths"]["results"]
+DATA  = config["paths"]["data"]
+LOGS  = config["paths"]["logs"]
+REF   = config["ref"]["accession"]
+
+wildcard_constraints:
+    tier   = "A|B|C",
+    set    = "tierA|tierB",
+    acc    = r"GC[AF]_\d+\.\d+",
+    sample = r"[A-Za-z0-9._-]+",
+
+
+# ------------------------------------------------------------------ checkpoints
+# Tier membership is not knowable until QC and dedup have run, so sample lists
+# are resolved through checkpoints rather than globbed up front.
+
+def tier_samples(tier):
+    """Read the accession list a checkpoint produced for one tier."""
+    if tier == "A":
+        ck = checkpoints.tier_a_dedup.get().output.keep
+    elif tier == "B":
+        ck = checkpoints.tier_b_backbone.get().output.keep
+    else:
+        ck = checkpoints.tier_c_select.get().output.keep
+    with open(ck) as fh:
+        return [ln.split("\t")[0] for ln in fh if ln.strip()
+                and not ln.startswith("#")]
+
+def tier_a(_=None):  return tier_samples("A")
+def tier_b(_=None):  return tier_samples("B")
+def tier_c(_=None):  return tier_samples("C")
+
+
+def outgroup_accessions():
+    """Accessions that must never enter the dating set.
+
+    Outgroups violate the molecular clock assumption; leaving one in the
+    BEAST taxa set drags the rate estimate. They are here as root polarisers
+    only.
+    """
+    og = [config["outgroup"]["primary"]] + list(config["outgroup"].get("extra", []))
+    return set(og)
+
+
+# ---------------------------------------------------------------- tier guard
+# Hard stop if a rule tries to feed a tier into a forbidden analysis.
+def assert_use(tier, use):
+    allowed = config["tiers"][tier]["permitted_uses"]
+    if use not in allowed:
+        raise WorkflowError(
+            f"TIER VIOLATION: Tier {tier} may not be used for '{use}'. "
+            f"Permitted: {allowed}. See config.yaml 'TIER DEFINITIONS'."
+        )
+    return True
+
+
+include: "rules/00_fetch.smk"
+include: "rules/01_qc.smk"
+include: "rules/02_dedup.smk"
+include: "rules/03_ancient.smk"
+include: "rules/04_annotate.smk"
+include: "rules/05_pangenome.smk"
+include: "rules/06_phylogeny.smk"
+include: "rules/07_dating.smk"
+include: "rules/08_asr.smk"
+include: "rules/09_fba.smk"
+include: "rules/10_figures.smk"
+
+
+# ================================================================== TARGETS
+
+rule tier_counts:
+    """
+    GATE 1a -- metadata only. Minutes, no downloads. Read this before
+    committing any compute: it is the decision point, not a progress report.
+
+    Nothing here needs sequence, so the ~4,585 downloads that v1 required
+    before you could see a number are gone.
+    """
+    input:
+        f"{RES}/qc/tier_report.tsv",
+        f"{RES}/qc/metadata_completeness.tsv",
+        f"{RES}/qc/tierA_candidates.tsv",
+        f"{RES}/qc/tierB_candidates.tsv",
+
+
+rule gate1b:
+    """
+    GATE 1b -- Tier A dnadiff cover gate ONLY. 256 downloads + 256 dnadiff, 1-2 h.
+
+    Deliberately does NOT pull dedup/tierA_keep.tsv or dedup/tierB_backbone.tsv:
+    those transitively require a snippy run for every Tier B accession (3,441
+    genomes, 10-14 h). A gate whose stated cost is 1-2 h must not silently
+    depend on the 10-14 h step.
+    """
+    input:
+        f"{RES}/qc/tierA_refined.tsv",
+
+
+rule gate1c:
+    """
+    GATE 1c -- Tier A SNP dedup. Reuses gate1b's 256 downloads, adds 256
+    snippy runs and the Tier A genotype matrix.
+    """
+    input:
+        f"{RES}/dedup/tierA_keep.tsv",
+
+
+rule gate1d:
+    """
+    GATE 1d -- Tier B: 3,441 downloads + snippy + backbone dedup. 10-14 h.
+    snippy output is cached per sample, so gate1c's 256 runs are reused here.
+    """
+    input:
+        f"{RES}/dedup/tierB_backbone.tsv",
+
+
+rule mvp:
+    """
+    Minimum publishable unit: Tier A only, no ancient DNA, no BEAST.
+    LSD2 supplies relative dating. ~5-7 days on 32 cores.
+    """
+    input:
+        f"{RES}/pangenome/gene_presence_absence.Rtab",
+        f"{RES}/pseudogene/pseudo_matrix.tsv",
+        f"{RES}/phylogeny/tierA.treefile",
+        f"{RES}/dating/lsd2_tierA.nex",
+        f"{RES}/asr/pastml_events.tsv",
+        f"{RES}/fba/growth_matrix.tsv",
+        f"{RES}/figures/fig1_tree.pdf",
+        f"{RES}/figures/fig2_pangenome.pdf",
+        f"{RES}/figures/fig3_parallel_loss.pdf",
+        f"{RES}/figures/fig5_fba.pdf",
+        f"{RES}/figures/figS1_checkm_bias.pdf",
+        f"{RES}/tables/table1_datasets.tsv",
+        f"{RES}/tables/table2_parallel_genes.tsv",
+
+
+rule all:
+    """Full study. Adds Tier B backbone tree, Tier C ancient genomes, BEAST."""
+    input:
+        rules.mvp.input,
+        f"{RES}/phylogeny/backbone.treefile",
+        f"{RES}/phylogeny/allB_veryfasttree.nwk",
+        f"{RES}/dating/beast_global.mcc.tree",
+        f"{RES}/dating/drt_summary.tsv",
+        f"{RES}/dating/population_clock_gates.tsv",
+        f"{RES}/figures/fig4_circos_is.pdf",
+        f"{RES}/figures/fig6_decay_rate.pdf",
+        f"{RES}/figures/figS2_downsample_control.pdf",
+        f"{RES}/figures/figS3_draft_pav_bias.pdf",
+        f"{RES}/figures/figS4_dedup_topology.pdf",
+
+
+rule clean_scratch:
+    shell:
+        "rm -rf {RES}/tmp {LOGS}/*.tmp"

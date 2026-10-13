@@ -1,0 +1,15 @@
+# source: results/dedup/snp_distance_raw_tierB.npy (complete linkage)
+t	retained	max_size	grid_point
+0	2704	16	grid
+3	1653	39	grid
+5	1239	50	grid
+10	750	156	grid
+15	536	319	grid
+18	453	397	off-grid
+19	429	464	off-grid
+20	410	464	grid
+25	352	464	grid
+30	309	464	grid
+50	190	584	grid
+75	120	1108	grid
+100	95	1108	grid

@@ -1,0 +1,10 @@
+# Build the DIAMOND reference db from Y. pseudotuberculosis
+# plus related Enterobacterales before first use.
+name: pseudofinder
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - pseudofinder=1.1
+  - diamond=2.1

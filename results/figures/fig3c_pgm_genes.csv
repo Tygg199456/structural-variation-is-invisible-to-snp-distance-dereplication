@@ -1,0 +1,16 @@
+gene,start,end,group
+pesticin/yersiniabactin receptor protein,2140840,2142861,ybt
+yersiniabactin biosynthesis salycil-AMP ligase YbtE,2142992,2144569,ybt
+yersiniabactin biosynthesis thioesterase YbtT,2144573,2145376,ybt
+yersiniabactin biosynthetic protein YbtU,2145373,2146473,ybt
+yersiniabactin biosynthetic protein Irp1,2146470,2155961,ybt
+yersiniabactin non-ribosomal peptide synthetase HMWP2,2156049,2162156,ybt
+yersiniabactin transcriptional regulator YbtA,2162347,2163306,ybt
+yersiniabactin ABC transporter ATP-binding/permease protein YbtP,2163473,2165275,ybt
+yersiniabactin ABC transporter ATP-binding/permease protein YbtQ,2165262,2167064,ybt
+putative signal transducer,2167057,2168337,ybt
+salicylate synthase Irp9,2168365,2169669,ybt
+poly-beta-1%2C6 N-acetyl-D-glucosamine export porin PgaA,2213406,2215874,pga
+poly-beta-1%2C6-N-acetyl-D-glucosamine N-deacetylase PgaB,2215887,2217908,pga
+poly-beta-1%2C6-N-acetyl-D-glucosamine synthase,2217898,2219232,pga
+poly-beta-1%2C6-N-acetyl-D-glucosamine biosynthesis protein PgaD,2219229,2219696,pga

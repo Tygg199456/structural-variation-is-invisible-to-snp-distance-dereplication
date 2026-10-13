@@ -1,0 +1,211 @@
+accession	tier	assembly_level	total_bp	contigs	contig_n50	checkm_contamination	checkm_completeness_COVARIATE_ONLY	dnadiff_aligned_pct	anchor	collection_date	geo_loc_name	host	strain	notes
+GCF_000835005.1	excluded	chromosome	4572683	2	4463069	0.7	94.5	0.0	False	1985	Kenya: Nairobi		Nairobi	ambiguous=0.0219>0.005
+GCF_003074175.1	excluded	contig	4623780	502	26928	0.99	89.15	0.0	False	1983-05-23	Mongolia	Lasiopodomys brandtii	I-3086	contigs=502>500
+GCF_003074275.1	excluded	contig	4476360	676	16603	0.27	52.44	0.0	False	1986-08-28	Russia: Kabardino-Balkar Republic, Zolsky District	Coleophora tesquorum	C-627	contigs=676>500;n50=16603<20000
+GCF_003074315.1	excluded	contig	4681103	563	24414	1.22	90.93	0.0	False	1987-07-22	Russia: Republic of Tuva, Ovyursky District	Citellophilus tesquorum	I-3223	contigs=563>500
+GCF_003086015.1	excluded	contig	4582641	628	26678	1.51	93.07	0.0	False	2012-08-21	Russia: Republic of Tyva, Mongun-Tayginskiy district	Marmota sibirica	M-1944	contigs=628>500
+GCF_003086075.1	excluded	contig	4535418	707	13248	0.47	23.83	0.0	False	1983-03-16	Uzbekistan	Rhombomys opimus	A-1825	contigs=707>500;n50=13248<20000
+GCF_003798085.1	excluded	contig	4873732	5	4709501	2.67	98.69	0.0	False	1957	Indonesia: Java	Rat	FDAARGOS_604	contamination=2.67>2.0
+GCF_004023585.1	excluded	scaffold	4537723	393	26966	0.86	98.98	0.0	False	2005-05	China: Alashankou, Xinjiang	Rhombomys opimus	2513	ambiguous=0.0122>0.005
+GCF_004023595.1	excluded	scaffold	4629574	440	24467	1.01	98.94	0.0	False	2005-05	China: Alashankou, Xinjiang	Rhombomys opimus	2514	ambiguous=0.0147>0.005
+GCF_006376415.1	excluded	contig	4377414	217	36029	0.84	87.96	0.0	False	1950	Russia	Lepus	C-11	total_bp=4377414_outside_window
+GCF_006376475.1	excluded	contig	4285693	243	32682	0.33	69.55	0.0	False	1968	Azerbaijan	Meriones libycus	C-224	total_bp=4285693_outside_window
+GCF_006376495.1	excluded	contig	4383063	235	35843	0.89	94.37	0.0	False	1968	Azerbaijan	Meriones libycus	C-231	total_bp=4383063_outside_window
+GCF_009667945.1	excluded	contig	4650481	221	45358	2.08	98.94	0.0	False	1986-06-08	China: Xinjiang Guertu		42051	contamination=2.08>2.0
+GCF_010974855.1	excluded	contig	4447671	526	16253	1.26	89.67	0.0	False	1924	Kazakhstan: Ural province, now Uralsk city	Citellus fulvus	31	contigs=526>500;n50=16253<20000
+GCF_019238595.1	excluded	contig	4760286	170	49013	3.05	98.46	0.0	False	2019-11-01	China:Inner Mongolia	Meriones unguiculatus	NM2019.4468	contamination=3.05>2.0
+GCF_019238605.1	excluded	contig	3982119	86	51168	0.91	81.69	0.0	False	2019-09-01	China:Inner Mongolia	Meriones unguiculatus	NM2019.4442	total_bp=3982119_outside_window
+GCF_040750815.1	excluded	contig	4745364	161	51213	2.38	98.89	0.0	False	2021	China: Gansu	Marmota himalayana	AKS21_HT71GUZS	contamination=2.38>2.0
+GCF_040751325.1	excluded	contig	4748386	161	51189	2.46	98.89	0.0	False	2021	China: Gansu	Marmota himalayana	AKS2021_HT47	contamination=2.46>2.0
+GCF_900095105.1	excluded	scaffold	4427555	561	14188	1.35	94.1	0.0	False				Algeria3	ambiguous=0.0117>0.005;contigs=561>500;n50=14188<20000
+GCF_902387395.1	excluded	contig	4935125	3	4723306	4.06	98.4	0.0	False		Russia		MGYG-HGUT-02476	contamination=4.06>2.0
+GCA_003074675.1	excluded	contig	3963071	4816	1156			0.0	False	1966	Kazakhstan	Rhombomis opinus	139	total_bp=3963071_outside_window;contigs=4816>500;n50=1156<20000
+GCA_003122795.1	excluded	contig	5558037	2868	21689			0.0	False	1974	Mongolia: Bayan-Ulegei aimak	Amphalius runatus	I-2422	total_bp=5558037_outside_window;contigs=2868>500
+GCA_030259885.1	excluded	scaffold	5478096	363	39424	9.84	98.59	0.0	False	1954-11-20	China:Yunnan, Dali Bai Autonomous Prefecture	Rattus tanezumi	B7-80032_DMS23227-V	contamination=9.84>2.0;total_bp=5478096_outside_window
+GCA_046649085.1	excluded	contig	4736856	222	48666	2.12	98.52	0.0	False	1961-09-14	China:Qinghai	Homo sapiens	10008	contamination=2.12>2.0
+GCA_046659125.1	excluded	contig	4779521	352	57014	2.11	98.61	0.0	False	1970-06-21	China:Inner Mongolia		91045	contamination=2.11>2.0
+GCA_046680345.1	excluded	contig	4755090	235	49145	2.12	98.69	0.0	False	2003-06-23	China:Qinghai		20024	contamination=2.12>2.0
+GCF_000320425.1	excluded	contig	4368767	1092	8897	1.49	95.05	0.0	False				12	total_bp=4368767_outside_window;contigs=1092>500;n50=8897<20000
+GCF_000323185.1	excluded	contig	4444813	1053	9618	1.08	95.89	0.0	False				164	contigs=1053>500;n50=9618<20000
+GCF_000320445.1	excluded	contig	4453910	1057	9482	1.57	96.35	0.0	False				2	contigs=1057>500;n50=9482<20000
+GCF_000320465.1	excluded	contig	4427639	798	11750	1.21	98.0	0.0	False				2330	contigs=798>500;n50=11750<20000
+GCF_000323205.1	excluded	contig	4475655	975	9235	2.77	97.81	0.0	False				2504	contamination=2.77>2.0;contigs=975>500;n50=9235<20000
+GCF_000323225.1	excluded	contig	4488493	820	11792	0.97	98.48	0.0	False				2506	contigs=820>500;n50=11792<20000
+GCF_000323245.1	excluded	contig	4352602	2718	3203			0.0	False				2654	total_bp=4352602_outside_window;contigs=2718>500;n50=3203<20000
+GCF_000323285.1	excluded	contig	4591472	747	12711	1.29	98.34	0.0	False				30017	contigs=747>500;n50=12711<20000
+GCF_000323305.1	excluded	contig	4375742	1074	9199	1.47	95.8	0.0	False				34008	total_bp=4375742_outside_window;contigs=1074>500;n50=9199<20000
+GCF_000323325.1	excluded	contig	4504947	1237	7418	2.44	96.56	0.0	False				34202	contamination=2.44>2.0;contigs=1237>500;n50=7418<20000
+GCF_000323345.1	excluded	contig	4433848	1332	7499	1.34	96.52	0.0	False				351001	contigs=1332>500;n50=7499<20000
+GCF_000323365.1	excluded	contig	4495101	877	10543	1.44	98.28	0.0	False				42013	contigs=877>500;n50=10543<20000
+GCF_000323385.1	excluded	contig	4496670	2049	4296			0.0	False				42082	contigs=2049>500;n50=4296<20000
+GCF_000323405.1	excluded	contig	4495831	937	9994	1.26	98.44	0.0	False				42091	contigs=937>500;n50=9994<20000
+GCF_000323425.1	excluded	contig	4512584	1119	8246	1.86	97.03	0.0	False				42095	contigs=1119>500;n50=8246<20000
+GCF_000323445.1	excluded	contig	4478071	1008	8819	2.08	97.57	0.0	False				5	contamination=2.08>2.0;contigs=1008>500;n50=8819<20000
+GCF_000323465.1	excluded	contig	4262011	945	9651	1.46	96.73	0.0	False				5761	total_bp=4262011_outside_window;contigs=945>500;n50=9651<20000
+GCF_000323485.1	excluded	contig	4503786	1131	7892	4.4	96.47	0.0	False				620024	contamination=4.40>2.0;contigs=1131>500;n50=7892<20000
+GCF_000323505.1	excluded	contig	4539616	768	12162	0.83	98.8	0.0	False				7	contigs=768>500;n50=12162<20000
+GCF_000323525.1	excluded	contig	4493411	1489	6168	2.84	96.28	0.0	False				71021	contamination=2.84>2.0;contigs=1489>500;n50=6168<20000
+GCF_000323545.1	excluded	contig	4449879	1119	8219	0.99	96.14	0.0	False				710317	contigs=1119>500;n50=8219<20000
+GCF_000323565.1	excluded	contig	4344510	1074	7554	2.66	96.14	0.0	False				7338	contamination=2.66>2.0;total_bp=4344510_outside_window;contigs=1074>500;n50=7554<20000
+GCF_000323585.1	excluded	contig	4423715	882	9511	1.89	98.18	0.0	False				735	contigs=882>500;n50=9511<20000
+GCF_000323605.1	excluded	contig	4525764	817	11743	1.17	98.06	0.0	False				780441	contigs=817>500;n50=11743<20000
+GCF_000323625.1	excluded	contig	4452201	1336	6786	2.51	94.93	0.0	False				9	contamination=2.51>2.0;contigs=1336>500;n50=6786<20000
+GCF_000323645.1	excluded	contig	4366271	906	10202	1.38	96.61	0.0	False				91	total_bp=4366271_outside_window;contigs=906>500;n50=10202<20000
+GCF_000323665.1	excluded	contig	4226749	1243	7849	1.82	94.54	0.0	False				945	total_bp=4226749_outside_window;contigs=1243>500;n50=7849<20000
+GCF_000323685.1	excluded	contig	4348631	1104	8998	1.16	95.78	0.0	False				970754	total_bp=4348631_outside_window;contigs=1104>500;n50=8998<20000
+GCF_000323705.1	excluded	contig	4508534	852	11380	0.94	98.38	0.0	False				A1956001	contigs=852>500;n50=11380<20000
+GCF_000323725.1	excluded	contig	4413119	1539	5411	3.12	96.49	0.0	False				A1973001	contamination=3.12>2.0;contigs=1539>500;n50=5411<20000
+GCF_000324785.1	excluded	contig	4516254	941	9944	1.71	97.84	0.0	False				E1979001	contigs=941>500;n50=9944<20000
+GCF_000168235.2	excluded	contig	5322065	102	182913	2.33	97.89	0.0	False	1995	Madagascar: Ambalavao district		IP275	contamination=2.33>2.0;total_bp=5322065_outside_window
+GCF_000323745.1	excluded	contig	4365481	1452	6984	1.85	94.2	0.0	False				C1975003	total_bp=4365481_outside_window;contigs=1452>500;n50=6984<20000
+GCF_000323765.1	excluded	contig	4546693	979	8934	1.66	98.23	0.0	False				C1976001	contigs=979>500;n50=8934<20000
+GCF_000323785.1	excluded	contig	4588735	934	9621	2.24	98.59	0.0	False				C1989001	contamination=2.24>2.0;contigs=934>500;n50=9621<20000
+GCF_000323805.1	excluded	contig	4489186	1281	7356	2.73	97.14	0.0	False				CMCC02041	contamination=2.73>2.0;contigs=1281>500;n50=7356<20000
+GCF_000323825.1	excluded	contig	4366616	1082	9035	1.52	97.28	0.0	False				CMCC03001	total_bp=4366616_outside_window;contigs=1082>500;n50=9035<20000
+GCF_000323845.1	excluded	contig	4501730	1501	5943	3.9	94.63	0.0	False				CMCC05009	contamination=3.90>2.0;contigs=1501>500;n50=5943<20000
+GCF_000323865.1	excluded	contig	4395097	1360	7591	2.38	96.32	0.0	False				CMCC05013	contamination=2.38>2.0;total_bp=4395097_outside_window;contigs=1360>500;n50=7591<20000
+GCF_000323885.1	excluded	contig	4435712	1001	9529	0.86	97.24	0.0	False				CMCC10012	contigs=1001>500;n50=9529<20000
+GCF_000323905.1	excluded	contig	4494768	1387	7262	3.35	96.9	0.0	False				CMCC104003	contamination=3.35>2.0;contigs=1387>500;n50=7262<20000
+GCF_000323925.1	excluded	contig	4424589	1176	9993	1.03	97.26	0.0	False				CMCC106002	contigs=1176>500;n50=9993<20000
+GCF_000323945.1	excluded	contig	4455583	2814	2393			0.0	False				CMCC107004	contigs=2814>500;n50=2393<20000
+GCF_000323965.1	excluded	contig	4423348	1100	8860	1.07	96.31	0.0	False				CMCC11001	contigs=1100>500;n50=8860<20000
+GCF_000323985.1	excluded	contig	4231517	1664	6296	1.9	93.56	0.0	False				CMCC114001	total_bp=4231517_outside_window;contigs=1664>500;n50=6296<20000
+GCF_000324005.1	excluded	contig	4341435	1045	9074	2.02	96.46	0.0	False				CMCC12003	contamination=2.02>2.0;total_bp=4341435_outside_window;contigs=1045>500;n50=9074<20000
+GCF_000324025.1	excluded	contig	4518010	790	11903	1.22	98.76	0.0	False				CMCC125002	contigs=790>500;n50=11903<20000
+GCF_000324045.1	excluded	contig	4495992	1478	6538	3.1	96.93	0.0	False				CMCC18019	contamination=3.10>2.0;contigs=1478>500;n50=6538<20000
+GCF_000324065.1	excluded	contig	4251990	1387	7153	1.98	93.8	0.0	False				CMCC21106	total_bp=4251990_outside_window;contigs=1387>500;n50=7153<20000
+GCF_000324085.1	excluded	contig	4282597	1451	6644	2.04	93.24	0.0	False				CMCC27002	contamination=2.04>2.0;total_bp=4282597_outside_window;contigs=1451>500;n50=6644<20000
+GCF_000324105.1	excluded	contig	4413744	1229	8256	1.79	95.23	0.0	False				CMCC31004	contigs=1229>500;n50=8256<20000
+GCF_000324125.1	excluded	contig	4514951	1207	8115	2.03	97.96	0.0	False				CMCC347001	contamination=2.03>2.0;contigs=1207>500;n50=8115<20000
+GCF_000324145.1	excluded	contig	4571405	846	11486	1.93	99.13	0.0	False				CMCC348002	contigs=846>500;n50=11486<20000
+GCF_000324165.1	excluded	contig	4483258	1030	9994	1.46	98.01	0.0	False				CMCC38001	contigs=1030>500;n50=9994<20000
+GCF_000324185.1	excluded	contig	4440824	1040	9179	0.93	96.4	0.0	False				CMCC42007	contigs=1040>500;n50=9179<20000
+GCF_000324205.1	excluded	contig	4512744	1049	8447	1.14	97.56	0.0	False				CMCC43032	contigs=1049>500;n50=8447<20000
+GCF_000324225.1	excluded	contig	4534555	795	11906	0.94	98.73	0.0	False				CMCC49003	contigs=795>500;n50=11906<20000
+GCF_000324245.1	excluded	contig	4420992	1118	8898	1.16	97.12	0.0	False				CMCC51020	contigs=1118>500;n50=8898<20000
+GCF_000324265.1	excluded	contig	4360492	955	9926	0.91	96.72	0.0	False				CMCC64001	total_bp=4360492_outside_window;contigs=955>500;n50=9926<20000
+GCF_000324285.1	excluded	contig	4305752	1490	6643	1.42	93.54	0.0	False				CMCC640047	total_bp=4305752_outside_window;contigs=1490>500;n50=6643<20000
+GCF_000324305.1	excluded	contig	4340671	1099	9700	0.86	96.47	0.0	False				CMCC67001	total_bp=4340671_outside_window;contigs=1099>500;n50=9700<20000
+GCF_000324325.1	excluded	contig	4254189	1744	6349	2.25	93.97	0.0	False				CMCC71001	contamination=2.25>2.0;total_bp=4254189_outside_window;contigs=1744>500;n50=6349<20000
+GCF_000324345.1	excluded	contig	4417626	797	11660	0.95	97.56	0.0	False				CMCC8211	contigs=797>500;n50=11660<20000
+GCF_000324365.1	excluded	contig	4459052	1055	8577	1.33	97.4	0.0	False				CMCC84033	contigs=1055>500;n50=8577<20000
+GCF_000324385.1	excluded	contig	4438544	2446	3830			0.0	False				CMCC84038	contigs=2446>500;n50=3830<20000
+GCF_000324405.1	excluded	contig	4517175	1137	7118	2.09	98.24	0.0	False				CMCC84046	contamination=2.09>2.0;contigs=1137>500;n50=7118<20000
+GCF_000324425.1	excluded	contig	4510364	870	10659	0.94	97.2	0.0	False				CMCC87001	contigs=870>500;n50=10659<20000
+GCF_000324445.1	excluded	contig	4358986	1102	8773	1.22	96.52	0.0	False				CMCC90027	total_bp=4358986_outside_window;contigs=1102>500;n50=8773<20000
+GCF_000324465.1	excluded	contig	4418766	987	9649	2.18	95.36	0.0	False				CMCC91090	contamination=2.18>2.0;contigs=987>500;n50=9649<20000
+GCF_000324485.1	excluded	contig	4264825	1461	6964	1.68	96.44	0.0	False				CMCC92004	total_bp=4264825_outside_window;contigs=1461>500;n50=6964<20000
+GCF_000324505.1	excluded	contig	4384955	1216	7482	2.46	96.64	0.0	False				CMCC92010	contamination=2.46>2.0;total_bp=4384955_outside_window;contigs=1216>500;n50=7482<20000
+GCF_000324525.1	excluded	contig	4507171	993	8488	2.28	97.26	0.0	False				CMCC93014	contamination=2.28>2.0;contigs=993>500;n50=8488<20000
+GCF_000324545.1	excluded	contig	4337306	1361	7426	2.0	95.11	0.0	False				CMCC95001	total_bp=4337306_outside_window;contigs=1361>500;n50=7426<20000
+GCF_000324565.1	excluded	contig	4517589	907	11645	0.94	98.41	0.0	False				CMCC96001	contigs=907>500;n50=11645<20000
+GCF_000324585.1	excluded	contig	4303407	1563	5681	3.26	95.11	0.0	False				CMCC96007	contamination=3.26>2.0;total_bp=4303407_outside_window;contigs=1563>500;n50=5681<20000
+GCF_000324605.1	excluded	contig	4409843	1262	7384	1.36	96.89	0.0	False				CMCC99103	contigs=1262>500;n50=7384<20000
+GCF_000324625.1	excluded	contig	4520971	1406	6071	3.37	97.75	0.0	False				CMCCK100001	contamination=3.37>2.0;contigs=1406>500;n50=6071<20000
+GCF_000324645.1	excluded	contig	4305250	1385	6935	1.47	94.34	0.0	False				CMCCK110001	total_bp=4305250_outside_window;contigs=1385>500;n50=6935<20000
+GCF_000324665.1	excluded	contig	4437913	1016	9953	1.15	96.59	0.0	False				CMCCN010025	contigs=1016>500;n50=9953<20000
+GCF_000324685.1	excluded	contig	4389464	1012	9400	1.11	97.56	0.0	False				D1964001	total_bp=4389464_outside_window;contigs=1012>500;n50=9400<20000
+GCF_000324705.1	excluded	contig	4431847	1555	5806	2.5	96.3	0.0	False				D1964002	contamination=2.50>2.0;contigs=1555>500;n50=5806<20000
+GCF_000324725.1	excluded	contig	4410882	896	9539	1.84	97.94	0.0	False				D1982001	contigs=896>500;n50=9539<20000
+GCF_000324745.1	excluded	contig	4506081	1270	7111	2.28	97.41	0.0	False				D1991004	contamination=2.28>2.0;contigs=1270>500;n50=7111<20000
+GCF_000324765.1	excluded	contig	4385578	1183	8366	1.66	96.24	0.0	False				E1977001	total_bp=4385578_outside_window;contigs=1183>500;n50=8366<20000
+GCF_000705315.1	excluded	contig	4542680	581	12205	1.39	97.73	0.0	False	2010-07-01	Canada: Grasslands National Park, Saskatchewan	Cynomys ludovicianus	EBD10-058	contigs=581>500;n50=12205<20000
+GCF_000324805.2	excluded	scaffold	4336975	474	19846	0.76	96.54	0.0	False		China: Lanzhou		EV76-CN	total_bp=4336975_outside_window;n50=19846<20000
+GCF_000324825.1	excluded	contig	4463713	1383	7517	2.28	97.45	0.0	False				F1946001	contamination=2.28>2.0;contigs=1383>500;n50=7517<20000
+GCF_000324845.1	excluded	contig	4521000	1058	8022	2.84	98.04	0.0	False				F1954001	contamination=2.84>2.0;contigs=1058>500;n50=8022<20000
+GCF_000324865.1	excluded	contig	4326553	1467	6411	1.69	94.43	0.0	False				F1984001	total_bp=4326553_outside_window;contigs=1467>500;n50=6411<20000
+GCF_000168835.1	excluded	contig	4472646	400	17036	2.5	82.16	0.0	False	2001	USA: near Flagstaff, AZ		FV-1	contamination=2.50>2.0;n50=17036<20000
+GCF_000324885.1	excluded	contig	4542684	842	11248	1.11	98.01	0.0	False				G1996006	contigs=842>500;n50=11248<20000
+GCF_000324905.1	excluded	contig	4552418	772	12016	1.59	98.34	0.0	False				G1996010	contigs=772>500;n50=12016<20000
+GCF_000324925.1	excluded	contig	4325798	829	10813	1.73	95.84	0.0	False				G8786	total_bp=4325798_outside_window;contigs=829>500;n50=10813<20000
+GCF_000324945.1	excluded	contig	4195425	1339	7070	1.3	95.62	0.0	False				H1958004	total_bp=4195425_outside_window;contigs=1339>500;n50=7070<20000
+GCF_000324965.1	excluded	contig	4470270	946	9836	1.1	97.31	0.0	False				H1959004	contigs=946>500;n50=9836<20000
+GCF_000324985.1	excluded	contig	4399336	1222	7820	3.51	97.08	0.0	False				I160001	contamination=3.51>2.0;total_bp=4399336_outside_window;contigs=1222>500;n50=7820<20000
+GCF_000325005.1	excluded	contig	4512122	1213	7493	2.88	97.18	0.0	False				I1969003	contamination=2.88>2.0;contigs=1213>500;n50=7493<20000
+GCF_000325025.1	excluded	contig	4429836	1199	7806	1.52	96.56	0.0	False				I1970005	contigs=1199>500;n50=7806<20000
+GCF_000325045.1	excluded	contig	4335804	1191	8329	1.45	95.25	0.0	False				I1991001	total_bp=4335804_outside_window;contigs=1191>500;n50=8329<20000
+GCF_000325065.1	excluded	contig	4498336	1247	7589	2.75	96.93	0.0	False				I1994006	contamination=2.75>2.0;contigs=1247>500;n50=7589<20000
+GCF_000325085.1	excluded	contig	4509469	1526	5109	5.24	97.74	0.0	False				I2001001	contamination=5.24>2.0;contigs=1526>500;n50=5109<20000
+GCF_000325105.1	excluded	contig	4434765	1119	9000	1.04	96.71	0.0	False				J1963002	contigs=1119>500;n50=9000<20000
+GCF_000325125.1	excluded	contig	4532297	1098	7722	1.84	98.02	0.0	False				J1978002	contigs=1098>500;n50=7722<20000
+GCF_000325145.1	excluded	contig	4383307	910	10802	0.86	97.19	0.0	False				K11973002	total_bp=4383307_outside_window;contigs=910>500;n50=10802<20000
+GCF_000325165.1	excluded	contig	4399142	1264	7167	2.94	96.47	0.0	False				K21985002	contamination=2.94>2.0;total_bp=4399142_outside_window;contigs=1264>500;n50=7167<20000
+GCF_000325185.1	excluded	contig	4441674	1135	9140	1.05	96.55	0.0	False				M0000002	contigs=1135>500;n50=9140<20000
+GCF_000325205.1	excluded	contig	4516720	859	11382	0.83	97.4	0.0	False				MGJZ11	contigs=859>500;n50=11382<20000
+GCF_000325225.1	excluded	contig	4438965	1203	8898	1.67	96.73	0.0	False				MGJZ12	contigs=1203>500;n50=8898<20000
+GCF_000325245.1	excluded	contig	4453871	1187	7265	2.48	97.68	0.0	False				MGJZ3	contamination=2.48>2.0;contigs=1187>500;n50=7265<20000
+GCF_000325265.1	excluded	contig	4368072	1016	9785	1.28	96.62	0.0	False				MGJZ6	total_bp=4368072_outside_window;contigs=1016>500;n50=9785<20000
+GCF_000325285.1	excluded	contig	4365909	1325	7356	1.84	96.31	0.0	False				MGJZ7	total_bp=4365909_outside_window;contigs=1325>500;n50=7356<20000
+GCF_000325305.1	excluded	contig	4474930	1082	8925	1.35	96.42	0.0	False				MGJZ9	contigs=1082>500;n50=8925<20000
+GCF_000268545.1	excluded	contig	4734683	568	16830	1.28	98.27	0.0	False	2006	Peru:Chota, San Juan de Licupis, Los Porongos	house mouse	PY-01	contigs=568>500;n50=16830<20000
+GCF_000268325.1	excluded	contig	4643211	578	15592	1.56	98.04	0.0	False	2006	Peru:Jaen, Santo Domingo de la Capilla, Chamana	black rat	PY-02	contigs=578>500;n50=15592<20000
+GCF_000268565.1	excluded	contig	4688983	751	11714	2.19	97.72	0.0	False	2006	Peru:Jaen, Santo Domingo de la Capilla, Chamana	black rat	PY-03	contamination=2.19>2.0;contigs=751>500;n50=11714<20000
+GCF_000268585.1	excluded	contig	4761753	528	16179	2.42	98.12	0.0	False	2006	Peru:Chota, San Juan de Licupis, Pay Pay	black rat	PY-04	contamination=2.42>2.0;contigs=528>500;n50=16179<20000
+GCF_000268345.1	excluded	contig	4685275	479	19272	1.08	98.17	0.0	False	2006	Peru:Chota, San Juan de Licupis, Pay Pay	black rat	PY-05	n50=19272<20000
+GCF_000268365.1	excluded	contig	4787942	524	17098	1.59	98.15	0.0	False	2006	Peru:Chota, San Juan de Licupis, Pay Pay	guinea pig	PY-06	contigs=524>500;n50=17098<20000
+GCF_000268385.1	excluded	contig	4764013	471	19146	2.2	98.13	0.0	False	2006	Peru:Chota, San Juan de Licupis, Pay Pay	black rat	PY-07	contamination=2.20>2.0;n50=19146<20000
+GCF_000268405.1	excluded	contig	4763599	515	17145	2.05	98.03	0.0	False	2006	Peru:Jean	Homo sapiens	PY-08	contamination=2.05>2.0;contigs=515>500;n50=17145<20000
+GCF_000268425.1	excluded	contig	4645028	541	15286	1.09	97.94	0.0	False	2006	Peru:Jean	Homo sapiens	PY-09	contigs=541>500;n50=15286<20000
+GCF_000268445.1	excluded	contig	4740424	542	16487	2.37	98.16	0.0	False	2006	Peru:Jean	Homo sapiens	PY-10	contamination=2.37>2.0;contigs=542>500;n50=16487<20000
+GCF_000269205.1	excluded	contig	4631765	491	17553	1.01	97.9	0.0	False	2010	Peru:Ascope, Chicama, La Libertad, AA.HH.	Norway rat	PY-100	n50=17553<20000
+GCF_000269465.1	excluded	contig	4732273	500	18435	2.2	97.73	0.0	False	2010	Peru:Ascope, Santiago de Cao, Cartavio	Homo sapiens	PY-101	contamination=2.20>2.0;n50=18435<20000
+GCF_000269225.1	excluded	contig	4672350	537	16149	1.99	97.81	0.0	False	2010	Peru:Ascope, Chicama, Sausal	southern opossum	PY-102	contigs=537>500;n50=16149<20000
+GCF_000269485.1	excluded	contig	4591865	933	9826	2.1	97.47	0.0	False	2010	Peru:Ascope, Chicama, La Libertad, AA.HH.	southern opossum	PY-103	contamination=2.10>2.0;contigs=933>500;n50=9826<20000
+GCF_000268605.1	excluded	contig	4682466	616	13389	1.75	97.59	0.0	False	2007	Peru:Chota	Homo sapiens	PY-11	contigs=616>500;n50=13389<20000
+GCF_000269245.1	excluded	contig	4615891	600	13854	0.87	97.47	0.0	False	2010	Peru:Ascope	Homo sapiens	PY-113	contigs=600>500;n50=13854<20000
+GCF_000268625.1	excluded	contig	4827600	491	18572	5.67	97.99	0.0	False	2008	Peru:Jean	Homo sapiens	PY-12	contamination=5.67>2.0;n50=18572<20000
+GCF_000268465.1	excluded	contig	4735638	563	15337	2.11	98.09	0.0	False	2008	Peru:Santa Cruz	Homo sapiens	PY-13	contamination=2.11>2.0;contigs=563>500;n50=15337<20000
+GCF_000268485.2	excluded	contig	4588680	695	16439	1.15	97.14	0.0	False	2009	Peru:Ascope, Casa Grande, Toma Jauregui	black rat	PY-14	contigs=695>500;n50=16439<20000
+GCF_000268645.1	excluded	contig	4753444	503	17989	1.96	97.98	0.0	False	2009	Peru:Ascope, Casa Grande, Toma Jauregui	Homo sapiens	PY-15	contigs=503>500;n50=17989<20000
+GCF_000268505.1	excluded	contig	4687256	481	18556	1.62	98.03	0.0	False	2009	Peru:Ascope, Casa Grande, Toma Jauregui	Homo sapiens	PY-16	n50=18556<20000
+GCF_000268525.1	excluded	contig	4510880	535	16881	1.88	97.83	0.0	False	2010	Peru:Ascope, Casa Grande, Toma Jauregui	rodent	PY-19	contigs=535>500;n50=16881<20000
+GCF_000268665.1	excluded	contig	4769912	533	17041	4.23	97.9	0.0	False	2010	Peru:Ascope, Chicama, La Libertad, AA.HH.	house mouse	PY-25	contamination=4.23>2.0;contigs=533>500;n50=17041<20000
+GCF_000268705.1	excluded	contig	4900596	576	15238	5.31	97.92	0.0	False	2010	Peru:Ascope, Chicama, Chicama	Homo sapiens	PY-32	contamination=5.31>2.0;contigs=576>500;n50=15238<20000
+GCF_000268725.2	excluded	contig	4681941	513	16988	1.55	98.3	0.0	False	2010	Peru:Ascope, Chicama, La Libertad, AA.HH.	domestic cat	PY-34	contigs=513>500;n50=16988<20000
+GCF_000269265.1	excluded	contig	4716906	591	14239	3.52	97.81	0.0	False	2010	Peru:Ascope, Casa Grande, Mocan	house mouse	PY-36	contamination=3.52>2.0;contigs=591>500;n50=14239<20000
+GCF_000269285.2	excluded	contig	4732312	522	17906	0.97	98.23	0.0	False	2010	Peru:Ascope, Chicama, La Libertad, AA.HH.	house mouse	PY-42	contigs=522>500;n50=17906<20000
+GCF_000268745.1	excluded	contig	4754544	471	18237	2.23	97.87	0.0	False	2010	Peru:Ascope, Chicama, La Libertad, AA.HH.	house mouse	PY-45	contamination=2.23>2.0;n50=18237<20000
+GCF_000269305.1	excluded	contig	4674925	460	18791	2.08	98.19	0.0	False	2010	Peru:Ascope, San Antonio	domestic cat	PY-46	contamination=2.08>2.0;n50=18791<20000
+GCF_000269325.1	excluded	contig	4682892	534	16106	2.46	97.87	0.0	False	2010	Peru:Ascope, Casa Grande, Mocan	domestic cat	PY-47	contamination=2.46>2.0;contigs=534>500;n50=16106<20000
+GCF_000268765.1	excluded	contig	4630493	584	14952	0.96	97.91	0.0	False	2010	Peru:Ascope, Chicama, La Libertad, AA.HH.	house mouse	PY-48	contigs=584>500;n50=14952<20000
+GCF_000269345.1	excluded	contig	4689160	699	11712	2.06	97.87	0.0	False	2010	Peru:Ascope, Chicama, Sector Peaje	dog	PY-52	contamination=2.06>2.0;contigs=699>500;n50=11712<20000
+GCF_000268785.1	excluded	contig	4650519	650	13860	1.76	98.19	0.0	False	2010	Peru:Ascope, Chicama, Sector Peaje	dog	PY-53	contigs=650>500;n50=13860<20000
+GCF_000268805.2	excluded	contig	4604232	1330	7526	1.7	97.36	0.0	False	2010	Peru:Ascope, Chicama, Sector Peaje	dog	PY-54	contigs=1330>500;n50=7526<20000
+GCF_000268825.1	excluded	contig	4753010	471	19304	2.14	98.26	0.0	False	2010	Peru:Ascope, Chicama, Sector Peaje	dog	PY-55	contamination=2.14>2.0;n50=19304<20000
+GCF_000268845.1	excluded	contig	4650569	616	13423	1.76	97.69	0.0	False	2010	Peru:Ascope, Chicama, La Libertad, AA.HH.	dog	PY-56	contigs=616>500;n50=13423<20000
+GCF_000268865.2	excluded	contig	4602734	832	11664	1.24	98.38	0.0	False	2010	Peru:Ascope, Chicama, La Libertad, AA.HH.	Norway rat	PY-58	contigs=832>500;n50=11664<20000
+GCF_000268885.1	excluded	contig	4676686	602	14854	1.98	97.49	0.0	False	2010	Peru:Ascope	black rat	PY-59	contigs=602>500;n50=14854<20000
+GCF_000268905.1	excluded	contig	4648076	521	16980	1.32	98.19	0.0	False	2010	Peru:Trujillo, El Milagro, Sector 9	Norway rat	PY-60	contigs=521>500;n50=16980<20000
+GCF_000269365.1	excluded	contig	4735275	510	17166	1.2	98.17	0.0	False	2010	Peru:Trujillo, El Milagro, Sector 9	Norway rat	PY-61	contigs=510>500;n50=17166<20000
+GCF_000268925.1	excluded	contig	4680474	524	17039	1.88	98.24	0.0	False	2010	Peru:Trujillo, Salaverry, ENAPU	Norway rat	PY-63	contigs=524>500;n50=17039<20000
+GCF_000268945.1	excluded	contig	4682001	974	8502	1.94	97.46	0.0	False	2010	Peru:Trujillo, Salaverry, ENAPU	Norway rat	PY-64	contigs=974>500;n50=8502<20000
+GCF_000268965.1	excluded	contig	4641789	498	17247	1.27	98.21	0.0	False	2010	Peru:Trujillo, Salaverry, ENAPU	Norway rat	PY-65	n50=17247<20000
+GCF_000269385.1	excluded	contig	4573944	1315	7579	2.94	96.65	0.0	False	2010	Peru:Trujillo, Salaverry, ENAPU	Norway rat	PY-66	contamination=2.94>2.0;contigs=1315>500;n50=7579<20000
+GCF_000268985.1	excluded	contig	4498491	477	17462	2.03	97.93	0.0	False	2010	Peru:Ascope, Chicama, La Libertad, AA.HH.	black rat	PY-71	contamination=2.03>2.0;n50=17462<20000
+GCF_000269005.1	excluded	contig	4471609	544	14387	1.32	97.96	0.0	False	2010	Peru:Ascope, Chicama, La Libertad, AA.HH.	black rat	PY-72	contigs=544>500;n50=14387<20000
+GCF_000269025.1	excluded	contig	4498987	462	17775	2.34	98.24	0.0	False	2010	Peru:Ascope, Chicama, La Libertad, AA.HH.	cotton rat	PY-76	contamination=2.34>2.0;n50=17775<20000
+GCF_000269405.1	excluded	contig	4634520	682	12258	2.02	98.01	0.0	False	2010	Peru:Pacasmayo, Guadalupe, Mariscal Castilla	black rat	PY-88	contamination=2.02>2.0;contigs=682>500;n50=12258<20000
+GCF_000269045.1	excluded	contig	4677447	703	13628	1.76	98.42	0.0	False	2010	Peru:Pacasmayo, Guadalupe, Mariscal Castilla	Norway rat	PY-89	contigs=703>500;n50=13628<20000
+GCF_000269065.1	excluded	contig	4675930	512	18264	1.0	98.25	0.0	False	2010	Peru:Pacasmayo, Guadalupe, Mariscal Castilla	Norway rat	PY-90	contigs=512>500;n50=18264<20000
+GCF_000269085.1	excluded	contig	4675127	543	16946	1.54	98.22	0.0	False	2010	Peru:Chota	black rat	PY-91	contigs=543>500;n50=16946<20000
+GCF_000269105.1	excluded	contig	4762725	545	16069	2.18	98.14	0.0	False	2010	Peru:Chota	black rat	PY-92	contamination=2.18>2.0;contigs=545>500;n50=16069<20000
+GCF_000269125.1	excluded	contig	4770670	487	18550	3.9	98.3	0.0	False	2010	Peru:Chota	black rat	PY-93	contamination=3.90>2.0;n50=18550<20000
+GCF_000269425.1	excluded	contig	4644905	585	14185	1.79	97.59	0.0	False	2010	Peru:Chota	black rat	PY-94	contigs=585>500;n50=14185<20000
+GCF_000269445.1	excluded	contig	4687267	456	19472	1.95	98.24	0.0	False	2010	Peru:Chota	black rat	PY-95	n50=19472<20000
+GCF_000269145.1	excluded	contig	4706123	580	14620	1.21	98.38	0.0	False	2010	Peru:Ascope, Chicama, Sausal	dog	PY-96	contigs=580>500;n50=14620<20000
+GCF_000269165.1	excluded	contig	4780039	520	17406	1.89	98.21	0.0	False	2010	Peru:Ascope	Homo sapiens	PY-98	contigs=520>500;n50=17406<20000
+GCF_000269185.1	excluded	contig	4662275	519	16316	2.51	97.67	0.0	False	2010	Peru:Ascope, Chicama, La Libertad, AA.HH.	Norway rat	PY-99	contamination=2.51>2.0;contigs=519>500;n50=16316<20000
+GCF_000325325.1	excluded	contig	4384465	1173	8082	0.82	96.62	0.0	False				SHAN11	total_bp=4384465_outside_window;contigs=1173>500;n50=8082<20000
+GCF_000325345.1	excluded	contig	4371391	1362	7147	1.62	96.46	0.0	False				SHAN12	total_bp=4371391_outside_window;contigs=1362>500;n50=7147<20000
+GCF_000950935.1	excluded	scaffold	4523215	477	17821	1.72	93.31	0.0	False	1974-06-27			SCPM-O-B-6906	n50=17821<20000
+GCF_016102565.1	excluded	contig	4367334	188	46625	0.8	91.56	0.0	False	1924	Russia: Rostov region, Zavetninsky district	Spermophilus pygmaeus	27	total_bp=4367334_outside_window
+GCF_017837935.1	excluded	contig	4678058	443	23296	2.15	96.74	0.0	False	2016-07-17	Russia: Altai Republic, Kosh-Agach district, Mukhor-Tarkhata village, Samtayev street, 5/1.	Homo sapiens	157	contamination=2.15>2.0
+GCF_025816955.1	excluded	contig	4386166	188	48950	0.91	93.32	0.0	False	1953	Azerbaijan: Absheron peninsula	Mus musculus	17	total_bp=4386166_outside_window
+GCA_016102555.1	excluded	contig	4518766	743	11377	1.62	86.01	0.0	False	1912	Kazakhstan: West Kazakhstan region	Homo sapiens	2	contigs=743>500;n50=11377<20000
+GCF_000325365.1	excluded	contig	4472301	1395	7168	2.68	96.46	0.0	False				YN1065	contamination=2.68>2.0;contigs=1395>500;n50=7168<20000
+GCF_000325385.1	excluded	contig	4302115	1897	5041	2.81	94.15	0.0	False				YN1683	contamination=2.81>2.0;total_bp=4302115_outside_window;contigs=1897>500;n50=5041<20000
+GCF_000325405.1	excluded	contig	4307368	1605	5991	2.1	94.39	0.0	False				YN2179	contamination=2.10>2.0;total_bp=4307368_outside_window;contigs=1605>500;n50=5991<20000
+GCF_000325425.1	excluded	contig	4524315	880	11011	0.86	98.42	0.0	False				YN2551	contigs=880>500;n50=11011<20000
+GCF_000325445.1	excluded	contig	4307940	1301	7118	1.43	95.35	0.0	False				YN2588	total_bp=4307940_outside_window;contigs=1301>500;n50=7118<20000
+GCF_000325465.1	excluded	contig	4525667	1105	7671	2.98	97.96	0.0	False				YN472	contamination=2.98>2.0;contigs=1105>500;n50=7671<20000
+GCF_000325485.1	excluded	contig	4203251	1285	7632	1.41	94.85	0.0	False				YN663	total_bp=4203251_outside_window;contigs=1285>500;n50=7632<20000

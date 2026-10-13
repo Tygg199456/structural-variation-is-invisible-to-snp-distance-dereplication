@@ -1,0 +1,11 @@
+mode	kept	clusters	multi_member
+off	175	175	36
+full	206	206	24
+threestate	205	205	26
+conservative	209	209	24
+
+category	count
+a_chromosome	21
+b_plasmid_unresolved	1
+c_plasmid_resolved	3
+not_mixed	11

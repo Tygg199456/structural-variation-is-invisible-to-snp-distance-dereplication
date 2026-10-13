@@ -1,0 +1,5 @@
+site_class,handling,affects_distance
+"jointly called, matches reference",enters C,no
+"jointly called, differs",enters diff,yes
+not called in query (deletion),enters neither,no
+not called in query (coverage gap),enters neither,no

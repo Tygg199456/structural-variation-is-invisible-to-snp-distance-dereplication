@@ -1,0 +1,9 @@
+node_id;xmin;xmax;ymin;ymax;label;sublabel;style
+assembly;20;80;99;107;assembly (one of 3,441);;plain
+vcf;0;44;74;87;snps.vcf;differences only;plain
+aligned;56;100;74;87;snps.aligned.fa;reference length, three states;blue
+pass1;0;44;52;65;pass 1;union of variant sites;plain
+pass2;56;100;52;65;pass 2: read union sites;ACGT -> 1-4, N / - / masked -> 0;blue
+matrix;14;86;28;41;genotype matrix (int8);Tier A 256 x 12926\nTier B 3441 x 67711;plain
+raw;0;46;2;17;raw distance;over jointly called sites\nthreshold applied here;orange
+scaled;54;100;2;17;scaled distance;raw x n_sites / C\ndiagnostic only;plain

@@ -1,0 +1,3 @@
+test	arm1_labnamed	arm1_n	arm2_labnamed	arm2_n	fisher_p	odds_ratio
+S3 REFINED  (arm1 = all four named classes)	16	72	4	116	0.000107754	8.000
+S3 PGM-ONLY (arm1 = pgm class only)	9	41	4	116	0.000829368	7.875

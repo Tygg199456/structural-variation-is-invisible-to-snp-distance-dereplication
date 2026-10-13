@@ -1,0 +1,29 @@
+# Figure manifest — SY1011 Paper 1
+# rendered 2026-10-13 in one pass with ~/miniconda3/envs/rfig/bin/Rscript
+#   R 4.5.3 (2026-03-11); ggplot2 4.0.3; patchwork 1.3.2; ragg 1.5.2; ggrepel 0.9.8
+# data: results/figures/*.csv (per-file provenance in the matching .prov files)
+# embedded in the manuscript at 165 mm width; the embedded PNGs were md5-verified
+# against these files after repacking.
+# scripts
+560026aa273bbcafd0420e5cc976dface2eb5998179811610a972712141e5411  figures/fig1_pipeline_schematic.png
+2114265de66068a7a9dd5d8d755fcc24465615477b1a70e59b384b66b2c89807  figures/fig1_pipeline_schematic.pdf
+7e924d1ffc33b4f7fb97e193bd1cce4f4359896b13ccc7cb06422809e362f98e  figures/fig2_noise_floor.png
+967e26befcce49416bb13c899c9c1408e1b588c829fe18bc50011067426ad3a5  figures/fig2_noise_floor.pdf
+664edff12ef96ed5aa95d140b427c6f974b4ac4694583f9bd02b892c29829289  figures/fig3_quality_metrics.png
+62751d41df63f0b9284dc69822e441fec0088a03de05e2dc75a5d67b01bd2a0a  figures/fig3_quality_metrics.pdf
+6bc934c1be831cebd886d5d97625c322436ff1c045cadbdb4d3342f26b21d94f  figures/fig4_spatial_morphology.png
+dff232d759012bbead0e7e5bd768d1b250f03b761b015351021f5338461f4975  figures/fig4_spatial_morphology.pdf
+b301f14ce8fd1970992d8a4f70d1e83f1ff7a45a878b9eb3df4047c61c681b53  figures/fig5_structural_blindness.png
+f8f618f2038598020581e3abce763521cdba1e352238ece6e9e75f8ac8df7140  figures/fig5_structural_blindness.pdf
+753f9d8d0b07a052b60b0aa1655866b5a1f76ec6faab7e682303814743a0bfb2  figures/fig6_polarity.png
+d56a13db03d6f988da40cce3d55a1e501eb555f898cbac2d7b927f9ad50571b6  figures/fig6_polarity.pdf
+f32a800cd5fbe02151a58e84c13a54aa95498fe6c0b754613527acd2f2609800  figures/scripts/fig1_pipeline_schematic.R
+477223bfd3d25c5513982420ab41eebc9d2bb9a120fce5ecff5d53a88658b3d3  figures/scripts/fig2_noise_floor.R
+78b329163692f00fc7b9cda861cef951977f18aba5af20f52b5f7c7620927df2  figures/scripts/fig3_quality_metrics.R
+7e095e22c588a3882984e0a1f4587b5d4252444fc961bc5c5f0bd149604a27fb  figures/scripts/fig4_spatial_morphology.R
+eb76a2d53c87cf9d0fec7b686ae22c6061e7f575b4e3a889c9ac2a5f1a2ddc6e  figures/scripts/fig5_structural_blindness.R
+368c14ef77a3150ccc22eae1a70c47e0c42972404ca12adc32e009cce22f7abf  figures/scripts/fig6_polarity.R
+c429f2292c789ce022ac99b564d1205c894f20c480edbdd8389482b8f4e33592  figures/scripts/theme_paper.R
+f936768760e4c8107cbe6c12a4a85728747eceb6d75312e1cdfaafbb990aea5e  figures/scripts/prep_figure_data.py
+b41aea2af017e8609a9d41528ecd89914b8fb379799d5c223259b89cd9df5ad1  scripts/audit_numbers.py
+893244b9e4f3da1f217bfa4ce5bc4a06df3ae8bc0a8e6f4ee59eb8738eb91f8f  scripts/make_number_registry.py

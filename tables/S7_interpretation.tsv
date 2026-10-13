@@ -1,0 +1,6 @@
+# source: Section 4.7
+setting	current practice	the rule this paper gives
+Laboratory-derived vs naturally circulating	SNP distance to a reference; a small distance is read as the same as a known strain	SNP distance is invalid for this question; a 102.6 kb deletion contributes zero. Check the deletion profile independently: >=10 kb uncalled runs plus the replicon three-state
+Including an archive genome in a phylogeny or PAV analysis	Dereplicate by strain field, or by an ANI or SNP threshold	Dereplication must carry a deletion-profile concordance constraint, and that constraint must distinguish absent from not submitted
+Reporting 'X % of strains in a region lack F1'	Compute a frequency from public genomes	That is an archive frequency: an upper bound, reportable only as an interval and only for closed genomes
+Deciding whether an absence is biological	Reference-relative absence is scored as a loss	Determine polarity first; the dataset's most frequent absence is AMBIGUOUS and 2 of 13 recurrent regions are gains of the reference lineage

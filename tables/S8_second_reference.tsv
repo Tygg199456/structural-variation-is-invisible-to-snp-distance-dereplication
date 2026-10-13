@@ -1,0 +1,17 @@
+# source: results/ref2/numbers.json and verify.json; results/qc/variant_freq_strata.tsv
+quantity	CO92 reference	Antiqua reference
+Reference accession	GCF_000009065.1	GCF_000013825.1
+Biovar	Orientalis	Antiqua
+Assembly length (bp)	4,829,855	4,879,836
+CheckM completeness / contamination (%)	98.69 / 0.86	97.7 / 0.96
+Union variant sites (Tier A)	12,926	12,835
+Same-strain pairs merging at t = 15	3 of 4	3 of 4
+Same-strain pairs merging at t = 20	4 of 4	4 of 4
+Largest cluster at t = 20	12	12
+CO92 pair, raw distance	13	13
+CO92 pair, distance alone	merged	merged
+CO92 pair, conservative constraint	separated	separated
+Multi-member clusters, no constraint	36	34
+Discordant clusters, resolved	24 (21 / 3)	25 (23 / 2)
+Discordant proportion	66.7 %	73.5 %
+Genomes retained, off -> conservative	175 -> 209	175 -> 208

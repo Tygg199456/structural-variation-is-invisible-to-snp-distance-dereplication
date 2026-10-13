@@ -1,0 +1,45 @@
+[snp_dedup] input=256 threshold=20.0 linkage=complete
+[snp_dedup] clusters=175 kept=175 collapsed=81
+[snp_dedup] max cluster diameter=20 (bound 40)
+[snp_dedup] profile mode=off blocked pairs=0 unprofiled=-1
+[snp_dedup] blocked pairs involving whitelist anchors=0 -> ..._blocked_whitelist_pairs.tsv
+[snp_dedup] largest cluster=12
+[snp_dedup] anchors retained=8/8
+[snp_dedup] hard cap applied=False
+MODE off         kept=175  clusters=175  multi=36
+[snp_dedup] input=256 threshold=20.0 linkage=complete
+[snp_dedup] clusters=206 kept=206 collapsed=50
+[snp_dedup] max cluster diameter=20 (bound 40)
+[snp_dedup] profile mode=full blocked pairs=27510 unprofiled=0
+[snp_dedup] blocked pairs involving whitelist anchors=1972 -> ..._blocked_whitelist_pairs.tsv
+[snp_dedup] largest cluster=10
+[snp_dedup] anchors retained=8/8
+[snp_dedup] hard cap applied=False
+MODE full        kept=206  clusters=206  multi=24
+[snp_dedup] input=256 threshold=20.0 linkage=complete
+[snp_dedup] clusters=205 kept=205 collapsed=51
+[snp_dedup] max cluster diameter=20 (bound 40)
+[snp_dedup] profile mode=threestate blocked pairs=27523 unprofiled=0
+[snp_dedup] blocked pairs involving whitelist anchors=1969 -> ..._blocked_whitelist_pairs.tsv
+[snp_dedup] largest cluster=8
+[snp_dedup] anchors retained=8/8
+[snp_dedup] hard cap applied=False
+MODE threestate  kept=205  clusters=205  multi=26
+[snp_dedup] input=256 threshold=20.0 linkage=complete
+[snp_dedup] clusters=209 kept=209 collapsed=47
+[snp_dedup] max cluster diameter=20 (bound 40)
+[snp_dedup] profile mode=conservative blocked pairs=27576 unprofiled=0
+[snp_dedup] blocked pairs involving whitelist anchors=1976 -> ..._blocked_whitelist_pairs.tsv
+[snp_dedup] largest cluster=8
+[snp_dedup] anchors retained=8/8
+[snp_dedup] hard cap applied=False
+MODE conservative kept=209  clusters=209  multi=24
+
+=== OFF-run multi-member cluster classification ===
+  a_chromosome              21
+  b_plasmid_unresolved       1
+  c_plasmid_resolved         3
+  not_mixed                 11
+  mixed (old profile signature) = 25 ; true mixed (a+c) = 24
+
+WROTE results/qc/dedup_mixed_classification.tsv and dedup_modes_summary.txt

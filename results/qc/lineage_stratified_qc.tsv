@@ -1,0 +1,257 @@
+accession	group	group_size	called_frac	lineage_median_cf	within_lineage_z	flag	deletion_verdict	strain	geo_loc_name
+GCF_000834845.1	1	2	0.9106			group_too_small		Angola	
+GCF_000018805.1	1	2	0.9107			group_too_small		Angola	
+GCF_001188755.1	2	9	0.918	0.9338	-7.64	QC_OUTLIER		8787	Georgia: Ninotsminda
+GCF_000834315.1	2	9	0.9296	0.9338	-2.02	on_lineage_trend		Pestoides F	USSR
+GCF_000016445.1	2	9	0.9305	0.9338	-1.61	on_lineage_trend		Pestoides F	
+GCF_000834985.1	2	9	0.9332	0.9338	-0.26	on_lineage_trend		Pestoides G	USSR
+GCF_001188775.1	2	9	0.9338	0.9338	0.0	on_lineage_trend		3770	Georgia: Ninotsminda
+GCF_001188695.1	2	9	0.9339	0.9338	0.07	on_lineage_trend		1412	Georgia: Ninotsminda
+GCF_001188935.1	2	9	0.9348	0.9338	0.49	on_lineage_trend		1413	Georgia: Ninotsminda
+GCF_001188795.1	2	9	0.9352	0.9338	0.67	on_lineage_trend		3067	Georgia: Ninotsminda
+GCF_001188715.1	2	9	0.9358	0.9338	0.97	on_lineage_trend		1522	Armenia: Shirak Province
+GCF_015338205.1	3	1	0.8457			group_too_small	BIOLOGICAL_deletion	C-830	Russia
+GCF_015336865.1	4	8	0.8674	0.9545	-49.0	biological_deletion	BIOLOGICAL_deletion	M-1974	Russia
+GCF_003798345.1	4	8	0.9509	0.9545	-2.05	on_lineage_trend		FDAARGOS_602	USSR
+GCF_052374075.1	4	8	0.9533	0.9545	-0.65	on_lineage_trend		35_YP14_TLH	Kyrgyzstan: Talas high mountains
+GCF_052374015.1	4	8	0.9535	0.9545	-0.57	on_lineage_trend		39_YP13_TLH	Kyrgyzstan: Talas high mountains
+GCF_053834875.1	4	8	0.9555	0.9545	0.57	on_lineage_trend		109	Russia:the Altai Republic
+GCF_000834925.1	4	8	0.9556	0.9545	0.61	on_lineage_trend		Pestoides B	USSR
+GCF_053834845.1	4	8	0.9557	0.9545	0.7	on_lineage_trend		115	Russia: The Altai Republic
+GCA_053570215.1	4	8	0.9676	0.9545	7.35	on_lineage_trend		37_YP35_TLH	Kyrgyzstan: Talas high mountains
+GCF_000007885.1	5	1	0.9539			group_too_small		91001	
+GCF_046895455.1	6	1	0.9549			group_too_small		9	China:Qinghai
+GCF_000186725.1	7	3	0.8888			group_too_small	BIOLOGICAL_deletion	Harbin 35	China
+GCF_000834885.1	7	3	0.889			group_too_small	BIOLOGICAL_deletion	Nicholisk 41	China: Manchuria
+GCF_000834275.1	7	3	0.8891			group_too_small	BIOLOGICAL_deletion	Harbin35	China: Manchuria
+GCF_003798225.1	8	3	0.9703			group_too_small		FDAARGOS_601	Democratic Republic of the Congo
+GCF_000013825.1	8	3	0.9707			group_too_small		Antiqua	
+GCF_000834825.1	8	3	0.9708			group_too_small		Antiqua	Republic of the Congo
+GCF_015337445.1	9	225	0.7887	0.9496	-14.32	biological_deletion	BIOLOGICAL_deletion	KM 567	Russia
+GCF_015337085.2	9	225	0.7914	0.9496	-14.07	biological_deletion	BIOLOGICAL_deletion	C-792	Russia
+GCF_015337285.1	9	225	0.7938	0.9496	-13.86	biological_deletion	BIOLOGICAL_deletion	C-783	Russia
+GCF_009296005.1	9	225	0.8275	0.9496	-10.87	biological_deletion	BIOLOGICAL_deletion	SCPM-O-B-6291 (C-25)	Russia: Chechnya
+GCF_000590535.2	9	225	0.8344	0.9496	-10.25	biological_deletion	BIOLOGICAL_deletion	EV NIIEG	Russia: Research Institute of Epidemiology and Hygiene
+GCF_000013805.1	9	225	0.8384	0.9496	-9.9	biological_deletion	BIOLOGICAL_deletion	Nepal516	
+GCF_015337825.2	9	225	0.8481	0.9496	-9.03	biological_deletion	BIOLOGICAL_deletion	M-1770	Russia
+GCF_015336695.1	9	225	0.8487	0.9496	-8.98	biological_deletion	BIOLOGICAL_deletion	M2086	Russia
+GCF_015336085.1	9	225	0.8505	0.9496	-8.82	biological_deletion	BIOLOGICAL_deletion	C-781	Russia
+GCF_015159615.2	9	225	0.8506	0.9496	-8.81	biological_deletion	BIOLOGICAL_deletion	14D	Russia: Tersko-Sunzha low-mountain plague focus
+GCF_015337645.1	9	225	0.8512	0.9496	-8.76	biological_deletion	BIOLOGICAL_deletion	M-1482	Russia
+GCF_015336465.1	9	225	0.8596	0.9496	-8.01	biological_deletion	BIOLOGICAL_deletion	I-1252	Russia
+GCF_046895375.1	9	225	0.8724	0.9496	-6.87	biological_deletion	BIOLOGICAL_deletion	2506	China:Xinjiang
+GCF_000222975.1	9	225	0.8774	0.9496	-6.43	biological_deletion	BIOLOGICAL_deletion	A1122	
+GCF_001188815.1	9	225	0.8775	0.9496	-6.41	biological_deletion	BIOLOGICAL_deletion	2944	Russia: Kabardino-Balkaria
+GCF_001188735.1	9	225	0.8785	0.9496	-6.33	biological_deletion	BIOLOGICAL_deletion	1045	Azerbaijan: Apsheron Pen.
+GCF_000834755.1	9	225	0.8789	0.9496	-6.29	biological_deletion	BIOLOGICAL_deletion	A1122	USA: California
+GCF_046895415.1	9	225	0.8814	0.9496	-6.07	biological_deletion	BIOLOGICAL_deletion	CMCC92010	China:Inner Mongolia
+GCF_046895755.1	9	225	0.8814	0.9496	-6.07	biological_deletion	BIOLOGICAL_deletion	99002	China:Inner Mongolia
+GCF_046895705.1	9	225	0.8816	0.9496	-6.05	biological_deletion	BIOLOGICAL_deletion	90028	China:Inner Mongolia
+GCF_046895735.1	9	225	0.8823	0.9496	-5.99	biological_deletion	BIOLOGICAL_deletion	90054	China:Inner Mongolia
+GCF_046895725.1	9	225	0.8826	0.9496	-5.97	biological_deletion	BIOLOGICAL_deletion	99063	China:Inner Mongolia
+GCF_046895715.1	9	225	0.8829	0.9496	-5.94	biological_deletion	BIOLOGICAL_deletion	99008	China:Inner Mongolia
+GCF_046895635.1	9	225	0.8831	0.9496	-5.92	biological_deletion	BIOLOGICAL_deletion	140020	China:Ningxia
+GCF_046895665.1	9	225	0.8831	0.9496	-5.92	biological_deletion	BIOLOGICAL_deletion	140003	China:Ningxia
+GCF_046895745.1	9	225	0.8831	0.9496	-5.92	biological_deletion	BIOLOGICAL_deletion	98008	China:Inner Mongolia
+GCF_046895615.1	9	225	0.8836	0.9496	-5.88	biological_deletion	BIOLOGICAL_deletion	140068	China:Ningxia
+GCF_046895775.1	9	225	0.8836	0.9496	-5.87	biological_deletion	BIOLOGICAL_deletion	124027	China:Ningxia
+GCF_046895795.1	9	225	0.8836	0.9496	-5.88	biological_deletion	BIOLOGICAL_deletion	40027	China:Xinjiang
+GCF_000006645.1	9	225	0.8839	0.9496	-5.85	biological_deletion	BIOLOGICAL_deletion	KIM10+	
+GCA_000006645.1	9	225	0.8839	0.9496	-5.85	biological_deletion	BIOLOGICAL_deletion	KIM	
+GCF_046895805.1	9	225	0.884	0.9496	-5.84	biological_deletion	BIOLOGICAL_deletion	47005	China:Xinjiang
+GCF_046895695.1	9	225	0.8846	0.9496	-5.79	biological_deletion	BIOLOGICAL_deletion	146004	China:Inner Mongolia
+GCF_015338045.2	9	225	0.8855	0.9496	-5.71	biological_deletion	BIOLOGICAL_deletion	M2085	Russia
+GCF_046895835.1	9	225	0.8888	0.9496	-5.41	biological_deletion	BIOLOGICAL_deletion	90057	China:Inner Mongolia
+GCF_015336265.1	9	225	0.8889	0.9496	-5.4	biological_deletion	BIOLOGICAL_deletion	M2029	Russia
+GCF_046895855.1	9	225	0.8908	0.9496	-5.23	biological_deletion	BIOLOGICAL_deletion	95033	China:Inner Mongolia
+GCF_046895915.1	9	225	0.8916	0.9496	-5.16	biological_deletion	BIOLOGICAL_deletion	96005	China:Inner Mongolia
+GCF_009295985.1	9	225	0.9001	0.9496	-4.4	QC_OUTLIER		SCPM-O-B-6530	
+GCF_039640455.1	9	225	0.9147	0.9496	-3.11	biological_deletion	BIOLOGICAL_deletion	8	Kyrgyzstan: Issyk-Kul region, Sarydzhas high mountain plague focus
+GCF_039640465.1	9	225	0.9148	0.9496	-3.1	biological_deletion	BIOLOGICAL_deletion	197_15	Kyrgyzstan: Upper-Naryn high-mountain plague focus, Ak-Shyyrak section
+GCF_039640475.1	9	225	0.9148	0.9496	-3.1	biological_deletion	BIOLOGICAL_deletion	177	Kyrgyzstan: Upper-Naryn high-mountain plague focus, Karakol Department, Batyr-Beshik area
+GCF_039640435.1	9	225	0.9157	0.9496	-3.02	QC_OUTLIER		5M	Kyrgyzstan: Upper-Naryn high-mountain plague focus, Kyrgyz SSR, Dzhety-Oguz Syrts, Przhevalsky Plague Control Department
+GCF_000022845.1	9	225	0.9157	0.9496	-3.02	QC_OUTLIER		Z176003	
+GCF_009295945.1	9	225	0.9162	0.9496	-2.97	on_lineage_trend		SCPM-O-DNA-18 (I-3113)	Russia: Tuva
+GCF_046895475.1	9	225	0.9173	0.9496	-2.88	on_lineage_trend		2330	China:Xinjiang
+GCF_046895555.1	9	225	0.9183	0.9496	-2.79	on_lineage_trend		770432	China:Qinghai
+GCF_024758685.1	9	225	0.9257	0.9496	-2.13	on_lineage_trend		EV76-CN	China
+GCF_001293415.1	9	225	0.9311	0.9496	-1.64	on_lineage_trend		CO92	USA: Colorado
+GCF_001693595.1	9	225	0.9336	0.9496	-1.42	on_lineage_trend		Cadman	USA: Gallup, NM
+GCF_053834865.1	9	225	0.9393	0.9496	-0.92	on_lineage_trend		2115	Russia: the Republic of Kalmykia
+GCF_000970105.1	9	225	0.9411	0.9496	-0.76	on_lineage_trend		KIM5	USA: Kentucky
+GCF_046895605.1	9	225	0.9417	0.9496	-0.7	on_lineage_trend		129024	China:Ningxia
+GCF_046895645.1	9	225	0.9421	0.9496	-0.67	on_lineage_trend		140011	China:Ningxia
+GCF_046895585.1	9	225	0.9428	0.9496	-0.61	on_lineage_trend		F020032	China:Ningxia
+GCF_052374175.1	9	225	0.9429	0.9496	-0.6	on_lineage_trend		42_YP10_UE	Kazakhstan: Ural-Embi desert
+GCF_052375315.1	9	225	0.9429	0.9496	-0.6	on_lineage_trend		94_YP6_KK	Kazakhstan: Kyzylkum desert
+GCF_052374635.1	9	225	0.9436	0.9496	-0.54	on_lineage_trend		30_YP17_PB	Kazakhstan: Pre-Balkhash desert
+GCF_052374495.1	9	225	0.9439	0.9496	-0.51	on_lineage_trend		68_YP15_PB	Kazakhstan: Pre-Balkhash desert
+GCF_052374575.1	9	225	0.9443	0.9496	-0.47	on_lineage_trend		50_YP23_PB	Kazakhstan: Pre-Balkhash desert
+GCF_052375755.1	9	225	0.9443	0.9496	-0.47	on_lineage_trend		84_YP17_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert
+GCF_046895675.1	9	225	0.9444	0.9496	-0.47	on_lineage_trend		160009	China:Shaanxi
+GCF_046895785.1	9	225	0.9444	0.9496	-0.47	on_lineage_trend		47002	China:Xinjiang
+GCF_052375775.1	9	225	0.9445	0.9496	-0.45	on_lineage_trend		83_YP13_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert
+GCF_046895765.1	9	225	0.9446	0.9496	-0.45	on_lineage_trend		74002	China:Gansu
+GCF_046895655.1	9	225	0.945	0.9496	-0.41	on_lineage_trend		120070	China:Hebei
+GCF_052374695.1	9	225	0.9451	0.9496	-0.4	on_lineage_trend		54_YP2_IM	Kazakhstan: Ili intermountain
+GCF_052375435.1	9	225	0.9451	0.9496	-0.41	on_lineage_trend		64_YP37_KK	Kazakhstan: Kyzylkum desert
+GCF_052374595.1	9	225	0.9452	0.9496	-0.39	on_lineage_trend		40_YP4_PB	Kazakhstan: Pre-Balkhash desert
+GCF_046895685.1	9	225	0.9454	0.9496	-0.38	on_lineage_trend		147014	China:Inner Mongolia
+GCF_046895625.1	9	225	0.9455	0.9496	-0.36	on_lineage_trend		140037	China:Ningxia
+GCF_052374355.1	9	225	0.9455	0.9496	-0.36	on_lineage_trend		51_YP1_PAK	Kazakhstan: Pre-Alakol low mountains
+GCF_052375515.1	9	225	0.9457	0.9496	-0.35	on_lineage_trend		72_YP5_PKK	Kazakhstan: Pre-Aral-Karakum desert
+GCF_052374195.1	9	225	0.9458	0.9496	-0.34	on_lineage_trend		33_YP16_UE	Kazakhstan: Ural-Embi desert
+GCF_052374375.1	9	225	0.9458	0.9496	-0.34	on_lineage_trend		49_YP5_PAK	Kazakhstan: Pre-Alakol low mountains
+GCF_052374335.1	9	225	0.9462	0.9496	-0.31	on_lineage_trend		52_YP18_PAK	Kazakhstan: Pre-Alakol low mountains
+GCF_052374465.1	9	225	0.9464	0.9496	-0.29	on_lineage_trend		75_YP26_PB	Kazakhstan: Pre-Balkhash desert
+GCF_052374235.1	9	225	0.9466	0.9496	-0.27	on_lineage_trend		56_YP12_TK	Kazakhstan: Tau-Kum desert
+GCF_052374655.1	9	225	0.9466	0.9496	-0.27	on_lineage_trend		60_YP24_IM	Kazakhstan: Ili intermountain
+GCF_052375345.1	9	225	0.9468	0.9496	-0.25	on_lineage_trend		93_YP24_KK	Kazakhstan: Kyzylkum desert
+GCF_052374415.1	9	225	0.9469	0.9496	-0.25	on_lineage_trend		46_YP29_PAK	Kazakhstan: Pre-Alakol low mountains
+GCF_052375535.1	9	225	0.947	0.9496	-0.23	on_lineage_trend		87_YP18_PKK	Kazakhstan: Pre-Aral-Karakum desert
+GCF_052375195.1	9	225	0.9471	0.9496	-0.23	on_lineage_trend		70_YP27_IM	Kazakhstan: Ili intermountain
+GCF_052374315.1	9	225	0.9475	0.9496	-0.19	on_lineage_trend		32_YP32_MOK	Kazakhstan: Muyun-Kum desert
+GCF_052375715.1	9	225	0.9477	0.9496	-0.17	on_lineage_trend		85_YP3_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert
+GCF_052374155.1	9	225	0.9479	0.9496	-0.15	on_lineage_trend		43_YP6_UE	Kazakhstan: Ural-Embi desert
+GCF_052375095.1	9	225	0.9479	0.9496	-0.16	on_lineage_trend		81_YP39_IM	Kazakhstan: Ili intermountain
+GCF_052375105.1	9	225	0.9479	0.9496	-0.16	on_lineage_trend		80_YP4_IM	Kazakhstan: Ili intermountain
+GCF_052375335.1	9	225	0.948	0.9496	-0.14	on_lineage_trend		95_YP11_KK	Kazakhstan: Kyzylkum desert
+GCF_052375635.1	9	225	0.948	0.9496	-0.14	on_lineage_trend		91_YP6_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert
+GCF_052375295.1	9	225	0.9481	0.9496	-0.14	on_lineage_trend		96_YP2_KK	Kazakhstan: Kyzylkum desert
+GCF_052375155.1	9	225	0.9482	0.9496	-0.12	on_lineage_trend		77_YP25_IM	Kazakhstan: Ili intermountain
+GCF_052375175.1	9	225	0.9482	0.9496	-0.12	on_lineage_trend		71_YP7_IM	Kazakhstan: Ili intermountain
+GCF_052375235.1	9	225	0.9482	0.9496	-0.12	on_lineage_trend		44_YP7_NP	Kazakhstan: North Pre-Aral desert
+GCF_052375415.1	9	225	0.9482	0.9496	-0.12	on_lineage_trend		73_YP21_KK	Kazakhstan: Kyzylkum desert
+GCF_052375495.1	9	225	0.9482	0.9496	-0.13	on_lineage_trend		29_YP8_KK	Kazakhstan: Kyzylkum desert
+GCF_052375815.1	9	225	0.9482	0.9496	-0.12	on_lineage_trend		69_YP30_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert
+GCF_052374445.1	9	225	0.9483	0.9496	-0.12	on_lineage_trend		41_YP26_PAK	Kazakhstan: Pre-Alakol low mountains
+GCF_052375255.1	9	225	0.9483	0.9496	-0.12	on_lineage_trend		98_YP8_KK	Kazakhstan: Kyzylkum desert
+GCF_052374215.1	9	225	0.9486	0.9496	-0.09	on_lineage_trend		58_YP9_TK	Kazakhstan: Tau-Kum desert
+GCF_052375075.1	9	225	0.9486	0.9496	-0.09	on_lineage_trend		82_YP1_IM	Kazakhstan: Ili intermountain
+GCF_052375455.1	9	225	0.9486	0.9496	-0.09	on_lineage_trend		65_YP4_KK	Kazakhstan: Kyzylkum desert
+GCF_052374255.1	9	225	0.9487	0.9496	-0.08	on_lineage_trend		79_YP9_MOK	Kazakhstan: Muyun-Kum desert
+GCF_052374675.1	9	225	0.9487	0.9496	-0.08	on_lineage_trend		59_YP21_IM	Kazakhstan: Ili intermountain
+GCF_052375675.1	9	225	0.9487	0.9496	-0.08	on_lineage_trend		88_YP10_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert
+GCF_052375265.1	9	225	0.9489	0.9496	-0.07	on_lineage_trend		97_YP1_KK	Kazakhstan: Kyzylkum desert
+GCF_052375135.1	9	225	0.9493	0.9496	-0.03	on_lineage_trend		78_YP23_IM	Kazakhstan: Ili intermountain
+GCF_046895825.1	9	225	0.9494	0.9496	-0.02	on_lineage_trend		83007	China:Yunnan
+GCF_052374715.1	9	225	0.9495	0.9496	-0.01	on_lineage_trend		25_YP73_IM	Kazakhstan: Ili intermountain
+GCF_052375655.1	9	225	0.9495	0.9496	-0.01	on_lineage_trend		89_YP5_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert
+GCF_052374295.1	9	225	0.9496	0.9496	-0.01	on_lineage_trend		55_YP20_MOK	Kazakhstan: Muyun-Kum desert
+GCF_052374535.1	9	225	0.9496	0.9496	0.0	on_lineage_trend		62_YP33_PB	Kazakhstan: Pre-Balkhash desert
+GCF_052374935.1	9	225	0.9496	0.9496	-0.01	on_lineage_trend		14_YP75_IM	Kazakhstan: Ili intermountain
+GCF_052446015.1	9	225	0.9497	0.9496	0.01	on_lineage_trend		45_YP8_PAK	Kazakhstan: Pre-Alakol low mountains
+GCF_052375915.1	9	225	0.9498	0.9496	0.01	on_lineage_trend		1_YP62_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert
+GCF_052374275.1	9	225	0.9499	0.9496	0.03	on_lineage_trend		76_YP20_MOK	Kazakhstan: Muyun-Kum desert
+GCF_052375395.1	9	225	0.9499	0.9496	0.02	on_lineage_trend		74_YP19_KK	Kazakhstan: Kyzylkum desert
+GCF_052375735.1	9	225	0.9499	0.9496	0.03	on_lineage_trend		86_YP12_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert
+GCF_052375615.1	9	225	0.9501	0.9496	0.04	on_lineage_trend		4_YP65_PKK	Kazakhstan: Pre-Aral-Karakum desert
+GCF_052374615.1	9	225	0.9504	0.9496	0.07	on_lineage_trend		63_YP2_PB	Kazakhstan: Pre-Balkhash desert
+GCF_052375695.1	9	225	0.9505	0.9496	0.08	on_lineage_trend		90_YP32_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert
+GCF_052375795.1	9	225	0.9505	0.9496	0.08	on_lineage_trend		3_YP58_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert
+GCF_003798205.1	9	225	0.9506	0.9496	0.09	on_lineage_trend		FDAARGOS_603	Japan
+GCF_052374395.1	9	225	0.9506	0.9496	0.09	on_lineage_trend		47_YP36_PAK	Kazakhstan: Pre-Alakol low mountains
+GCF_052374515.1	9	225	0.9506	0.9496	0.08	on_lineage_trend		67_YP34_PB	Kazakhstan: Pre-Balkhash desert
+GCF_052374895.1	9	225	0.9506	0.9496	0.08	on_lineage_trend		16_YP53_IM	Kazakhstan: Ili intermountain
+GCF_046895875.1	9	225	0.9509	0.9496	0.11	on_lineage_trend		55019	China:Inner Mongolia
+GCF_046895975.1	9	225	0.9509	0.9496	0.11	on_lineage_trend		94007	China:Inner Mongolia
+GCF_052375555.1	9	225	0.951	0.9496	0.12	on_lineage_trend		5_YP57_PKK	Kazakhstan: Pre-Aral-Karakum desert
+GCF_052374855.1	9	225	0.9512	0.9496	0.14	on_lineage_trend		18_YP64_IM	Kazakhstan: Ili intermountain
+GCF_046895945.1	9	225	0.9513	0.9496	0.15	on_lineage_trend		94012	China:Inner Mongolia
+GCF_052374875.1	9	225	0.9514	0.9496	0.16	on_lineage_trend		17_YP69_IM	Kazakhstan: Ili intermountain
+GCF_046895865.1	9	225	0.9516	0.9496	0.18	on_lineage_trend		70016	China:Gansu
+GCF_046895935.1	9	225	0.9516	0.9496	0.18	on_lineage_trend		54009	China:Jilin
+GCF_052375015.1	9	225	0.9516	0.9496	0.18	on_lineage_trend		10_YP59_IM	Kazakhstan: Ili intermountain
+GCF_052375045.1	9	225	0.9516	0.9496	0.18	on_lineage_trend		7_YP60_IM	Kazakhstan: Ili intermountain
+GCF_046895965.1	9	225	0.9517	0.9496	0.19	on_lineage_trend		51012	China:Jilin
+GCF_052375835.1	9	225	0.9517	0.9496	0.19	on_lineage_trend		2_YP67_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert
+GCF_052374555.1	9	225	0.9518	0.9496	0.19	on_lineage_trend		61_YP3_PB	Kazakhstan: Pre-Balkhash desert
+GCF_046895955.1	9	225	0.9519	0.9496	0.2	on_lineage_trend		50010	China:Jilin
+GCF_046895885.1	9	225	0.952	0.9496	0.21	on_lineage_trend		55014	China:Inner Mongolia
+GCF_052374735.1	9	225	0.952	0.9496	0.21	on_lineage_trend		24_YP70_IM	Kazakhstan: Ili intermountain
+GCF_052374775.1	9	225	0.952	0.9496	0.21	on_lineage_trend		22_YP66_IM	Kazakhstan: Ili intermountain
+GCF_052375375.1	9	225	0.952	0.9496	0.21	on_lineage_trend		92_YP31_KK	Kazakhstan: Kyzylkum desert
+GCF_046895925.1	9	225	0.9521	0.9496	0.22	on_lineage_trend		60007	China:Jilin
+GCF_046895985.1	9	225	0.9521	0.9496	0.22	on_lineage_trend		51022	China:Jilin
+GCF_046895815.1	9	225	0.9522	0.9496	0.23	on_lineage_trend		96011	China:Inner Mongolia
+GCF_046895905.1	9	225	0.9522	0.9496	0.23	on_lineage_trend		50018	China:Jilin
+GCF_052375475.1	9	225	0.9523	0.9496	0.24	on_lineage_trend		6_YP52_KK	Kazakhstan: Kyzylkum desert
+GCF_009295965.1	9	225	0.9524	0.9496	0.25	on_lineage_trend		SCPM-O-B-5935 (I-1996)	Russia: Chita region
+GCF_052374915.1	9	225	0.9524	0.9496	0.25	on_lineage_trend		15_YP61_IM	Kazakhstan: Ili intermountain
+GCF_046895895.1	9	225	0.9526	0.9496	0.26	on_lineage_trend		50008	China:Jilin
+GCF_052374955.1	9	225	0.9527	0.9496	0.28	on_lineage_trend		13_YP56_IM	Kazakhstan: Ili intermountain
+GCF_052374995.1	9	225	0.9528	0.9496	0.28	on_lineage_trend		11_YP51_IM	Kazakhstan: Ili intermountain
+GCF_052375035.1	9	225	0.9529	0.9496	0.29	on_lineage_trend		9_YP68_IM	Kazakhstan: Ili intermountain
+GCF_052374795.1	9	225	0.9532	0.9496	0.32	on_lineage_trend		21_YP63_IM	Kazakhstan: Ili intermountain
+GCF_052374755.1	9	225	0.9533	0.9496	0.33	on_lineage_trend		23_YP72_IM	Kazakhstan: Ili intermountain
+GCF_039640405.1	9	225	0.9534	0.9496	0.34	on_lineage_trend		A1694	Kyrgyzstan: Upper-Naryn high-mountain plague focus, Przhevalsky Plague Control De-partment
+GCF_052374815.1	9	225	0.9535	0.9496	0.34	on_lineage_trend		20_YP71_IM	Kazakhstan: Ili intermountain
+GCF_052374975.1	9	225	0.9535	0.9496	0.34	on_lineage_trend		12_YP54_IM	Kazakhstan: Ili intermountain
+GCF_046895845.1	9	225	0.9536	0.9496	0.35	on_lineage_trend		95037	China:Inner Mongolia
+GCF_001188675.1	9	225	0.9538	0.9496	0.37	on_lineage_trend		790	Kyrgyzstan
+GCF_046895395.1	9	225	0.9546	0.9496	0.44	on_lineage_trend		2	China:Qinghai
+GCF_015190655.1	9	225	0.9555	0.9496	0.52	on_lineage_trend		S19960127	China:Tibet
+GCF_052374055.1	9	225	0.9561	0.9496	0.57	on_lineage_trend		31_YP22_SZ	Kyrgyzstan: Sarydzhaz high mountains
+GCA_053570195.1	9	225	0.9569	0.9496	0.65	on_lineage_trend		48_YP14_PAK	Kazakhstan: Pre-Alakol low mountains
+GCF_052374135.1	9	225	0.9577	0.9496	0.72	on_lineage_trend		26_YP30_SZ	Kyrgyzstan: Sarydzhaz high mountains
+GCF_052374095.1	9	225	0.9582	0.9496	0.76	on_lineage_trend		28_YP29_SZ	Kyrgyzstan: Sarydzhaz high mountains
+GCF_000834905.1	9	225	0.9589	0.9496	0.83	on_lineage_trend		Java9	Indonesia
+GCF_052374115.1	9	225	0.9591	0.9496	0.84	on_lineage_trend		27_YP31_SZ	Kyrgyzstan: Sarydzhaz high mountains
+GCA_053570335.1	9	225	0.9601	0.9496	0.93	on_lineage_trend		23_YP45_MANG	Kazakhstan: Mangyshlak
+GCF_052373955.1	9	225	0.9602	0.9496	0.94	on_lineage_trend		8_YP55_NP	Kazakhstan: North Pre-Aral desert
+GCA_053570355.1	9	225	0.9602	0.9496	0.94	on_lineage_trend		21_YP14_NP	Kazakhstan: North-Aral
+GCA_053570275.1	9	225	0.9611	0.9496	1.02	on_lineage_trend		28_YP48_MKUM	Kazakhstan: Moyunkum
+GCA_053570175.1	9	225	0.9616	0.9496	1.07	on_lineage_trend		66_YP38_PB	Kazakhstan: Pre-Balkhash desert
+GCA_053570395.1	9	225	0.9629	0.9496	1.18	on_lineage_trend		20_YP78_UST	Kazakhstan: Ustyurt
+GCA_053570315.1	9	225	0.9633	0.9496	1.21	on_lineage_trend		23_YP48_MANG	Kazakhstan: Mangyshlak
+GCA_053570365.1	9	225	0.9636	0.9496	1.25	on_lineage_trend		20_YP79_UST	Kazakhstan: Ustyurt
+GCA_053570405.1	9	225	0.9636	0.9496	1.25	on_lineage_trend		19_YP08_PrU	Kazakhstan: Pre-Ustyurt
+GCA_053570445.1	9	225	0.9657	0.9496	1.43	on_lineage_trend		16_YP27_VU	Kazakhstan: Volga-Ural sandy
+GCF_052373995.1	9	225	0.9663	0.9496	1.49	on_lineage_trend		23_YP50_MANG	Kazakhstan: Mangyshlak
+GCA_053570295.1	9	225	0.9677	0.9496	1.61	on_lineage_trend		23_YP47_MANG	Kazakhstan: Mangyshlak
+GCA_053570235.1	9	225	0.9688	0.9496	1.71	on_lineage_trend		31_YP74_SZ	Kyrgyzstan: Sarydzhaz high mountains
+GCA_053570255.1	9	225	0.9711	0.9496	1.91	on_lineage_trend		31_YP37_SZ	Kyrgyzstan: Sarydzhaz high mountains
+GCF_052373945.1	9	225	0.9712	0.9496	1.92	on_lineage_trend		34_YP28_SZ	Kyrgyzstan: Sarydzhaz high mountains
+GCF_052373935.1	9	225	0.9713	0.9496	1.93	on_lineage_trend		38_YP25_SZ	Kyrgyzstan: Sarydzhaz high mountains
+GCF_009295925.1	9	225	0.9731	0.9496	2.09	on_lineage_trend		SCPM-O-B-6899 (231)	Kyrgyzstan
+GCF_039703215.1	9	225	0.975	0.9496	2.26	on_lineage_trend		AKS2022HT87_B	China: Gansu
+GCF_039640425.1	9	225	0.9759	0.9496	2.33	on_lineage_trend		80	Kyrgyzstan: Sarydzhaz high-mountain plague focus, Ak-Su district, Kooylu river basin, Oroysuu area
+GCF_039640415.1	9	225	0.9761	0.9496	2.35	on_lineage_trend		91_KR	Kyrgyzstan: Sarydzhaz high-mountain plague focus, Ak-Su district, Kooylu river basin, Bordu-Tor area
+GCF_009363195.1	9	225	0.9764	0.9496	2.38	on_lineage_trend		SCPM-O-B-5942 (I-2638)	Russia: Tuva
+GCF_039640445.1	9	225	0.9764	0.9496	2.38	on_lineage_trend		2	Kyrgyzstan: Issyk-Kul region, Sarydzhas high mountain plague focus
+GCF_000834775.1	9	225	0.9766	0.9496	2.4	on_lineage_trend		Dodson	USA: Tuba City, AZ
+GCF_053834855.1	9	225	0.9766	0.9496	2.4	on_lineage_trend		166	Kyrgyzstan
+GCF_039640395.1	9	225	0.9769	0.9496	2.43	on_lineage_trend		136	Kyrgyzstan: Sarydzhaz high-mountain plague focus, Chon-Karabel area
+GCF_039640175.1	9	225	0.977	0.9496	2.44	on_lineage_trend		133	Kyrgyzstan: Sarydzhaz high-mountain plague focus, Chon-Karabel area
+GCF_039640485.1	9	225	0.977	0.9496	2.44	on_lineage_trend		107	Kyrgyzstan: Sarydzhaz high-mountain plague focus, Chon-Karabel area
+GCF_024498415.1	9	225	0.9778	0.9496	2.51	on_lineage_trend		20	China: Gansu, Mongolian Autonomous County of Subei
+GCF_046895485.1	9	225	0.979	0.9496	2.62	on_lineage_trend		19042	China:Qinghai
+GCF_046895505.1	9	225	0.9793	0.9496	2.64	on_lineage_trend		71037	China:Gansu
+GCF_046895535.1	9	225	0.9797	0.9496	2.68	on_lineage_trend		71025	China:Gansu
+GCF_046895565.1	9	225	0.9797	0.9496	2.67	on_lineage_trend		770429	China:Qinghai
+GCF_024498395.1	9	225	0.98	0.9496	2.7	on_lineage_trend		94	China: Gansu, Aksay
+GCF_046895545.1	9	225	0.98	0.9496	2.7	on_lineage_trend		19022	China:Qinghai
+GCF_046895495.1	9	225	0.9807	0.9496	2.76	on_lineage_trend		71038	China:Gansu
+GCF_061402485.1	9	225	0.9809	0.9496	2.78	on_lineage_trend		YN24HQzi2	China
+GCF_024498375.1	9	225	0.981	0.9496	2.79	on_lineage_trend		R	China: Gansu, Aksay
+GCF_046895525.1	9	225	0.981	0.9496	2.79	on_lineage_trend		71034	China:Gansu
+GCF_046895575.1	9	225	0.981	0.9496	2.79	on_lineage_trend		720330	China:Qinghai
+GCF_046895595.1	9	225	0.981	0.9496	2.79	on_lineage_trend		71008	China:Gansu
+GCF_039703785.1	9	225	0.9813	0.9496	2.81	on_lineage_trend		AKS2022HT87_A	China: Gansu
+GCF_046895515.1	9	225	0.9816	0.9496	2.84	on_lineage_trend		71031	China:Gansu
+GCF_046895465.1	9	225	0.9826	0.9496	2.93	on_lineage_trend		19098	China:Qinghai
+GCF_046895365.1	9	225	0.9833	0.9496	2.99	on_lineage_trend		7	China:Qinghai
+GCA_062019011.1	9	225	0.9846	0.9496	3.11	on_lineage_trend		JC25	China:Yunnan Province,Jianchuan County
+GCF_041409745.1	9	225	0.9852	0.9496	3.17	on_lineage_trend		6/69_pPCP1-	
+GCF_000022805.1	9	225	0.9855	0.9496	3.19	on_lineage_trend		D106004	
+GCF_046895405.1	9	225	0.9862	0.9496	3.25	on_lineage_trend		CMCCK110001	China:Yunnan
+GCF_046895435.1	9	225	0.9868	0.9496	3.31	on_lineage_trend		CMCC640047	China:Qinghai
+GCF_041410195.1	9	225	0.9902	0.9496	3.61	on_lineage_trend		6/69	Madagascar
+GCF_000834235.1	9	225	0.9907	0.9496	3.65	on_lineage_trend		PBM19	
+GCF_000834495.1	9	225	0.9938	0.9496	3.93	on_lineage_trend		El Dorado	USA: NY, New York
+GCF_046895445.1	9	225	0.9944	0.9496	3.98	on_lineage_trend		CMCC114001	China:Fujian
+GCF_000834335.1	9	225	0.9949	0.9496	4.03	on_lineage_trend		Shasta	USA: California
+GCF_000009065.1	9	225	0.999	0.9496	4.39	on_lineage_trend		CO92	
+GCF_002005285.1	10	1	0.965			group_too_small		195/P	
+GCF_000022825.1	11	1	0.9838			group_too_small		D182038	
+GCF_046895425.1	12	1	0.8974			group_too_small	BIOLOGICAL_deletion	CMCC05009	China:Qinghai

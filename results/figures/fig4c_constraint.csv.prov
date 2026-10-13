@@ -1,0 +1,2 @@
+generated 2026-10-11T23:36:35Z UTC | git no-git | sources: results/dedup/tierA_keep.{off,full,threestate,conservative}.tsv
+note added 2026-10-13: provenance line reconstructed; this table is produced by figures/scripts/prep_figure_data.py (fig4c) and read by fig5_structural_blindness.R

@@ -1,0 +1,30 @@
+metric	accession	value	unit	region	geo_loc_name	strain
+checkm_lt98	GCF_003086075.1	23.83	completeness	Eurasia	Uzbekistan	A-1825
+checkm_lt98	GCF_003074275.1	52.44	completeness	Eurasia	Russia: Kabardino-Balkar Republic, Zolsky District	C-627
+checkm_lt98	GCF_006376475.1	69.55	completeness	Eurasia	Azerbaijan	C-224
+checkm_lt98	GCF_019238605.1	81.69	completeness	Eurasia	China:Inner Mongolia	NM2019.4442
+checkm_lt98	GCF_000168835.1	82.16	completeness	Americas	USA: near Flagstaff, AZ	FV-1
+checkm_lt98	GCA_016102555.1	86.01	completeness	Eurasia	Kazakhstan: West Kazakhstan region	2
+checkm_lt98	GCF_006376415.1	87.96	completeness	Eurasia	Russia	C-11
+checkm_lt98	GCF_003074175.1	89.15	completeness	Eurasia	Mongolia	I-3086
+checkm_lt98	GCF_010974855.1	89.67	completeness	Eurasia	Kazakhstan: Ural province, now Uralsk city	31
+checkm_lt98	GCF_003074315.1	90.93	completeness	Eurasia	Russia: Republic of Tuva, Ovyursky District	I-3223
+checkm_lt98	GCF_016102565.1	91.56	completeness	Eurasia	Russia: Rostov region, Zavetninsky district	27
+checkm_lt98	GCF_003086015.1	93.07	completeness	Eurasia	Russia: Republic of Tyva, Mongun-Tayginskiy district	M-1944
+dnadiff_ref_lt95	GCF_015337085.2	93.0011	% of ref aligned	Eurasia	Russia	C-792
+dnadiff_ref_lt95	GCF_015337445.1	93.824	% of ref aligned	Eurasia	Russia	KM 567
+dnadiff_ref_lt95	GCF_015338205.1	93.9176	% of ref aligned	Eurasia	Russia	C-830
+dnadiff_ref_lt95	GCF_015337285.1	94.0379	% of ref aligned	Eurasia	Russia	C-783
+dnadiff_ref_lt95	GCF_000590535.2	94.1694	% of ref aligned	Eurasia	Russia: Research Institute of Epidemiology and Hygiene	EV NIIEG
+called_frac_lt0.859	GCF_015337445.1	0.7887	called_frac	Eurasia	Russia	KM 567
+called_frac_lt0.859	GCF_015337085.2	0.7914	called_frac	Eurasia	Russia	C-792
+called_frac_lt0.859	GCF_015337285.1	0.7938	called_frac	Eurasia	Russia	C-783
+called_frac_lt0.859	GCF_009296005.1	0.8275	called_frac	Eurasia	Russia: Chechnya	SCPM-O-B-6291 (C-25)
+called_frac_lt0.859	GCF_000590535.2	0.8344	called_frac	Eurasia	Russia: Research Institute of Epidemiology and Hygiene	EV NIIEG
+called_frac_lt0.859	GCF_000013805.1	0.8384	called_frac	unknown		Nepal516
+called_frac_lt0.859	GCF_015338205.1	0.8457	called_frac	Eurasia	Russia	C-830
+called_frac_lt0.859	GCF_015337825.2	0.8481	called_frac	Eurasia	Russia	M-1770
+called_frac_lt0.859	GCF_015336695.1	0.8487	called_frac	Eurasia	Russia	M2086
+called_frac_lt0.859	GCF_015336085.1	0.8505	called_frac	Eurasia	Russia	C-781
+called_frac_lt0.859	GCF_015159615.2	0.8506	called_frac	Eurasia	Russia: Tersko-Sunzha low-mountain plague focus	14D
+called_frac_lt0.859	GCF_015337645.1	0.8512	called_frac	Eurasia	Russia	M-1482

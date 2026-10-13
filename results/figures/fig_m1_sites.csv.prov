@@ -1,0 +1,2 @@
+generated 2026-10-11T23:36:35Z UTC | git no-git | sources: schematic; C/d counted in R
+2026-10-13: hand-edited per plan-1 (three-state cartoon cannot encode a site where both genomes carry the same alt allele): site 3 B called_diff->called_match, site 13 A called_diff->called_match. prep_figure_data.py st_a/st_b updated to match; C=11, d=2 unchanged.

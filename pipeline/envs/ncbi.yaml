@@ -1,0 +1,9 @@
+name: ncbi
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - ncbi-datasets-cli=18.38.0
+  - unzip
+  - jq

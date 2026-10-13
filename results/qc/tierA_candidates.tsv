@@ -1,0 +1,257 @@
+accession	tier	assembly_level	total_bp	contigs	contig_n50	checkm_contamination	checkm_completeness_COVARIATE_ONLY	dnadiff_aligned_pct	anchor	collection_date	geo_loc_name	host	strain	notes
+GCF_000834235.1	A	complete genome	4861517	4	4685423	0.86	98.68	0.0	False				PBM19	
+GCF_000834275.1	A	complete genome	4709246	4	4531804	0.81	96.72	0.0	False	1940	China: Manchuria		Harbin35	
+GCF_000834335.1	A	complete genome	4835409	4	4659530	0.76	98.67	0.0	False	1954	USA: California		Shasta	
+GCF_000834495.1	A	complete genome	4838262	4	4662886	0.86	98.42	0.0	False	2002	USA: NY, New York	Homo sapiens	El Dorado	
+GCF_000834775.1	A	complete genome	4777968	3	4654228	0.91	98.51	0.0	False	1967	USA: Tuba City, AZ	Human (male, 4.5 yrs)	Dodson	
+GCF_000834885.1	A	complete genome	4700481	4	4523033	0.76	97.91	0.0	False	2008	China: Manchuria		Nicholisk 41	
+GCF_000834905.1	A	chromosome	4830559	5	4672688	1.94	98.84	0.0	False		Indonesia		Java9	
+GCF_000970105.1	A	chromosome	4787503	4	4605437	1.01	98.84	0.0	False	2007	USA: Kentucky		KIM5	
+GCF_001693595.1	A	complete genome	4778555	4	4602429	1.53	97.55	0.0	False	2016-06-06	USA: Gallup, NM	Homo sapiens	Cadman	
+GCF_002005285.1	A	complete genome	4831198	4	4655691	0.73	97.88	0.0	False	2015-12-08			195/P	
+GCF_003798205.1	A	complete genome	4929654	5	4636496	0.81	98.54	0.0	False		Japan	UCC strain	FDAARGOS_603	
+GCF_003798225.1	A	complete genome	4930959	4	4708493	0.96	97.99	0.0	False	1954	Democratic Republic of the Congo	UCC strain	FDAARGOS_601	
+GCF_003798345.1	A	complete genome	4784489	3	4607325	0.91	98.34	0.0	False	1984	USSR	UCC strain	FDAARGOS_602	
+GCF_009295925.1	A	complete genome	4806721	4	4625829	0.76	98.96	0.0	False	1947-07-02	Kyrgyzstan	Marmota baibacina	SCPM-O-B-6899 (231)	
+GCF_009295945.1	A	complete genome	4759144	5	4546217	1.21	98.99	0.0	False	1984-08-22	Russia: Tuva	Marmota sibirica	SCPM-O-DNA-18 (I-3113)	
+GCF_009295965.1	A	complete genome	4807288	4	4629837	0.88	98.61	0.0	False	1970	Russia: Chita region	Spermophilus sp.	SCPM-O-B-5935 (I-1996)	
+GCF_009296005.1	A	complete genome	4614086	3	4503487	0.81	98.77	0.0	False	1953-07-03	Russia: Chechnya	Neopsylla setosa	SCPM-O-B-6291 (C-25)	
+GCF_009363195.1	A	complete genome	4848320	5	4635506	1.11	98.47	0.0	False	1977-08-26	Russia: Tuva	Urocitellus undulatus	SCPM-O-B-5942 (I-2638)	
+GCF_015159615.2	A	complete genome	4601712	1	4601712	0.76	98.69	0.0	False	1970	Russia: Tersko-Sunzha low-mountain plague focus	Spermophilus pygmaeus	14D	
+GCF_015190655.1	A	complete genome	4852443	5	4639390	1.11	98.99	0.0	False	1996-08-26	China:Tibet	Homo sapiens	S19960127	
+GCF_015336085.1	A	complete genome	4604910	1	4604910	0.86	98.92	0.0	False	2001	Russia	Citellus musticus	C-781	
+GCF_015336265.1	A	complete genome	4644349	1	4644349	0.81	97.81	0.0	False	2018	Russia	Marmota baibacina	M2029	
+GCF_015336465.1	A	complete genome	4616538	1	4616538	0.76	98.55	0.0	False	1966	Russia	Spermophilus dauricus	I-1252	
+GCF_015336695.1	A	complete genome	4617857	1	4617857	0.76	98.67	0.0	False	2015	Russia	Meriones meridianus	M2086	
+GCF_015336865.1	A	complete genome	4612708	1	4612708	0.76	98.41	0.0	False	2012	Russia	Ochotona pallasi	M-1974	
+GCF_015337085.2	A	complete genome	4481542	1	4481542	1.06	96.63	0.0	False	2003	Russia	Spermophilus pygmaeus	C-792	
+GCF_015337285.1	A	complete genome	4555347	1	4555347	0.76	99.25	0.0	False	2001	Russia	Citellus musticus	C-783	
+GCF_015337445.1	A	complete genome	4499502	1	4499502	0.86	98.89	0.0	False	1972	Russia	Spermophilus pygmaeus	KM 567	
+GCF_015337645.1	A	complete genome	4610990	1	4610990	0.76	98.33	0.0	False	1989	Russia	Spermophilus pygmaeus	M-1482	
+GCF_015337825.2	A	complete genome	4612530	1	4612530	0.76	97.82	0.0	False	2002	Russia	Meriones meridianus	M-1770	
+GCF_015338045.2	A	complete genome	4636545	1	4636545	0.76	97.73	0.0	False	2015	Russia	Urocitellus undulatus	M2085	
+GCF_015338205.1	A	complete genome	4501826	1	4501826	0.76	97.16	0.0	False	2012	Russia	Microtus obscurus	C-830	
+GCF_024498375.1	A	complete genome	4848095	3	4648824	0.76	98.86	0.0	False	2019	China: Gansu, Aksay	Homo sapiens	R	
+GCF_024498395.1	A	complete genome	4834935	4	4647610	0.76	98.77	0.0	False	2019	China: Gansu, Aksay	marmot	94	
+GCF_024498415.1	A	complete genome	4804290	4	4636015	0.86	98.57	0.0	False	2019	China: Gansu, Mongolian Autonomous County of Subei	marmot	20	
+GCF_039640175.1	A	complete genome	4826121	4	4647253	0.76	98.6	0.0	False	2023	Kyrgyzstan: Sarydzhaz high-mountain plague focus, Chon-Karabel area	Marmota baibacina	133	
+GCF_039640395.1	A	complete genome	4826145	4	4647277	0.76	98.6	0.0	False	2023	Kyrgyzstan: Sarydzhaz high-mountain plague focus, Chon-Karabel area	Ochotona	136	
+GCF_039640405.1	A	complete genome	4694000	4	4515131	0.76	96.04	0.0	False	1971-07-07	Kyrgyzstan: Upper-Naryn high-mountain plague focus, Przhevalsky Plague Control De-partment	Amphisylla	A1694	
+GCF_039640415.1	A	complete genome	4828209	4	4649345	0.76	98.61	0.0	False	2020-08-19	Kyrgyzstan: Sarydzhaz high-mountain plague focus, Ak-Su district, Kooylu river basin, Bordu-Tor area	Oropsylla silantiewi	91_KR	
+GCF_039640425.1	A	complete genome	4828083	4	4649224	0.91	98.46	0.0	False	2020-08-26	Kyrgyzstan: Sarydzhaz high-mountain plague focus, Ak-Su district, Kooylu river basin, Oroysuu area	Oropsylla silantiewi	80	
+GCF_039640435.1	A	complete genome	4722468	4	4543604	0.91	98.41	0.0	False	1952-06-14	Kyrgyzstan: Upper-Naryn high-mountain plague focus, Kyrgyz SSR, Dzhety-Oguz Syrts, Przhevalsky Plague Control Department	Oropsylla silantiewi	5M	
+GCF_039640445.1	A	complete genome	4825490	4	4646632	0.86	98.58	0.0	False	2016-06-28	Kyrgyzstan: Issyk-Kul region, Sarydzhas high mountain plague focus	fleas	2	
+GCF_039640455.1	A	complete genome	4772170	4	4593311	1.77	98.61	0.0	False	2013-06-28	Kyrgyzstan: Issyk-Kul region, Sarydzhas high mountain plague focus	Homo sapiens	8	
+GCF_039640465.1	A	complete genome	4724185	4	4545319	0.91	98.46	0.0	False	2015-07-16	Kyrgyzstan: Upper-Naryn high-mountain plague focus, Ak-Shyyrak section	Marmota	197_15	
+GCF_039640475.1	A	complete genome	4722215	4	4545315	0.91	98.46	0.0	False	2019-09-08	Kyrgyzstan: Upper-Naryn high-mountain plague focus, Karakol Department, Batyr-Beshik area	Marmota baibacina	177	
+GCF_039640485.1	A	complete genome	4826121	4	4647253	0.76	98.6	0.0	False	2023	Kyrgyzstan: Sarydzhaz high-mountain plague focus, Chon-Karabel area	Marmota baibacina	107	
+GCF_039703215.1	A	complete genome	4857127	4	4649813	0.76	98.88	0.0	False	2022	China: Gansu	Marmot	AKS2022HT87_B	
+GCF_039703785.1	A	complete genome	4828962	4	4650170	0.86	98.82	0.0	False	2022	China: Gansu	Marmot	AKS2022HT87_A	
+GCF_041409745.1	A	complete genome	4816317	3	4649807	0.76	98.25	0.0	False	1997			6/69_pPCP1-	
+GCF_041410195.1	A	complete genome	4825927	4	4649807	0.76	98.25	0.0	False	1969	Madagascar	Homo sapiens	6/69	
+GCF_046895365.1	A	complete genome	4827203	4	4648605	0.76	98.84	0.0	False	2004	China:Qinghai		7	
+GCF_046895375.1	A	complete genome	4693274	4	4511579	0.86	98.89	0.0	False	2005	China:Xinjiang		2506	
+GCF_046895395.1	A	complete genome	4852948	5	4639879	1.11	98.95	0.0	False	2004	China:Qinghai		2	
+GCF_046895405.1	A	complete genome	4866360	3	4699845	0.76	98.64	0.0	False	1991	China:Yunnan		CMCCK110001	
+GCF_046895415.1	A	complete genome	4683884	3	4516027	0.86	98.6	0.0	False	1971	China:Inner Mongolia		CMCC92010	
+GCF_046895425.1	A	complete genome	4755651	4	4608999	1.95	96.94	0.0	False	1961	China:Qinghai		CMCC05009	
+GCF_046895435.1	A	complete genome	4823907	4	4646442	0.86	98.69	0.0	False	1964	China:Qinghai		CMCC640047	
+GCF_046895445.1	A	complete genome	4846113	4	4669764	0.76	98.69	0.0	False	1952	China:Fujian		CMCC114001	
+GCF_046895455.1	A	complete genome	4759772	4	4571869	0.86	96.47	0.0	False	2004	China:Qinghai		9	
+GCF_046895465.1	A	complete genome	4825743	4	4647145	0.76	98.89	0.0	False	2004-10-08	China:Qinghai		19098	
+GCF_046895475.1	A	complete genome	4723776	4	4544837	0.91	98.68	0.0	False	2003	China:Xinjiang		2330	
+GCF_046895485.1	A	complete genome	4822086	4	4643273	0.76	98.89	0.0	False	1998-08-28	China:Qinghai		19042	
+GCF_046895495.1	A	complete genome	4826275	4	4647682	0.76	98.89	0.0	False	1994-09-03	China:Gansu		71038	
+GCF_046895505.1	A	complete genome	4825313	4	4646713	0.76	98.89	0.0	False	1993-09-08	China:Gansu		71037	
+GCF_046895515.1	A	complete genome	4826464	4	4647528	0.76	98.89	0.0	False	1992-07-29	China:Gansu		71031	
+GCF_046895525.1	A	complete genome	4826233	4	4647297	0.76	98.89	0.0	False	1992-08-20	China:Gansu		71034	
+GCF_046895535.1	A	chromosome	4826834	6	3399058	0.76	98.89	0.0	False	1990-08-20	China:Gansu		71025	
+GCF_046895545.1	A	complete genome	4854027	5	4641100	1.15	98.74	0.0	False	1977-07-25	China:Qinghai		19022	
+GCF_046895555.1	A	complete genome	4752430	5	4539232	1.21	98.89	0.0	False	1977-07-21	China:Qinghai		770432	
+GCF_046895565.1	A	complete genome	4852764	5	4640160	1.15	98.74	0.0	False	1977-07-13	China:Qinghai		770429	
+GCF_046895575.1	A	complete genome	4827909	4	4648973	0.76	98.89	0.0	False	1972-06-22	China:Qinghai		720330	
+GCF_046895585.1	A	complete genome	4813074	4	4632062	0.86	98.77	0.0	False	2009-04-27	China:Ningxia		F020032	
+GCF_046895595.1	A	complete genome	4826439	4	4647503	0.76	98.89	0.0	False	1961-06-19	China:Gansu		71008	
+GCF_046895605.1	A	complete genome	4812563	4	4631551	0.86	98.77	0.0	False	2005-05-29	China:Ningxia		129024	
+GCF_046895615.1	A	complete genome	4734364	4	4553353	0.91	98.84	0.0	False	2005-06-04	China:Ningxia		140068	
+GCF_046895625.1	A	complete genome	4833599	4	4652588	0.76	98.99	0.0	False	2000-05-31	China:Ningxia		140037	
+GCF_046895635.1	A	complete genome	4777481	6	4551886	0.76	98.95	0.0	False	1989-11-22	China:Ningxia		140020	
+GCF_046895645.1	A	complete genome	4812967	4	4631955	0.86	98.77	0.0	False	1988-06-05	China:Ningxia		140011	
+GCF_046895655.1	A	complete genome	4832547	4	4651535	0.76	98.77	0.0	False	1995-04-22	China:Hebei		120070	
+GCF_046895665.1	A	complete genome	4753733	5	4550981	0.86	98.93	0.0	False	1987-05-15	China:Ningxia		140003	
+GCF_046895675.1	A	complete genome	4854962	5	4652210	0.81	98.78	0.0	False	1988-07-08	China:Shaanxi		160009	
+GCF_046895685.1	A	complete genome	4851210	5	4648458	0.76	98.99	0.0	False	1979-12-05	China:Inner Mongolia		147014	
+GCF_046895695.1	A	complete genome	4755608	5	4552856	0.86	98.99	0.0	False	1978-10-11	China:Inner Mongolia		146004	
+GCF_046895705.1	A	complete genome	4727577	4	4546813	0.91	98.84	0.0	False	1970-07-22	China:Inner Mongolia		90028	
+GCF_046895715.1	A	complete genome	4734669	4	4551745	0.91	98.83	0.0	False	1970-04-07	China:Inner Mongolia		99008	
+GCF_046895725.1	A	complete genome	4736226	4	4553302	0.91	98.83	0.0	False	1970-05-17	China:Inner Mongolia		99063	
+GCF_046895735.1	A	complete genome	4753148	5	4550396	0.86	98.93	0.0	False	1970-07-29	China:Inner Mongolia		90054	
+GCF_046895745.1	A	complete genome	4752669	5	4550274	0.86	98.93	0.0	False	1970-06-20	China:Inner Mongolia		98008	
+GCF_046895755.1	A	complete genome	4732227	4	4549303	0.91	98.83	0.0	False	1969-07-28	China:Inner Mongolia		99002	
+GCF_046895765.1	A	complete genome	4810477	4	4631336	0.86	98.99	0.0	False	1962-08-25	China:Gansu		74002	
+GCF_046895775.1	A	complete genome	4710441	4	4531300	0.86	98.69	0.0	False	1963-06-20	China:Ningxia		124027	
+GCF_046895785.1	A	complete genome	4815364	4	4634268	0.86	98.99	0.0	False	1973-07-19	China:Xinjiang		47002	
+GCF_046895795.1	A	complete genome	4720058	4	4538962	0.86	98.98	0.0	False	1971-09-23	China:Xinjiang		40027	
+GCF_046895805.1	A	complete genome	4717567	4	4536471	0.86	98.99	0.0	False	1973-07-29	China:Xinjiang		47005	
+GCF_046895815.1	A	complete genome	4819130	4	4639504	0.86	98.93	0.0	False	1998-05-01	China:Inner Mongolia		96011	
+GCF_046895825.1	A	complete genome	4814892	4	4635029	0.86	98.69	0.0	False	1983-09-01	China:Yunnan		83007	
+GCF_046895835.1	A	complete genome	4712983	4	4536167	0.91	98.78	0.0	False	1970-07-27	China:Inner Mongolia		90057	
+GCF_046895845.1	A	complete genome	4816621	4	4639161	0.86	98.99	0.0	False	1970-07-11	China:Inner Mongolia		95037	
+GCF_046895855.1	A	complete genome	4714276	4	4536816	0.91	98.84	0.0	False	1970-07-04	China:Inner Mongolia		95033	
+GCF_046895865.1	A	complete genome	4818155	4	4638292	0.76	98.69	0.0	False	1960-08-28	China:Gansu		70016	
+GCF_046895875.1	A	complete genome	4815734	4	4638279	0.96	98.69	0.0	False	1959-05-30	China:Inner Mongolia		55019	
+GCF_046895885.1	A	complete genome	4817620	4	4637757	0.86	98.69	0.0	False	1959-04-25	China:Inner Mongolia		55014	
+GCF_046895895.1	A	complete genome	4816279	4	4636416	0.86	98.68	0.0	False	1958-08-24	China:Jilin		50008	
+GCF_046895905.1	A	complete genome	4817394	4	4637531	0.86	98.62	0.0	False	1957-08-25	China:Jilin		50018	
+GCF_046895915.1	A	complete genome	4719197	4	4538626	0.91	98.83	0.0	False	1957-04-13	China:Inner Mongolia		96005	
+GCF_046895925.1	A	complete genome	4819277	4	4639414	0.76	98.69	0.0	False	1957-11-04	China:Jilin		60007	
+GCF_046895935.1	A	complete genome	4815988	4	4636125	0.86	98.69	0.0	False	1955-04-10	China:Jilin		54009	
+GCF_046895945.1	A	complete genome	4817819	4	4640359	0.86	98.99	0.0	False	1955-05-21	China:Inner Mongolia		94012	
+GCF_046895955.1	A	complete genome	4818273	4	4638410	0.76	98.69	0.0	False	1955-05-10	China:Jilin		50010	
+GCF_046895965.1	A	complete genome	4815327	4	4635464	0.76	98.69	0.0	False	1954-08-06	China:Jilin		51012	
+GCF_046895975.1	A	complete genome	4818099	4	4640639	0.76	98.99	0.0	False	1955-05-31	China:Inner Mongolia		94007	
+GCF_046895985.1	A	complete genome	4816260	4	4636397	0.76	98.69	0.0	False	1954-10-07	China:Jilin		51022	
+GCF_052373935.1	A	complete genome	4817674	4	4635928	0.76	98.6	0.0	False	2000	Kyrgyzstan: Sarydzhaz high mountains	Grey marmot (M.baibacina)	38_YP25_SZ	
+GCF_052373945.1	A	complete genome	4816448	4	4634699	0.76	98.66	0.0	False	1973	Kyrgyzstan: Sarydzhaz high mountains	Fleas (Rh. li ventricosa)	34_YP28_SZ	
+GCF_052373955.1	A	complete genome	4827944	4	4645421	0.76	98.91	0.0	False	2020	Kazakhstan: North Pre-Aral desert	Great gerbil (R. opimus)	8_YP55_NP	
+GCF_052373995.1	A	complete genome	4837389	5	4650172	0.76	98.67	0.0	False	2003-08-17	Kazakhstan: Mangyshlak	Camelus bactrianus	23_YP50_MANG	
+GCF_052374015.1	A	complete genome	4706331	4	4529575	0.96	95.88	0.0	False	1988	Kyrgyzstan: Talas high mountains	Shrew (Sorex sp.)	39_YP13_TLH	
+GCF_052374055.1	A	complete genome	4705158	4	4528510	0.96	95.9	0.0	False	1971	Kyrgyzstan: Sarydzhaz high mountains	Grey marmot (M.baibacina)	31_YP22_SZ	
+GCF_052374075.1	A	complete genome	4706644	4	4529833	0.96	96.27	0.0	False	1977	Kyrgyzstan: Talas high mountains	Long-tailed marmot (Marmot caudata)	35_YP14_TLH	
+GCF_052374095.1	A	complete genome	4705293	4	4528636	0.96	95.98	0.0	False	1961	Kyrgyzstan: Sarydzhaz high mountains	Fleas (Rhadinopsyllali ventricosa)	28_YP29_SZ	
+GCF_052374115.1	A	complete genome	4705331	4	4528832	0.96	96.27	0.0	False	1961	Kyrgyzstan: Sarydzhaz high mountains	Grey marmot (M.baibacina)	27_YP31_SZ	
+GCF_052374135.1	A	complete genome	4705785	4	4529230	0.96	96.27	0.0	False	1962	Kyrgyzstan: Sarydzhaz high mountains	Grey marmot (Marmot baibacina)	26_YP30_SZ	
+GCF_052374155.1	A	complete genome	4711297	4	4529301	0.96	96.02	0.0	False	1989	Kazakhstan: Ural-Embi desert	Red-tailed gerbil (Merioneslibycus)	43_YP6_UE	
+GCF_052374175.1	A	complete genome	4716206	5	4528770	0.96	96.22	0.0	False	1982	Kazakhstan: Ural-Embi desert	Ground squirrels (Spermophilus pygmaeus)	42_YP10_UE	
+GCF_052374195.1	A	complete genome	4710552	4	4528582	0.96	96.19	0.0	False	2000	Kazakhstan: Ural-Embi desert	Fleas	33_YP16_UE	
+GCF_052374215.1	A	complete genome	4710461	4	4528427	0.96	96.27	0.0	False	2011	Kazakhstan: Tau-Kum desert	Fleas (Xenopsyllaskrjabini)	58_YP9_TK	
+GCF_052374235.1	A	complete genome	4710825	4	4528774	0.96	96.27	0.0	False	2010	Kazakhstan: Tau-Kum desert	Great gerbil (R. opimus)	56_YP12_TK	
+GCF_052374255.1	A	complete genome	4710593	4	4528541	0.66	96.27	0.0	False	2019	Kazakhstan: Muyun-Kum desert	Fleas (X. gerbilli)	79_YP9_MOK	
+GCF_052374275.1	A	complete genome	4710671	4	4528686	0.96	96.27	0.0	False	2018	Kazakhstan: Muyun-Kum desert	Great gerbil (R. opimus)	76_YP20_MOK	
+GCF_052374295.1	A	complete genome	4710468	4	4528510	0.96	96.22	0.0	False	2010	Kazakhstan: Muyun-Kum desert	Ticks	55_YP20_MOK	
+GCF_052374315.1	A	complete genome	4710671	4	4528623	0.96	94.93	0.0	False	1973	Kazakhstan: Muyun-Kum desert	Fleas	32_YP32_MOK	
+GCF_052374335.1	A	complete genome	4711207	4	4529102	0.96	96.25	0.0	False	2004	Kazakhstan: Pre-Alakol low mountains		52_YP18_PAK	
+GCF_052374355.1	A	complete genome	4711248	4	4529215	0.96	96.27	0.0	False	2004	Kazakhstan: Pre-Alakol low mountains	Great gerbil (R. opimus)	51_YP1_PAK	
+GCF_052374375.1	A	complete genome	4711405	4	4529486	0.96	96.24	0.0	False	2003	Kazakhstan: Pre-Alakol low mountains		49_YP5_PAK	
+GCF_052374395.1	A	complete genome	4711038	4	4529136	0.96	95.96	0.0	False	2003	Kazakhstan: Pre-Alakol low mountains	Great gerbil (R. opimus)	47_YP36_PAK	
+GCF_052374415.1	A	complete genome	4711398	4	4529366	0.96	95.96	0.0	False	2003	Kazakhstan: Pre-Alakol low mountains	Fleas (X. gerbilli)	46_YP29_PAK	
+GCF_052374445.1	A	complete genome	4710682	4	4528699	0.96	95.84	0.0	False	2002	Kazakhstan: Pre-Alakol low mountains		41_YP26_PAK	
+GCF_052374465.1	A	complete genome	4711092	4	4529114	0.96	96.25	0.0	False	2018	Kazakhstan: Pre-Balkhash desert	Great gerbil (R. opimus)	75_YP26_PB	
+GCF_052374495.1	A	complete genome	4711125	4	4529222	0.96	95.04	0.0	False	2018	Kazakhstan: Pre-Balkhash desert	Fleas	68_YP15_PB	
+GCF_052374515.1	A	complete genome	4710907	4	4528999	0.96	96.27	0.0	False	2017	Kazakhstan: Pre-Balkhash desert	Great gerbil (R. opimus)	67_YP34_PB	
+GCF_052374535.1	A	complete genome	4710890	4	4528970	0.96	96.27	0.0	False	2017	Kazakhstan: Pre-Balkhash desert	Fleas	62_YP33_PB	
+GCF_052374555.1	A	complete genome	4710717	4	4528760	0.96	96.57	0.0	False	2017	Kazakhstan: Pre-Balkhash desert	Fleas (X. gerbilli)	61_YP3_PB	
+GCF_052374575.1	A	complete genome	4710884	4	4528974	0.96	96.18	0.0	False	2004	Kazakhstan: Pre-Balkhash desert	Fleas (Xenopsyllahirtipes)	50_YP23_PB	
+GCF_052374595.1	A	complete genome	4711065	4	4529036	0.96	96.02	0.0	False	2002	Kazakhstan: Pre-Balkhash desert	Fleas (X. gerbilli)	40_YP4_PB	
+GCF_052374615.1	A	complete genome	4710540	4	4528548	0.96	96.27	0.0	False	2017	Kazakhstan: Pre-Balkhash desert	Fleas (X.hirtipes)	63_YP2_PB	
+GCF_052374635.1	A	complete genome	4711259	4	4529216	0.96	95.18	0.0	False	1970	Kazakhstan: Pre-Balkhash desert	Great gerbil (R. opimus)	30_YP17_PB	
+GCF_052374655.1	A	complete genome	4711187	4	4529193	0.96	96.18	0.0	False	2015	Kazakhstan: Ili intermountain	Fleas (X. gerbilli)	60_YP24_IM	
+GCF_052374675.1	A	complete genome	4710208	4	4528280	0.96	96.27	0.0	False	2015	Kazakhstan: Ili intermountain	Fleas (X. gerbilli)	59_YP21_IM	
+GCF_052374695.1	A	complete genome	4711094	4	4529089	0.66	96.16	0.0	False	2007	Kazakhstan: Ili intermountain	Great gerbil (R. opimus)	54_YP2_IM	
+GCF_052374715.1	A	complete genome	4710834	4	4528970	0.96	96.11	0.0	False	2022	Kazakhstan: Ili intermountain	Fleas (X. gerbilli)	25_YP73_IM	
+GCF_052374735.1	A	complete genome	4710784	4	4528874	0.96	96.11	0.0	False	2022	Kazakhstan: Ili intermountain	Fleas (X. gerbilli)	24_YP70_IM	
+GCF_052374755.1	A	complete genome	4710767	4	4528852	0.96	96.16	0.0	False	2022	Kazakhstan: Ili intermountain	Ticks (H.marginatus)	23_YP72_IM	
+GCF_052374775.1	A	complete genome	4710973	4	4528956	0.96	96.11	0.0	False	2022	Kazakhstan: Ili intermountain	Ticks (H.marginatus)	22_YP66_IM	
+GCF_052374795.1	A	complete genome	4710891	4	4528907	0.96	96.16	0.0	False	2022	Kazakhstan: Ili intermountain	Fleas (X. gerbilli)	21_YP63_IM	
+GCF_052374815.1	A	complete genome	4710858	4	4528841	0.96	96.11	0.0	False	2022	Kazakhstan: Ili intermountain	Fleas (X. gerbilli)	20_YP71_IM	
+GCF_052374855.1	A	complete genome	4711055	4	4529176	0.96	96.11	0.0	False	2022	Kazakhstan: Ili intermountain	Fleas (X. gerbilli)	18_YP64_IM	
+GCF_052374875.1	A	complete genome	4710800	4	4528911	0.96	96.07	0.0	False	2022	Kazakhstan: Ili intermountain	Ticks (Hyalommamarginatus)	17_YP69_IM	
+GCF_052374895.1	A	complete genome	4710911	4	4528998	0.96	96.27	0.0	False	2022	Kazakhstan: Ili intermountain	Great gerbil (R. opimus)	16_YP53_IM	
+GCF_052374915.1	A	complete genome	4710655	4	4528775	0.96	96.27	0.0	False	2022	Kazakhstan: Ili intermountain	Great gerbil (R. opimus)	15_YP61_IM	
+GCF_052374935.1	A	complete genome	4710882	4	4528980	0.96	96.16	0.0	False	2021	Kazakhstan: Ili intermountain	Fleas (C. lamellifer)	14_YP75_IM	
+GCF_052374955.1	A	complete genome	4710818	4	4528876	0.96	96.12	0.0	False	2021	Kazakhstan: Ili intermountain	Fleas (Ctenophthalmusdolichus)	13_YP56_IM	
+GCF_052374975.1	A	complete genome	4710794	4	4528814	0.96	96.18	0.0	False	2021	Kazakhstan: Ili intermountain	Fleas (X. gerbilli)	12_YP54_IM	
+GCF_052374995.1	A	complete genome	4710956	4	4528974	0.96	96.27	0.0	False	2021	Kazakhstan: Ili intermountain	Great gerbil (R. opimus)	11_YP51_IM	
+GCF_052375015.1	A	complete genome	4710853	4	4528958	0.96	96.27	0.0	False	2021	Kazakhstan: Ili intermountain	Fleas (E. oschanini)	10_YP59_IM	
+GCF_052375035.1	A	complete genome	4710664	4	4528785	0.96	95.96	0.0	False	2021	Kazakhstan: Ili intermountain	Fleas	9_YP68_IM	
+GCF_052375045.1	A	complete genome	4710621	4	4528687	0.96	96.27	0.0	False	2020	Kazakhstan: Ili intermountain	Fleas	7_YP60_IM	
+GCF_052375075.1	A	complete genome	4710654	4	4528686	0.96	96.27	0.0	False	2019	Kazakhstan: Ili intermountain	Fleas (Echidnophagaoschanini)	82_YP1_IM	
+GCF_052375095.1	A	complete genome	4711109	4	4529147	0.96	96.13	0.0	False	2019	Kazakhstan: Ili intermountain	Great gerbil (R. opimus)	81_YP39_IM	
+GCF_052375105.1	A	complete genome	4710977	4	4528992	0.96	96.27	0.0	False	2019	Kazakhstan: Ili intermountain	Fleas (X. gerbilli)	80_YP4_IM	
+GCF_052375135.1	A	complete genome	4711179	4	4529255	0.96	96.27	0.0	False	2019	Kazakhstan: Ili intermountain	Fleas (X. gerbilli)	78_YP23_IM	
+GCF_052375155.1	A	complete genome	4710599	4	4528602	0.96	96.27	0.0	False	2019	Kazakhstan: Ili intermountain	Fleas (X. gerbilli)	77_YP25_IM	
+GCF_052375175.1	A	complete genome	4710888	4	4528898	0.96	96.27	0.0	False	2018	Kazakhstan: Ili intermountain	Fleas (X. gerbilli)	71_YP7_IM	
+GCF_052375195.1	A	complete genome	4710972	4	4528908	0.96	96.24	0.0	False	2018	Kazakhstan: Ili intermountain	Fleas (X. gerbilli)	70_YP27_IM	
+GCF_052375235.1	A	complete genome	4710494	4	4528498	0.96	95.96	0.0	False	2003	Kazakhstan: North Pre-Aral desert	Homo sapiens	44_YP7_NP	
+GCF_052375255.1	A	complete genome	4710894	4	4528804	0.96	96.27	0.0	False	2020	Kazakhstan: Kyzylkum desert	Fleas (Xenopsyllagerbilli)	98_YP8_KK	
+GCF_052375265.1	A	complete genome	4710614	4	4528611	0.96	96.27	0.0	False	2020	Kazakhstan: Kyzylkum desert	Fleas (C. lamellifer)	97_YP1_KK	
+GCF_052375295.1	A	complete genome	4710988	4	4528879	0.96	96.27	0.0	False	2020	Kazakhstan: Kyzylkum desert	Great gerbil (R. opimus)	96_YP2_KK	
+GCF_052375315.1	A	complete genome	4710659	4	4528605	0.96	96.27	0.0	False	2020	Kazakhstan: Kyzylkum desert	Great gerbil (R. opimus)	94_YP6_KK	
+GCF_052375335.1	A	complete genome	4710861	4	4528850	0.96	96.27	0.0	False	2020	Kazakhstan: Kyzylkum desert	Great gerbil (R. opimus)	95_YP11_KK	
+GCF_052375345.1	A	complete genome	4710988	4	4529043	0.96	96.57	0.0	False	2020	Kazakhstan: Kyzylkum desert	Fleas (Coptopsyllalamellifer)	93_YP24_KK	
+GCF_052375375.1	A	complete genome	4710937	4	4528984	0.96	96.19	0.0	False	2020	Kazakhstan: Kyzylkum desert	Great gerbil (R. opimus)	92_YP31_KK	
+GCF_052375395.1	A	complete genome	4710224	4	4528201	0.66	96.27	0.0	False	2018	Kazakhstan: Kyzylkum desert	Great gerbil (R. opimus)	74_YP19_KK	
+GCF_052375415.1	A	complete genome	4710896	4	4528831	0.96	95.96	0.0	False	2018	Kazakhstan: Kyzylkum desert	Great gerbil (R. opimus)	73_YP21_KK	
+GCF_052375435.1	A	complete genome	4711134	4	4529235	0.96	96.27	0.0	False	2017	Kazakhstan: Kyzylkum desert	Great gerbil (R. opimus)	64_YP37_KK	
+GCF_052375455.1	A	complete genome	4710865	4	4528774	0.96	96.27	0.0	False	2017	Kazakhstan: Kyzylkum desert	Siberian jerboa (Allactagasibirica)	65_YP4_KK	
+GCF_052375475.1	A	complete genome	4710470	4	4528604	0.96	96.27	0.0	False	2020	Kazakhstan: Kyzylkum desert	Great gerbil (R. opimus)	6_YP52_KK	
+GCF_052375495.1	A	complete genome	4711276	4	4529230	0.96	96.15	0.0	False	1964	Kazakhstan: Kyzylkum desert	Great gerbil (R. opimus)	29_YP8_KK	
+GCF_052375515.1	A	complete genome	4710760	4	4528786	0.96	96.27	0.0	False	2018	Kazakhstan: Pre-Aral-Karakum desert	Great gerbil (R. opimus)	72_YP5_PKK	
+GCF_052375535.1	A	complete genome	4710880	4	4528862	0.96	96.27	0.0	False	2020	Kazakhstan: Pre-Aral-Karakum desert	Fleas (X. skrjabini)	87_YP18_PKK	
+GCF_052375555.1	A	complete genome	4710818	4	4528900	0.96	96.27	0.0	False	2020	Kazakhstan: Pre-Aral-Karakum desert	Fleas (X. skrjabini)	5_YP57_PKK	
+GCF_052375615.1	A	complete genome	4710990	4	4528975	0.96	96.27	0.0	False	2020	Kazakhstan: Pre-Aral-Karakum desert	Great gerbil (R. opimus)	4_YP65_PKK	
+GCF_052375635.1	A	complete genome	4710431	4	4528477	0.96	96.27	0.0	False	2020	Kazakhstan: Aryskum-Daryalyktakyt desert	Great gerbil (R. opimus)	91_YP6_ADT	
+GCF_052375655.1	A	complete genome	4710796	4	4528856	0.96	96.27	0.0	False	2020	Kazakhstan: Aryskum-Daryalyktakyt desert	Fleas (X. skrjabini)	89_YP5_ADT	
+GCF_052375675.1	A	complete genome	4710657	4	4528701	0.96	96.27	0.0	False	2020	Kazakhstan: Aryskum-Daryalyktakyt desert	Fleas (N. laeviceps)	88_YP10_ADT	
+GCF_052375695.1	A	complete genome	4710997	4	4529040	0.96	96.27	0.0	False	2020	Kazakhstan: Aryskum-Daryalyktakyt desert	Fleas (X. skrjabini)	90_YP32_ADT	
+GCF_052375715.1	A	complete genome	4710942	4	4528927	0.96	96.27	0.0	False	2020	Kazakhstan: Aryskum-Daryalyktakyt desert	Great gerbil (R. opimus)	85_YP3_ADT	
+GCF_052375735.1	A	complete genome	4710626	4	4528562	0.96	96.27	0.0	False	2020	Kazakhstan: Aryskum-Daryalyktakyt desert	Great gerbil (R. opimus)	86_YP12_ADT	
+GCF_052375755.1	A	complete genome	4711041	4	4529013	0.96	96.27	0.0	False	2020	Kazakhstan: Aryskum-Daryalyktakyt desert	Fleas (X. skrjabini)	84_YP17_ADT	
+GCF_052375775.1	A	complete genome	4711116	4	4529088	0.96	95.96	0.0	False	2020	Kazakhstan: Aryskum-Daryalyktakyt desert	Great gerbil (R. opimus)	83_YP13_ADT	
+GCF_052375795.1	A	complete genome	4710771	4	4528852	0.96	96.27	0.0	False	2020	Kazakhstan: Aryskum-Daryalyktakyt desert	Fleas (Nosopsylluslaeviceps)	3_YP58_ADT	
+GCF_052375815.1	A	complete genome	4711178	4	4529265	0.96	96.22	0.0	False	2018	Kazakhstan: Aryskum-Daryalyktakyt desert	Fleas (X. skrjabini)	69_YP30_ADT	
+GCF_052375835.1	A	complete genome	4710756	4	4528819	0.96	96.27	0.0	False	2020	Kazakhstan: Aryskum-Daryalyktakyt desert	Fleas (Xenopsyllaskrjabini)	2_YP67_ADT	
+GCF_052375915.1	A	complete genome	4710973	4	4529019	0.96	96.27	0.0	False	2020	Kazakhstan: Aryskum-Daryalyktakyt desert	Great gerbil (Rhombomysopimus)	1_YP62_ADT	
+GCF_052446015.1	A	complete genome	4710637	4	4528650	0.96	96.27	0.0	False	2003	Kazakhstan: Pre-Alakol low mountains	Fleas (X. gerbilli)	45_YP8_PAK	
+GCF_053834845.1	A	complete genome	4798903	4	4614088	0.91	98.29	0.0	False	2019-04-29	Russia: The Altai Republic	Paramonopsyllus scalonae	115	
+GCF_053834855.1	A	complete genome	4827085	4	4648217	0.76	98.61	0.0	False	2020-11-25	Kyrgyzstan	Marmota baibacina	166	
+GCF_053834865.1	A	complete genome	4803444	4	4622336	0.79	98.85	0.0	False	2014-10-31	Russia: the Republic of Kalmykia	Meriones meridianus	2115	
+GCF_053834875.1	A	complete genome	4798651	4	4613836	0.91	98.29	0.0	False	2019-04-29	Russia:the Altai Republic	tenophyllus hirticrus	109	
+GCF_061402485.1	A	complete genome	4809847	3	4647252	0.96	98.65	0.0	False	2024	China	Apodemus chevrieri	YN24HQzi2	
+GCA_053570175.1	A	chromosome	4826355	70	2929731	0.76	98.91	0.0	False	2017	Kazakhstan: Pre-Balkhash desert	Great gerbil (R. opimus)	66_YP38_PB	
+GCA_053570195.1	A	chromosome	4832609	100	1418817	0.86	98.37	0.0	False	2003	Kazakhstan: Pre-Alakol low mountains	Great gerbil (R. opimus)	48_YP14_PAK	
+GCA_053570215.1	A	chromosome	4829033	35	1766153	0.86	98.74	0.0	False	1980	Kyrgyzstan: Talas high mountains	Fleas	37_YP35_TLH	
+GCA_053570235.1	A	chromosome	4819252	40	1461575	0.61	93.76	0.0	False	1950-06-14	Kyrgyzstan: Sarydzhaz high mountains	Marmot baibacina	31_YP74_SZ	
+GCA_053570255.1	A	chromosome	4821387	26	2773313	0.76	98.63	0.0	False	1983-06-20	Kyrgyzstan: Sarydzhaz high mountains	Marmot baibacina	31_YP37_SZ	
+GCA_053570275.1	A	chromosome	4824968	47	1622102	0.86	98.1	0.0	False	1973-04-04	Kazakhstan: Moyunkum	Meriones libycus	28_YP48_MKUM	
+GCA_053570295.1	A	chromosome	4845490	29	3182603	0.86	98.62	0.0	False	2003-08-17	Kazakhstan: Mangyshlak	Camelus bactrianus	23_YP47_MANG	
+GCA_053570315.1	A	chromosome	4833756	10	2524589	0.76	98.79	0.0	False	2003-08-01	Kazakhstan: Mangyshlak	Homo sapiens	23_YP48_MANG	
+GCA_053570335.1	A	chromosome	4831293	51	2522529	0.76	98.89	0.0	False	2003-07-30	Kazakhstan: Mangyshlak	Homo sapiens	23_YP45_MANG	
+GCA_053570355.1	A	chromosome	4825923	39	2508755	0.76	98.88	0.0	False	2003-08-27	Kazakhstan: North-Aral	Camelus bactrianus	21_YP14_NP	
+GCA_053570365.1	A	chromosome	4821035	80	3605070	0.86	98.25	0.0	False	1968-08-06	Kazakhstan: Ustyurt	Camelus bactrianus	20_YP79_UST	
+GCA_053570395.1	A	chromosome	4824747	10	3665333	0.86	98.23	0.0	False	1968-07-25	Kazakhstan: Ustyurt	Homo sapiens	20_YP78_UST	
+GCA_053570405.1	A	chromosome	4827544	38	3611622	0.86	98.93	0.0	False	1967-08-05	Kazakhstan: Pre-Ustyurt	Camelus bactrianus	19_YP08_PrU	
+GCA_053570445.1	A	chromosome	4833023	53	2710580	0.76	98.67	0.0	False	2007-06-26	Kazakhstan: Volga-Ural sandy	Meriones meridianus	16_YP27_VU	
+GCA_062019011.1	A	complete genome	4794750	4	4622798	0.86	98.69	0.0	False	2025-05-18	China:Yunnan Province,Jianchuan County	Rodents	JC25	
+GCF_001188735.1	A	chromosome	4684080	5	2573794	0.76	98.98	0.0	False		Azerbaijan: Apsheron Pen.		1045	
+GCF_001188695.1	A	complete genome	4733482	3	4524943	0.91	98.29	0.0	False		Georgia: Ninotsminda		1412	
+GCF_001188935.1	A	complete genome	4736923	3	4528383	0.86	98.38	0.0	False		Georgia: Ninotsminda		1413	
+GCF_001188715.1	A	complete genome	4738644	3	4530125	0.86	98.78	0.0	False		Armenia: Shirak Province		1522	
+GCF_001188815.1	A	complete genome	4672740	4	4491639	0.76	98.94	0.0	False		Russia: Kabardino-Balkaria		2944	
+GCF_001188795.1	A	complete genome	4736090	3	4526841	0.91	98.27	0.0	False		Georgia: Ninotsminda		3067	
+GCF_001188775.1	A	complete genome	4735667	3	4523206	0.86	98.38	0.0	False		Georgia: Ninotsminda		3770	
+GCF_001188675.1	A	chromosome	4781906	4	3229469	0.96	98.69	0.0	False		Kyrgyzstan		790	
+GCF_001188755.1	A	complete genome	4675987	3	4467447	0.86	98.05	0.0	False		Georgia: Ninotsminda		8787	
+GCF_000222975.1	A	complete genome	4658411	3	4553770	0.86	98.69	0.0	True				A1122	
+GCF_000834755.1	A	complete genome	4674565	3	4569625	0.86	98.28	0.0	False	1939	USA: California		A1122	
+GCF_000018805.1	A	complete genome	4687014	3	4504254	0.9	96.76	0.0	True				Angola	
+GCF_000834845.1	A	complete genome	4674610	4	4501786	0.75	96.91	0.0	False				Angola	
+GCF_000013825.1	A	complete genome	4879836	4	4702289	0.96	97.7	0.0	True				Antiqua	
+GCF_000834825.1	A	complete genome	4884396	4	4708024	1.01	97.42	0.0	False	1965	Republic of the Congo		Antiqua	
+GCF_000186725.1	A	complete genome	4709501	4	4532063	0.96	98.17	0.0	False		China	Homo sapiens	Harbin 35	
+GCF_000007885.1	A	complete genome	4803217	5	4595065	0.96	98.49	0.0	True				91001	
+GCF_000009065.1	A	complete genome	4829855	4	4653728	0.86	98.69	0.0	True				CO92	
+GCF_001293415.1	A	complete genome	4722852	3	4556337	0.96	98.64	0.0	False	1992	USA: Colorado		CO92	
+GCF_000022805.1	A	complete genome	4812922	4	4640720	0.93	94.64	0.0	False				D106004	
+GCF_000022825.1	A	complete genome	4802263	4	4626944	0.91	92.26	0.0	False				D182038	
+GCF_000590535.2	A	complete genome	4553687	1	4553687	0.76	98.16	0.0	False	1941	Russia: Research Institute of Epidemiology and Hygiene		EV NIIEG	
+GCF_024758685.1	A	complete genome	4792816	4	4553685	0.96	98.19	0.0	False	2020-07-23	China	rodent	EV76-CN	
+GCF_000006645.1	A	complete genome	4701745	2	4600755	0.96	98.76	0.0	False				KIM10+	
+GCA_000006645.1	A	complete genome	4701745	2	4600755	0.96	98.76	0.0	True				KIM	
+GCF_000013805.1	A	complete genome	4646286	3	4534590	0.86	98.95	0.0	True				Nepal516	
+GCF_000016445.1	A	complete genome	4725862	3	4517345	0.96	98.71	0.0	True				Pestoides F	
+GCF_000834315.1	A	complete genome	4728318	3	4519828	0.86	98.71	0.0	False		USSR		Pestoides F	
+GCF_000834985.1	A	complete genome	4738142	3	4529728	0.86	98.45	0.0	False		USSR		Pestoides G	
+GCF_000834925.1	A	complete genome	4794427	4	4607660	0.86	98.41	0.0	False		USSR		Pestoides B	
+GCF_009295985.1	A	complete genome	4783760	5	4596548	0.86	99.25	0.0	False	2000-07-27			SCPM-O-B-6530	
+GCF_000022845.1	A	complete genome	4725788	4	4553586	1.39	97.09	0.0	False				Z176003	

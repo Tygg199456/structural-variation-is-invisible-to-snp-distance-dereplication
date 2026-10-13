@@ -1,0 +1,7 @@
+name: pastml
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - pastml=1.9.34

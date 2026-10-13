@@ -1,0 +1,256 @@
+accession	dist_to_reference	called_frac	dnadiff_aligned_pct	checkm_completeness	strain	geo_loc_name	predicted_called_frac	residual	residual_z	flag
+GCF_015337445.1	237	0.7887	0.0	98.89	KM 567	Russia	0.9404	-0.1517	-11.43	QC_OUTLIER
+GCF_015337085.2	233	0.7914	0.0	96.63	C-792	Russia	0.9406	-0.1492	-11.25	QC_OUTLIER
+GCF_015337285.1	238	0.7938	0.0	99.25	C-783	Russia	0.9404	-0.1466	-11.07	QC_OUTLIER
+GCF_009296005.1	232	0.8275	0.0	98.77	SCPM-O-B-6291 (C-25)	Russia: Chechnya	0.9406	-0.1131	-8.71	QC_OUTLIER
+GCF_000590535.2	50	0.8344	0.0	98.16	EV NIIEG	Russia: Research Institute of Epidemiology and Hygiene	0.9466	-0.1122	-8.64	QC_OUTLIER
+GCF_000013805.1	208	0.8384	0.0	98.95	Nepal516		0.9414	-0.103	-7.99	QC_OUTLIER
+GCF_015337825.2	237	0.8481	0.0	97.82	M-1770	Russia	0.9404	-0.0923	-7.24	QC_OUTLIER
+GCF_015336695.1	233	0.8487	0.0	98.67	M2086	Russia	0.9406	-0.0919	-7.21	QC_OUTLIER
+GCF_015159615.2	236	0.8506	0.0	98.69	14D	Russia: Tersko-Sunzha low-mountain plague focus	0.9405	-0.0899	-7.07	QC_OUTLIER
+GCF_015336085.1	238	0.8505	0.0	98.92	C-781	Russia	0.9404	-0.0899	-7.07	QC_OUTLIER
+GCF_015337645.1	254	0.8512	0.0	98.33	M-1482	Russia	0.9399	-0.0887	-6.98	QC_OUTLIER
+GCF_015338205.1	599	0.8457	0.0	97.16	C-830	Russia	0.9284	-0.0827	-6.57	QC_OUTLIER
+GCF_015336465.1	189	0.8596	0.0	98.55	I-1252	Russia	0.942	-0.0824	-6.54	QC_OUTLIER
+GCF_000222975.1	47	0.8774	0.0	98.69	A1122		0.9467	-0.0693	-5.62	QC_OUTLIER
+GCF_046895375.1	238	0.8724	0.0	98.89	2506	China:Xinjiang	0.9404	-0.068	-5.53	QC_OUTLIER
+GCF_000834755.1	41	0.8789	0.0	98.28	A1122	USA: California	0.9469	-0.068	-5.53	QC_OUTLIER
+GCF_015336865.1	398	0.8674	0.0	98.41	M-1974	Russia	0.9351	-0.0677	-5.51	QC_OUTLIER
+GCF_001188815.1	244	0.8775	0.0	98.94	2944	Russia: Kabardino-Balkaria	0.9402	-0.0627	-5.15	QC_OUTLIER
+GCF_001188735.1	253	0.8785	0.0	98.98	1045	Azerbaijan: Apsheron Pen.	0.9399	-0.0614	-5.06	QC_OUTLIER
+GCF_046895415.1	203	0.8814	0.0	98.6	CMCC92010	China:Inner Mongolia	0.9416	-0.0602	-4.97	QC_OUTLIER
+GCF_046895705.1	206	0.8816	0.0	98.84	90028	China:Inner Mongolia	0.9415	-0.0599	-4.95	QC_OUTLIER
+GCF_046895755.1	212	0.8814	0.0	98.83	99002	China:Inner Mongolia	0.9413	-0.0599	-4.95	QC_OUTLIER
+GCF_046895735.1	214	0.8823	0.0	98.93	90054	China:Inner Mongolia	0.9412	-0.0589	-4.88	QC_OUTLIER
+GCF_046895725.1	216	0.8826	0.0	98.83	99063	China:Inner Mongolia	0.9411	-0.0585	-4.86	QC_OUTLIER
+GCF_046895635.1	211	0.8831	0.0	98.95	140020	China:Ningxia	0.9413	-0.0582	-4.84	QC_OUTLIER
+GCF_046895715.1	215	0.8829	0.0	98.83	99008	China:Inner Mongolia	0.9412	-0.0583	-4.84	QC_OUTLIER
+GCF_046895665.1	212	0.8831	0.0	98.93	140003	China:Ningxia	0.9413	-0.0582	-4.83	QC_OUTLIER
+GCF_046895745.1	214	0.8831	0.0	98.93	98008	China:Inner Mongolia	0.9412	-0.0581	-4.83	QC_OUTLIER
+GCF_046895775.1	204	0.8836	0.0	98.69	124027	China:Ningxia	0.9415	-0.0579	-4.82	QC_OUTLIER
+GCF_046895795.1	205	0.8836	0.0	98.98	40027	China:Xinjiang	0.9415	-0.0579	-4.81	QC_OUTLIER
+GCF_046895615.1	210	0.8836	0.0	98.84	140068	China:Ningxia	0.9413	-0.0577	-4.8	QC_OUTLIER
+GCF_046895805.1	204	0.884	0.0	98.99	47005	China:Xinjiang	0.9415	-0.0575	-4.79	QC_OUTLIER
+GCF_046895695.1	218	0.8846	0.0	98.99	146004	China:Inner Mongolia	0.9411	-0.0565	-4.71	QC_OUTLIER
+GCF_000006645.1	251	0.8839	0.0	98.76	KIM10+		0.94	-0.0561	-4.69	QC_OUTLIER
+GCA_000006645.1	251	0.8839	0.0	98.76	KIM		0.94	-0.0561	-4.69	QC_OUTLIER
+GCF_015338045.2	217	0.8855	0.0	97.73	M2085	Russia	0.9411	-0.0556	-4.65	QC_OUTLIER
+GCF_015336265.1	175	0.8889	0.0	97.81	M2029	Russia	0.9425	-0.0536	-4.51	QC_OUTLIER
+GCF_046895835.1	203	0.8888	0.0	98.78	90057	China:Inner Mongolia	0.9416	-0.0528	-4.45	QC_OUTLIER
+GCF_046895855.1	206	0.8908	0.0	98.84	95033	China:Inner Mongolia	0.9415	-0.0507	-4.3	QC_OUTLIER
+GCF_046895915.1	195	0.8916	0.0	98.83	96005	China:Inner Mongolia	0.9418	-0.0502	-4.27	QC_OUTLIER
+GCF_000834885.1	421	0.889	0.0	97.91	Nicholisk 41	China: Manchuria	0.9343	-0.0453	-3.93	QC_OUTLIER
+GCF_000834275.1	448	0.8891	0.0	96.72	Harbin35	China: Manchuria	0.9334	-0.0443	-3.86	QC_OUTLIER
+GCF_000186725.1	466	0.8888	0.0	98.17	Harbin 35	China	0.9328	-0.044	-3.84	QC_OUTLIER
+GCF_009295985.1	244	0.9001	0.0	99.25	SCPM-O-B-6530		0.9402	-0.0401	-3.56	QC_OUTLIER
+GCF_000022845.1	84	0.9157	0.0	97.09	Z176003		0.9455	-0.0298	-2.83	on_trend
+GCF_046895425.1	649	0.8974	0.0	96.94	CMCC05009	China:Qinghai	0.9268	-0.0294	-2.8	on_trend
+GCF_039640455.1	180	0.9147	0.0	98.61	8	Kyrgyzstan: Issyk-Kul region, Sarydzhas high mountain plague focus	0.9423	-0.0276	-2.68	on_trend
+GCF_039640465.1	180	0.9148	0.0	98.46	197_15	Kyrgyzstan: Upper-Naryn high-mountain plague focus, Ak-Shyyrak section	0.9423	-0.0275	-2.67	on_trend
+GCF_039640475.1	181	0.9148	0.0	98.46	177	Kyrgyzstan: Upper-Naryn high-mountain plague focus, Karakol Department, Batyr-Beshik area	0.9423	-0.0275	-2.67	on_trend
+GCF_039640435.1	172	0.9157	0.0	98.41	5M	Kyrgyzstan: Upper-Naryn high-mountain plague focus, Kyrgyz SSR, Dzhety-Oguz Syrts, Przhevalsky Plague Control Department	0.9426	-0.0269	-2.63	on_trend
+GCF_009295945.1	178	0.9162	0.0	98.99	SCPM-O-DNA-18 (I-3113)	Russia: Tuva	0.9424	-0.0262	-2.58	on_trend
+GCF_046895475.1	156	0.9173	0.0	98.68	2330	China:Xinjiang	0.9431	-0.0258	-2.55	on_trend
+GCF_046895555.1	165	0.9183	0.0	98.89	770432	China:Qinghai	0.9428	-0.0245	-2.46	on_trend
+GCF_024758685.1	53	0.9257	0.0	98.19	EV76-CN	China	0.9465	-0.0208	-2.2	on_trend
+GCF_001293415.1	13	0.9311	0.0	98.64	CO92	USA: Colorado	0.9478	-0.0167	-1.91	on_trend
+GCF_001693595.1	27	0.9336	0.0	97.55	Cadman	USA: Gallup, NM	0.9474	-0.0138	-1.71	on_trend
+GCF_001188755.1	703	0.918	0.0	98.05	8787	Georgia: Ninotsminda	0.925	-0.007	-1.23	on_trend
+GCF_053834865.1	246	0.9393	0.0	98.85	2115	Russia: the Republic of Kalmykia	0.9401	-0.0008	-0.79	on_trend
+GCF_000834845.1	1117	0.9106	0.0	96.91	Angola		0.9113	-0.0007	-0.78	on_trend
+GCF_000018805.1	1117	0.9107	0.0	96.76	Angola		0.9113	-0.0006	-0.77	on_trend
+GCF_046895605.1	213	0.9417	0.0	98.77	129024	China:Ningxia	0.9412	0.0005	-0.7	on_trend
+GCF_000970105.1	244	0.9411	0.0	98.84	KIM5	USA: Kentucky	0.9402	0.0009	-0.67	on_trend
+GCF_046895645.1	212	0.9421	0.0	98.77	140011	China:Ningxia	0.9413	0.0008	-0.67	on_trend
+GCF_046895585.1	217	0.9428	0.0	98.77	F020032	China:Ningxia	0.9411	0.0017	-0.61	on_trend
+GCF_046895785.1	212	0.9444	0.0	98.99	47002	China:Xinjiang	0.9413	0.0031	-0.51	on_trend
+GCF_046895675.1	216	0.9444	0.0	98.78	160009	China:Shaanxi	0.9411	0.0033	-0.5	on_trend
+GCF_046895765.1	217	0.9446	0.0	98.99	74002	China:Gansu	0.9411	0.0035	-0.49	on_trend
+GCF_052374175.1	265	0.9429	0.0	96.22	42_YP10_UE	Kazakhstan: Ural-Embi desert	0.9395	0.0034	-0.49	on_trend
+GCF_052375315.1	273	0.9429	0.0	96.27	94_YP6_KK	Kazakhstan: Kyzylkum desert	0.9392	0.0037	-0.48	on_trend
+GCF_046895655.1	213	0.945	0.0	98.77	120070	China:Hebei	0.9412	0.0038	-0.47	on_trend
+GCF_046895685.1	219	0.9454	0.0	98.99	147014	China:Inner Mongolia	0.941	0.0044	-0.43	on_trend
+GCF_046895625.1	219	0.9455	0.0	98.99	140037	China:Ningxia	0.941	0.0045	-0.42	on_trend
+GCF_000834315.1	697	0.9296	0.0	98.71	Pestoides F	USSR	0.9252	0.0044	-0.42	on_trend
+GCF_052375755.1	277	0.9443	0.0	96.27	84_YP17_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert	0.9391	0.0052	-0.37	on_trend
+GCF_052374575.1	281	0.9443	0.0	96.18	50_YP23_PB	Kazakhstan: Pre-Balkhash desert	0.939	0.0053	-0.36	on_trend
+GCF_000016445.1	701	0.9305	0.0	98.71	Pestoides F		0.9251	0.0054	-0.35	on_trend
+GCF_052375775.1	285	0.9445	0.0	95.96	83_YP13_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert	0.9388	0.0057	-0.33	on_trend
+GCF_052374635.1	324	0.9436	0.0	95.18	30_YP17_PB	Kazakhstan: Pre-Balkhash desert	0.9375	0.0061	-0.31	on_trend
+GCF_052375435.1	277	0.9451	0.0	96.27	64_YP37_KK	Kazakhstan: Kyzylkum desert	0.9391	0.006	-0.31	on_trend
+GCF_052374495.1	333	0.9439	0.0	95.04	68_YP15_PB	Kazakhstan: Pre-Balkhash desert	0.9372	0.0067	-0.27	on_trend
+GCF_052374695.1	295	0.9451	0.0	96.16	54_YP2_IM	Kazakhstan: Ili intermountain	0.9385	0.0066	-0.27	on_trend
+GCF_052374195.1	280	0.9458	0.0	96.19	33_YP16_UE	Kazakhstan: Ural-Embi desert	0.939	0.0068	-0.25	on_trend
+GCF_052374335.1	272	0.9462	0.0	96.25	52_YP18_PAK	Kazakhstan: Pre-Alakol low mountains	0.9393	0.0069	-0.25	on_trend
+GCF_052374355.1	291	0.9455	0.0	96.27	51_YP1_PAK	Kazakhstan: Pre-Alakol low mountains	0.9386	0.0069	-0.25	on_trend
+GCF_052374595.1	301	0.9452	0.0	96.02	40_YP4_PB	Kazakhstan: Pre-Balkhash desert	0.9383	0.0069	-0.25	on_trend
+GCF_052374375.1	287	0.9458	0.0	96.24	49_YP5_PAK	Kazakhstan: Pre-Alakol low mountains	0.9388	0.007	-0.24	on_trend
+GCF_052375515.1	292	0.9457	0.0	96.27	72_YP5_PKK	Kazakhstan: Pre-Aral-Karakum desert	0.9386	0.0071	-0.23	on_trend
+GCF_046895825.1	199	0.9494	0.0	98.69	83007	China:Yunnan	0.9417	0.0077	-0.19	on_trend
+GCF_052374235.1	283	0.9466	0.0	96.27	56_YP12_TK	Kazakhstan: Tau-Kum desert	0.9389	0.0077	-0.19	on_trend
+GCF_052374655.1	288	0.9466	0.0	96.18	60_YP24_IM	Kazakhstan: Ili intermountain	0.9387	0.0079	-0.18	on_trend
+GCF_000834985.1	697	0.9332	0.0	98.45	Pestoides G	USSR	0.9252	0.008	-0.17	on_trend
+GCF_052375345.1	289	0.9468	0.0	96.57	93_YP24_KK	Kazakhstan: Kyzylkum desert	0.9387	0.0081	-0.16	on_trend
+GCF_052374465.1	305	0.9464	0.0	96.25	75_YP26_PB	Kazakhstan: Pre-Balkhash desert	0.9382	0.0082	-0.15	on_trend
+GCF_052375535.1	293	0.947	0.0	96.27	87_YP18_PKK	Kazakhstan: Pre-Aral-Karakum desert	0.9386	0.0084	-0.14	on_trend
+GCF_052375195.1	299	0.9471	0.0	96.24	70_YP27_IM	Kazakhstan: Ili intermountain	0.9384	0.0087	-0.12	on_trend
+GCF_003798205.1	198	0.9506	0.0	98.54	FDAARGOS_603	Japan	0.9417	0.0089	-0.11	on_trend
+GCF_052374415.1	309	0.9469	0.0	95.96	46_YP29_PAK	Kazakhstan: Pre-Alakol low mountains	0.938	0.0089	-0.11	on_trend
+GCF_046895875.1	195	0.9509	0.0	98.69	55019	China:Inner Mongolia	0.9418	0.0091	-0.09	on_trend
+GCF_052375095.1	287	0.9479	0.0	96.13	81_YP39_IM	Kazakhstan: Ili intermountain	0.9388	0.0091	-0.09	on_trend
+GCF_052375235.1	279	0.9482	0.0	95.96	44_YP7_NP	Kazakhstan: North Pre-Aral desert	0.939	0.0092	-0.09	on_trend
+GCF_001188695.1	710	0.9339	0.0	98.29	1412	Georgia: Ninotsminda	0.9248	0.0091	-0.09	on_trend
+GCF_001188775.1	713	0.9338	0.0	98.38	3770	Georgia: Ninotsminda	0.9247	0.0091	-0.09	on_trend
+GCF_052374215.1	270	0.9486	0.0	96.27	58_YP9_TK	Kazakhstan: Tau-Kum desert	0.9393	0.0093	-0.08	on_trend
+GCF_052375105.1	292	0.9479	0.0	96.27	80_YP4_IM	Kazakhstan: Ili intermountain	0.9386	0.0093	-0.08	on_trend
+GCF_052375155.1	284	0.9482	0.0	96.27	77_YP25_IM	Kazakhstan: Ili intermountain	0.9389	0.0093	-0.08	on_trend
+GCF_052375715.1	297	0.9477	0.0	96.27	85_YP3_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert	0.9384	0.0093	-0.08	on_trend
+GCF_046895975.1	205	0.9509	0.0	98.99	94007	China:Inner Mongolia	0.9415	0.0094	-0.07	on_trend
+GCF_052375415.1	285	0.9482	0.0	95.96	73_YP21_KK	Kazakhstan: Kyzylkum desert	0.9388	0.0094	-0.07	on_trend
+GCF_052375295.1	292	0.9481	0.0	96.27	96_YP2_KK	Kazakhstan: Kyzylkum desert	0.9386	0.0095	-0.06	on_trend
+GCF_046895945.1	203	0.9513	0.0	98.99	94012	China:Inner Mongolia	0.9416	0.0097	-0.05	on_trend
+GCF_052374675.1	282	0.9487	0.0	96.27	59_YP21_IM	Kazakhstan: Ili intermountain	0.9389	0.0098	-0.05	on_trend
+GCF_052375815.1	297	0.9482	0.0	96.22	69_YP30_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert	0.9384	0.0098	-0.05	on_trend
+GCF_046895935.1	197	0.9516	0.0	98.69	54009	China:Jilin	0.9418	0.0098	-0.04	on_trend
+GCF_052375075.1	288	0.9486	0.0	96.27	82_YP1_IM	Kazakhstan: Ili intermountain	0.9387	0.0099	-0.04	on_trend
+GCF_052375175.1	300	0.9482	0.0	96.27	71_YP7_IM	Kazakhstan: Ili intermountain	0.9383	0.0099	-0.04	on_trend
+GCF_052375335.1	305	0.948	0.0	96.27	95_YP11_KK	Kazakhstan: Kyzylkum desert	0.9382	0.0098	-0.04	on_trend
+GCF_001188935.1	706	0.9348	0.0	98.38	1413	Georgia: Ninotsminda	0.9249	0.0099	-0.04	on_trend
+GCF_046895965.1	199	0.9517	0.0	98.69	51012	China:Jilin	0.9417	0.01	-0.03	on_trend
+GCF_052374255.1	287	0.9487	0.0	96.27	79_YP9_MOK	Kazakhstan: Muyun-Kum desert	0.9388	0.0099	-0.03	on_trend
+GCF_052374445.1	303	0.9483	0.0	95.84	41_YP26_PAK	Kazakhstan: Pre-Alakol low mountains	0.9382	0.0101	-0.03	on_trend
+GCF_052375495.1	303	0.9482	0.0	96.15	29_YP8_KK	Kazakhstan: Kyzylkum desert	0.9382	0.01	-0.03	on_trend
+GCF_052375675.1	292	0.9487	0.0	96.27	88_YP10_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert	0.9386	0.0101	-0.02	on_trend
+GCF_046895865.1	209	0.9516	0.0	98.69	70016	China:Gansu	0.9414	0.0102	-0.01	on_trend
+GCF_052374155.1	321	0.9479	0.0	96.02	43_YP6_UE	Kazakhstan: Ural-Embi desert	0.9376	0.0103	-0.01	on_trend
+GCF_052375255.1	310	0.9483	0.0	96.27	98_YP8_KK	Kazakhstan: Kyzylkum desert	0.938	0.0103	-0.01	on_trend
+GCF_046895885.1	200	0.952	0.0	98.69	55014	China:Inner Mongolia	0.9417	0.0103	-0.0	on_trend
+GCF_046895985.1	199	0.9521	0.0	98.69	51022	China:Jilin	0.9417	0.0104	0.0	on_trend
+GCF_052375455.1	303	0.9486	0.0	96.27	65_YP4_KK	Kazakhstan: Kyzylkum desert	0.9382	0.0104	-0.0	on_trend
+GCF_039640405.1	165	0.9534	0.0	96.04	A1694	Kyrgyzstan: Upper-Naryn high-mountain plague focus, Przhevalsky Plague Control De-partment	0.9428	0.0106	0.01	on_trend
+GCF_046895955.1	211	0.9519	0.0	98.69	50010	China:Jilin	0.9413	0.0106	0.01	on_trend
+GCF_001188795.1	713	0.9352	0.0	98.27	3067	Georgia: Ninotsminda	0.9247	0.0105	0.01	on_trend
+GCF_046895925.1	207	0.9521	0.0	98.69	60007	China:Jilin	0.9414	0.0107	0.02	on_trend
+GCF_046895815.1	207	0.9522	0.0	98.93	96011	China:Inner Mongolia	0.9414	0.0108	0.03	on_trend
+GCF_052375265.1	308	0.9489	0.0	96.27	97_YP1_KK	Kazakhstan: Kyzylkum desert	0.9381	0.0108	0.03	on_trend
+GCF_052375655.1	290	0.9495	0.0	96.27	89_YP5_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert	0.9387	0.0108	0.03	on_trend
+GCF_046895905.1	211	0.9522	0.0	98.62	50018	China:Jilin	0.9413	0.0109	0.04	on_trend
+GCF_052375135.1	299	0.9493	0.0	96.27	78_YP23_IM	Kazakhstan: Ili intermountain	0.9384	0.0109	0.04	on_trend
+GCF_001188675.1	163	0.9538	0.0	98.69	790	Kyrgyzstan	0.9429	0.0109	0.04	on_trend
+GCF_052374315.1	361	0.9475	0.0	94.93	32_YP32_MOK	Kazakhstan: Muyun-Kum desert	0.9363	0.0112	0.05	on_trend
+GCF_052374935.1	298	0.9496	0.0	96.16	14_YP75_IM	Kazakhstan: Ili intermountain	0.9384	0.0112	0.05	on_trend
+GCF_052375735.1	288	0.9499	0.0	96.27	86_YP12_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert	0.9387	0.0112	0.05	on_trend
+GCF_052375915.1	288	0.9498	0.0	96.27	1_YP62_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert	0.9387	0.0111	0.05	on_trend
+GCF_001188715.1	713	0.9358	0.0	98.78	1522	Armenia: Shirak Province	0.9247	0.0111	0.05	on_trend
+GCF_009295965.1	217	0.9524	0.0	98.61	SCPM-O-B-5935 (I-1996)	Russia: Chita region	0.9411	0.0113	0.06	on_trend
+GCF_046895895.1	208	0.9526	0.0	98.68	50008	China:Jilin	0.9414	0.0112	0.06	on_trend
+GCF_052374275.1	293	0.9499	0.0	96.27	76_YP20_MOK	Kazakhstan: Muyun-Kum desert	0.9386	0.0113	0.06	on_trend
+GCF_052374535.1	300	0.9496	0.0	96.27	62_YP33_PB	Kazakhstan: Pre-Balkhash desert	0.9383	0.0113	0.06	on_trend
+GCF_052374295.1	303	0.9496	0.0	96.22	55_YP20_MOK	Kazakhstan: Muyun-Kum desert	0.9382	0.0114	0.07	on_trend
+GCF_052446015.1	302	0.9497	0.0	96.27	45_YP8_PAK	Kazakhstan: Pre-Alakol low mountains	0.9383	0.0114	0.07	on_trend
+GCF_052374715.1	315	0.9495	0.0	96.11	25_YP73_IM	Kazakhstan: Ili intermountain	0.9378	0.0117	0.09	on_trend
+GCF_052375395.1	305	0.9499	0.0	96.27	74_YP19_KK	Kazakhstan: Kyzylkum desert	0.9382	0.0117	0.09	on_trend
+GCF_052374515.1	287	0.9506	0.0	96.27	67_YP34_PB	Kazakhstan: Pre-Balkhash desert	0.9388	0.0118	0.1	on_trend
+GCF_052375615.1	305	0.9501	0.0	96.27	4_YP65_PKK	Kazakhstan: Pre-Aral-Karakum desert	0.9382	0.0119	0.11	on_trend
+GCF_052375695.1	294	0.9505	0.0	96.27	90_YP32_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert	0.9385	0.012	0.11	on_trend
+GCF_046895845.1	210	0.9536	0.0	98.99	95037	China:Inner Mongolia	0.9413	0.0123	0.13	on_trend
+GCF_052374615.1	304	0.9504	0.0	96.27	63_YP2_PB	Kazakhstan: Pre-Balkhash desert	0.9382	0.0122	0.13	on_trend
+GCF_052375635.1	379	0.948	0.0	96.27	91_YP6_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert	0.9357	0.0123	0.13	on_trend
+GCF_052375795.1	304	0.9505	0.0	96.27	3_YP58_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert	0.9382	0.0123	0.13	on_trend
+GCF_000834905.1	54	0.9589	0.0	98.84	Java9	Indonesia	0.9465	0.0124	0.14	on_trend
+GCF_052374895.1	303	0.9506	0.0	96.27	16_YP53_IM	Kazakhstan: Ili intermountain	0.9382	0.0124	0.14	on_trend
+GCF_052375555.1	297	0.951	0.0	96.27	5_YP57_PKK	Kazakhstan: Pre-Aral-Karakum desert	0.9384	0.0126	0.15	on_trend
+GCF_046895395.1	196	0.9546	0.0	98.95	2	China:Qinghai	0.9418	0.0128	0.17	on_trend
+GCF_052374855.1	308	0.9512	0.0	96.11	18_YP64_IM	Kazakhstan: Ili intermountain	0.9381	0.0131	0.19	on_trend
+GCF_052375015.1	299	0.9516	0.0	96.27	10_YP59_IM	Kazakhstan: Ili intermountain	0.9384	0.0132	0.2	on_trend
+GCF_052374395.1	335	0.9506	0.0	95.96	47_YP36_PAK	Kazakhstan: Pre-Alakol low mountains	0.9372	0.0134	0.21	on_trend
+GCF_052375045.1	307	0.9516	0.0	96.27	7_YP60_IM	Kazakhstan: Ili intermountain	0.9381	0.0135	0.22	on_trend
+GCF_052375835.1	304	0.9517	0.0	96.27	2_YP67_ADT	Kazakhstan: Aryskum-Daryalyktakyt desert	0.9382	0.0135	0.22	on_trend
+GCF_052374555.1	305	0.9518	0.0	96.57	61_YP3_PB	Kazakhstan: Pre-Balkhash desert	0.9382	0.0136	0.23	on_trend
+GCF_015190655.1	201	0.9555	0.0	98.99	S19960127	China:Tibet	0.9416	0.0139	0.24	on_trend
+GCF_052374875.1	327	0.9514	0.0	96.07	17_YP69_IM	Kazakhstan: Ili intermountain	0.9374	0.014	0.25	on_trend
+GCF_052374915.1	299	0.9524	0.0	96.27	15_YP61_IM	Kazakhstan: Ili intermountain	0.9384	0.014	0.25	on_trend
+GCF_052375375.1	308	0.952	0.0	96.19	92_YP31_KK	Kazakhstan: Kyzylkum desert	0.9381	0.0139	0.25	on_trend
+GCF_052374055.1	192	0.9561	0.0	95.9	31_YP22_SZ	Kyrgyzstan: Sarydzhaz high mountains	0.9419	0.0142	0.27	on_trend
+GCF_052374775.1	319	0.952	0.0	96.11	22_YP66_IM	Kazakhstan: Ili intermountain	0.9377	0.0143	0.27	on_trend
+GCF_052374735.1	324	0.952	0.0	96.11	24_YP70_IM	Kazakhstan: Ili intermountain	0.9375	0.0145	0.28	on_trend
+GCF_052375475.1	312	0.9523	0.0	96.27	6_YP52_KK	Kazakhstan: Kyzylkum desert	0.9379	0.0144	0.28	on_trend
+GCF_052374995.1	307	0.9528	0.0	96.27	11_YP51_IM	Kazakhstan: Ili intermountain	0.9381	0.0147	0.3	on_trend
+GCF_052374795.1	298	0.9532	0.0	96.16	21_YP63_IM	Kazakhstan: Ili intermountain	0.9384	0.0148	0.31	on_trend
+GCF_052374955.1	319	0.9527	0.0	96.12	13_YP56_IM	Kazakhstan: Ili intermountain	0.9377	0.015	0.32	on_trend
+GCF_052375035.1	313	0.9529	0.0	95.96	9_YP68_IM	Kazakhstan: Ili intermountain	0.9379	0.015	0.32	on_trend
+GCF_052374755.1	317	0.9533	0.0	96.16	23_YP72_IM	Kazakhstan: Ili intermountain	0.9378	0.0155	0.36	on_trend
+GCF_052374135.1	188	0.9577	0.0	96.27	26_YP30_SZ	Kyrgyzstan: Sarydzhaz high mountains	0.9421	0.0156	0.37	on_trend
+GCF_052374815.1	317	0.9535	0.0	96.11	20_YP71_IM	Kazakhstan: Ili intermountain	0.9378	0.0157	0.37	on_trend
+GCF_052374975.1	315	0.9535	0.0	96.18	12_YP54_IM	Kazakhstan: Ili intermountain	0.9378	0.0157	0.37	on_trend
+GCF_052374095.1	194	0.9582	0.0	95.98	28_YP29_SZ	Kyrgyzstan: Sarydzhaz high mountains	0.9419	0.0163	0.42	on_trend
+GCF_003798345.1	422	0.9509	0.0	98.34	FDAARGOS_602	USSR	0.9343	0.0166	0.44	on_trend
+GCF_052374115.1	182	0.9591	0.0	96.27	27_YP31_SZ	Kyrgyzstan: Sarydzhaz high mountains	0.9422	0.0169	0.45	on_trend
+GCA_053570195.1	262	0.9569	0.0	98.37	48_YP14_PAK	Kazakhstan: Pre-Alakol low mountains	0.9396	0.0173	0.49	on_trend
+GCF_046895455.1	401	0.9549	0.0	96.47	9	China:Qinghai	0.935	0.0199	0.67	on_trend
+GCA_053570355.1	267	0.9602	0.0	98.88	21_YP14_NP	Kazakhstan: North-Aral	0.9394	0.0208	0.73	on_trend
+GCF_052373955.1	273	0.9602	0.0	98.91	8_YP55_NP	Kazakhstan: North Pre-Aral desert	0.9392	0.021	0.74	on_trend
+GCF_053834875.1	414	0.9555	0.0	98.29	109	Russia:the Altai Republic	0.9346	0.0209	0.74	on_trend
+GCF_053834845.1	413	0.9557	0.0	98.29	115	Russia: The Altai Republic	0.9346	0.0211	0.75	on_trend
+GCA_053570335.1	278	0.9601	0.0	98.89	23_YP45_MANG	Kazakhstan: Mangyshlak	0.9391	0.021	0.75	on_trend
+GCF_000834925.1	423	0.9556	0.0	98.41	Pestoides B	USSR	0.9343	0.0213	0.77	on_trend
+GCF_000007885.1	492	0.9539	0.0	98.49	91001		0.932	0.0219	0.81	on_trend
+GCF_052374015.1	509	0.9535	0.0	95.88	39_YP13_TLH	Kyrgyzstan: Talas high mountains	0.9314	0.0221	0.82	on_trend
+GCA_053570175.1	265	0.9616	0.0	98.91	66_YP38_PB	Kazakhstan: Pre-Balkhash desert	0.9395	0.0221	0.82	on_trend
+GCA_053570275.1	288	0.9611	0.0	98.1	28_YP48_MKUM	Kazakhstan: Moyunkum	0.9387	0.0224	0.84	on_trend
+GCF_052374075.1	539	0.9533	0.0	96.27	35_YP14_TLH	Kyrgyzstan: Talas high mountains	0.9304	0.0229	0.88	on_trend
+GCA_053570315.1	264	0.9633	0.0	98.79	23_YP48_MANG	Kazakhstan: Mangyshlak	0.9395	0.0238	0.94	on_trend
+GCA_053570365.1	265	0.9636	0.0	98.25	20_YP79_UST	Kazakhstan: Ustyurt	0.9395	0.0241	0.96	on_trend
+GCA_053570405.1	266	0.9636	0.0	98.93	19_YP08_PrU	Kazakhstan: Pre-Ustyurt	0.9395	0.0241	0.97	on_trend
+GCF_052373995.1	206	0.9663	0.0	98.67	23_YP50_MANG	Kazakhstan: Mangyshlak	0.9415	0.0248	1.02	on_trend
+GCA_053570395.1	308	0.9629	0.0	98.23	20_YP78_UST	Kazakhstan: Ustyurt	0.9381	0.0248	1.02	on_trend
+GCF_002005285.1	299	0.965	0.0	97.88	195/P		0.9384	0.0266	1.14	on_trend
+GCA_053570235.1	192	0.9688	0.0	93.76	31_YP74_SZ	Kyrgyzstan: Sarydzhaz high mountains	0.9419	0.0269	1.16	on_trend
+GCA_053570445.1	289	0.9657	0.0	98.67	16_YP27_VU	Kazakhstan: Volga-Ural sandy	0.9387	0.027	1.17	on_trend
+GCA_053570295.1	270	0.9677	0.0	98.62	23_YP47_MANG	Kazakhstan: Mangyshlak	0.9393	0.0284	1.27	on_trend
+GCF_052373935.1	183	0.9713	0.0	98.6	38_YP25_SZ	Kyrgyzstan: Sarydzhaz high mountains	0.9422	0.0291	1.32	on_trend
+GCF_000834775.1	28	0.9766	0.0	98.51	Dodson	USA: Tuba City, AZ	0.9474	0.0292	1.33	on_trend
+GCF_003798225.1	220	0.9703	0.0	97.99	FDAARGOS_601	Democratic Republic of the Congo	0.941	0.0293	1.33	on_trend
+GCF_052373945.1	192	0.9712	0.0	98.66	34_YP28_SZ	Kyrgyzstan: Sarydzhaz high mountains	0.9419	0.0293	1.33	on_trend
+GCA_053570255.1	199	0.9711	0.0	98.63	31_YP37_SZ	Kyrgyzstan: Sarydzhaz high mountains	0.9417	0.0294	1.34	on_trend
+GCF_000834825.1	222	0.9708	0.0	97.42	Antiqua	Republic of the Congo	0.9409	0.0299	1.37	on_trend
+GCF_000013825.1	227	0.9707	0.0	97.7	Antiqua		0.9408	0.0299	1.38	on_trend
+GCF_009295925.1	164	0.9731	0.0	98.96	SCPM-O-B-6899 (231)	Kyrgyzstan	0.9428	0.0303	1.4	on_trend
+GCF_039703215.1	170	0.975	0.0	98.88	AKS2022HT87_B	China: Gansu	0.9426	0.0324	1.55	on_trend
+GCF_024498415.1	93	0.9778	0.0	98.57	20	China: Gansu, Mongolian Autonomous County of Subei	0.9452	0.0326	1.56	on_trend
+GCF_039640425.1	181	0.9759	0.0	98.46	80	Kyrgyzstan: Sarydzhaz high-mountain plague focus, Ak-Su district, Kooylu river basin, Oroysuu area	0.9423	0.0336	1.64	on_trend
+GCF_039640415.1	181	0.9761	0.0	98.61	91_KR	Kyrgyzstan: Sarydzhaz high-mountain plague focus, Ak-Su district, Kooylu river basin, Bordu-Tor area	0.9423	0.0338	1.65	on_trend
+GCF_039640445.1	185	0.9764	0.0	98.58	2	Kyrgyzstan: Issyk-Kul region, Sarydzhas high mountain plague focus	0.9421	0.0343	1.68	on_trend
+GCF_053834855.1	181	0.9766	0.0	98.61	166	Kyrgyzstan	0.9423	0.0343	1.68	on_trend
+GCF_039640395.1	175	0.9769	0.0	98.6	136	Kyrgyzstan: Sarydzhaz high-mountain plague focus, Chon-Karabel area	0.9425	0.0344	1.69	on_trend
+GCF_009363195.1	194	0.9764	0.0	98.47	SCPM-O-B-5942 (I-2638)	Russia: Tuva	0.9419	0.0345	1.7	on_trend
+GCF_039640175.1	175	0.977	0.0	98.6	133	Kyrgyzstan: Sarydzhaz high-mountain plague focus, Chon-Karabel area	0.9425	0.0345	1.7	on_trend
+GCF_039640485.1	175	0.977	0.0	98.6	107	Kyrgyzstan: Sarydzhaz high-mountain plague focus, Chon-Karabel area	0.9425	0.0345	1.7	on_trend
+GCF_046895485.1	161	0.979	0.0	98.89	19042	China:Qinghai	0.9429	0.0361	1.81	on_trend
+GCF_061402485.1	105	0.9809	0.0	98.65	YN24HQzi2	China	0.9448	0.0361	1.81	on_trend
+GCF_046895505.1	166	0.9793	0.0	98.89	71037	China:Gansu	0.9428	0.0365	1.84	on_trend
+GCA_053570215.1	518	0.9676	0.0	98.74	37_YP35_TLH	Kyrgyzstan: Talas high mountains	0.9311	0.0365	1.84	on_trend
+GCF_046895565.1	162	0.9797	0.0	98.74	770429	China:Qinghai	0.9429	0.0368	1.86	on_trend
+GCF_024498395.1	164	0.98	0.0	98.77	94	China: Gansu, Aksay	0.9428	0.0372	1.88	on_trend
+GCF_046895535.1	173	0.9797	0.0	98.89	71025	China:Gansu	0.9425	0.0372	1.88	on_trend
+GCF_046895545.1	166	0.98	0.0	98.74	19022	China:Qinghai	0.9428	0.0372	1.89	on_trend
+GCF_046895495.1	165	0.9807	0.0	98.89	71038	China:Gansu	0.9428	0.0379	1.94	on_trend
+GCF_046895575.1	157	0.981	0.0	98.89	720330	China:Qinghai	0.9431	0.0379	1.94	on_trend
+GCF_046895525.1	162	0.981	0.0	98.89	71034	China:Gansu	0.9429	0.0381	1.95	on_trend
+GCF_046895595.1	161	0.981	0.0	98.89	71008	China:Gansu	0.9429	0.0381	1.95	on_trend
+GCF_024498375.1	169	0.981	0.0	98.86	R	China: Gansu, Aksay	0.9427	0.0383	1.97	on_trend
+GCF_039703785.1	169	0.9813	0.0	98.82	AKS2022HT87_A	China: Gansu	0.9427	0.0386	1.99	on_trend
+GCF_041409745.1	53	0.9852	0.0	98.25	6/69_pPCP1-		0.9465	0.0387	1.99	on_trend
+GCF_046895515.1	175	0.9816	0.0	98.89	71031	China:Gansu	0.9425	0.0391	2.02	on_trend
+GCA_062019011.1	87	0.9846	0.0	98.69	JC25	China:Yunnan Province,Jianchuan County	0.9454	0.0392	2.03	on_trend
+GCF_046895465.1	171	0.9826	0.0	98.89	19098	China:Qinghai	0.9426	0.04	2.08	on_trend
+GCF_046895405.1	63	0.9862	0.0	98.64	CMCCK110001	China:Yunnan	0.9462	0.04	2.09	on_trend
+GCF_046895365.1	170	0.9833	0.0	98.84	7	China:Qinghai	0.9426	0.0407	2.13	on_trend
+GCF_046895435.1	73	0.9868	0.0	98.69	CMCC640047	China:Qinghai	0.9459	0.0409	2.15	on_trend
+GCF_000022825.1	202	0.9838	0.0	92.26	D182038		0.9416	0.0422	2.24	on_trend
+GCF_000022805.1	167	0.9855	0.0	94.64	D106004		0.9427	0.0428	2.28	on_trend
+GCF_041410195.1	52	0.9902	0.0	98.25	6/69	Madagascar	0.9466	0.0436	2.34	on_trend
+GCF_000834235.1	62	0.9907	0.0	98.68	PBM19		0.9462	0.0445	2.4	on_trend
+GCF_000834495.1	35	0.9938	0.0	98.42	El Dorado	USA: NY, New York	0.9471	0.0467	2.56	on_trend
+GCF_000834335.1	29	0.9949	0.0	98.67	Shasta	USA: California	0.9473	0.0476	2.62	on_trend
+GCF_046895445.1	63	0.9944	0.0	98.69	CMCC114001	China:Fujian	0.9462	0.0482	2.66	on_trend

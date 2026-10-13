@@ -1,0 +1,8 @@
+name: gapseq
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - gapseq
+  - carveme

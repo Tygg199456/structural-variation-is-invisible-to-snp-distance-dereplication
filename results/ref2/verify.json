@@ -1,0 +1,126 @@
+{
+  "conservative_blocked_eligible": 160,
+  "conservative_blocked_total": 27722,
+  "conservative_eligible": 302,
+  "conservative_retained_t20": 208,
+  "distance_p50": 174.0,
+  "distance_p95": 679.0,
+  "full_blocked_total": 27722,
+  "full_retained_t20": 208,
+  "grid": [
+    0,
+    3,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    50,
+    75,
+    100
+  ],
+  "n": 256,
+  "off_blocked_total": 0,
+  "off_decomposition_t20": {
+    "a_chromosome": 23,
+    "c_plasmid_resolved": 2,
+    "not_mixed": 9
+  },
+  "off_multi_total": 25,
+  "off_retained_t20": 175,
+  "reference": "GCF_000013825.1",
+  "rule": [
+    {
+      "diameter": 0,
+      "max_size": 3,
+      "merged": 0,
+      "pass": false,
+      "t": 0
+    },
+    {
+      "diameter": 3,
+      "max_size": 4,
+      "merged": 0,
+      "pass": false,
+      "t": 3
+    },
+    {
+      "diameter": 5,
+      "max_size": 4,
+      "merged": 1,
+      "pass": false,
+      "t": 5
+    },
+    {
+      "diameter": 10,
+      "max_size": 5,
+      "merged": 3,
+      "pass": false,
+      "t": 10
+    },
+    {
+      "diameter": 15,
+      "max_size": 8,
+      "merged": 4,
+      "pass": false,
+      "t": 15
+    },
+    {
+      "diameter": 19,
+      "max_size": 12,
+      "merged": 5,
+      "pass": true,
+      "t": 20
+    },
+    {
+      "diameter": 25,
+      "max_size": 12,
+      "merged": 5,
+      "pass": true,
+      "t": 25
+    },
+    {
+      "diameter": 30,
+      "max_size": 14,
+      "merged": 5,
+      "pass": true,
+      "t": 30
+    },
+    {
+      "diameter": 50,
+      "max_size": 18,
+      "merged": 5,
+      "pass": true,
+      "t": 50
+    },
+    {
+      "diameter": 74,
+      "max_size": 23,
+      "merged": 5,
+      "pass": true,
+      "t": 75
+    },
+    {
+      "diameter": 100,
+      "max_size": 33,
+      "merged": 5,
+      "pass": false,
+      "t": 100
+    }
+  ],
+  "sites": 12835,
+  "size_distribution_t20": {
+    "1": 141,
+    "2": 19,
+    "3": 6,
+    "4": 4,
+    "5": 1,
+    "7": 1,
+    "8": 1,
+    "11": 1,
+    "12": 1
+  },
+  "threestate_blocked_total": 27722,
+  "threestate_retained_t20": 208
+}

@@ -1,0 +1,11 @@
+# BEAST2 packages ORC, RLC and bModelTest must be installed
+# separately:  packagemanager -add ORC -add RLC -add bModelTest
+name: beast
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - beast2=2.7.7
+  - beagle-lib
+  - tracer

@@ -1,0 +1,5 @@
+constraint,retained,clusters,multi_member_clusters
+off,175,175,36
+full (naive two-state),206,206,24
+threestate,205,205,26
+conservative (used),209,209,24

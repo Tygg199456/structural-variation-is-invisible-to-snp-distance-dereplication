@@ -1,0 +1,29 @@
+# Set $BAKTA_DB and record the exact DB release in config.yaml
+# (annotation.db_version). One DB version for every genome.
+name: bakta
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bakta=1.9.4
+  # REPRODUCIBILITY PIN, added 2026-10-11 after a measured failure.
+  # bakta 1.9.4 passes sequence names to pyhmmer as `bytes` and then calls
+  # `hit.name.decode()` (bakta/features/orf.py:26, detect_spurious). pyhmmer
+  # >=0.11 changed TextSequence.name to round-trip as `str`, so every
+  # annotation crashed at "detect spurious CDS" with
+  #   AttributeError: 'str' object has no attribute 'decode'
+  # after having already predicted 4,298 CDSs.
+  # bakta 1.9.4 is from 2024-01 and declares only `pyhmmer >=0.10.4`, so conda
+  # happily resolved 0.12.3. Pin to the 0.10 line that bakta 1.9.4 was built
+  # against. Verified: 0.10.15 returns bytes for a bytes input.
+  - pyhmmer=0.10.15
+  # Pin the AMRFinderPlus SOFTWARE version, not just its database. Measured
+  # 2026-10-11: this env resolved 4.2.7 while the previous env had 3.12.8, and
+  # the two write AMRFinderPlus databases in different layouts (3.x: AMRProt,
+  # 4.x: AMRProt.fa). A database installed by the 3.x updater made the 4.2.7
+  # binary abort with "The BLAST database for AMRProt.fa ... was not found",
+  # which surfaced inside bakta as "amrfinder error! error code: 1".
+  # The resolved versions of the whole env are recorded in
+  # results/annotate/ENV_VERSIONS.txt by the annotation driver.
+  - ncbi-amrfinderplus=4.2.7

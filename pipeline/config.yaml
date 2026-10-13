@@ -1,0 +1,529 @@
+# ==============================================================================
+# plague-decay | config.yaml
+# Yersinia pestis reductive-evolution pipeline
+# All numbers below are LOCKED from measured NCBI Datasets output (2026-10-09).
+# Do not edit tier thresholds without re-running rules/01_qc.smk end to end.
+# ==============================================================================
+
+project:
+  name: plague-decay
+  taxid: 632
+  threads_max: 32
+  mem_mb_max: 128000
+
+# ------------------------------------------------------------------ references
+ref:
+  # CO92, the sole Y. pestis reference genome (ASM906v1)
+  accession: GCF_000009065.1
+  chromosome: NC_003143.1      # 4,653,728 bp
+  plasmids:
+    pMT1:  NC_003134.1         #    96,210 bp
+    pCD1:  NC_003131.1         #    70,305 bp
+    pPCP1: NC_003132.1         #     9,612 bp
+  total_bp: 4829855
+
+outgroup:
+  # Y. pseudotuberculosis IP32953 (KEGG T00195), complete, 4038 CDS
+  primary: GCA_000047365.1
+  extra:                        # 2 further pseudotuberculosis for root polarisation
+    - GCF_000016945.1           # Y. pseudotuberculosis IP 31758 (verified 2026-10-09)
+    - GCF_000750315.1           # Y. pseudotuberculosis ATCC 6904 (verified 2026-10-09,
+                                #   organism_name=Y. pseudotuberculosis, taxid=633,
+                                #   4,806,594 bp -- NOT reclassified as Y. similis)
+  # Outgroups violate the molecular clock. They polarise the root and are
+  # never allowed into the BEAST taxa set.
+  exclude_from_dating: true
+
+# ------------------------------------------------------------- lineage anchors
+# These 8 strains BYPASS every QC filter and are never removed by dedup.
+# They are the phylogenetic anchors and the basis for comparability with
+# Morelli 2010 / Cui 2013 / Chain 2004.
+# population labels: fill from the supplementary tables of Morelli 2010 and
+# Cui 2013 -- do NOT trust labels typed from memory.
+whitelist:
+  CO92:        {accession: GCF_000009065.1, population: "FILL_FROM_LITERATURE"}
+  KIM:         {accession: GCA_000006645.1, population: "FILL_FROM_LITERATURE"}
+  Antiqua:     {accession: GCF_000013825.1, population: "FILL_FROM_LITERATURE"}
+  Nepal516:    {accession: GCF_000013805.1, population: "FILL_FROM_LITERATURE"}
+  str91001:    {accession: GCF_000007885.1, population: "FILL_FROM_LITERATURE"}
+  PestoidesF:  {accession: GCF_000016445.1, population: "FILL_FROM_LITERATURE"}
+  A1122:       {accession: GCF_000222975.1, population: "FILL_FROM_LITERATURE"}
+  Angola:      {accession: GCF_000018805.1, population: "FILL_FROM_LITERATURE"}
+
+# ============================================================== TIER DEFINITIONS
+# Each tier has a single permitted use. Violating the matrix below invalidates
+# the corresponding figure. Enforced programmatically in rules/01_qc.smk.
+#
+#   Tier A  -> PAV, pseudogenes, IS breakpoints, plasmid content, FBA
+#   Tier B  -> SNP phylogeny and dating tips ONLY
+#   Tier C  -> SNP, deep calibration, coarse PAV (breadth-based) ONLY
+# ==============================================================================
+
+tiers:
+
+  A:
+    name: decay_set
+    # CONVENTION: every measured_* value carries the date it was measured and
+    # comes from a real run. projected_* values are placeholders and move to
+    # measured_* as soon as the corresponding run lands. This is what makes
+    # the config an audit record rather than a set of assertions.
+    measured_2026_10_09:
+      raw_complete_chromosome: 500
+      after_gca_gcf_dedup: 256
+      after_dnadiff_gate: 251
+      after_snp_dedup: 174          # threshold 20 on the RAW matrix, complete linkage
+    projected:
+      after_tier_b_backbone: 1300   # same threshold applied to Tier B
+    source_levels: [complete, chromosome]
+    measured_raw_records: 500          # complete 471 + chromosome 29
+    measured_after_gca_gcf_dedup: 257  # <- your measured value, pre-SNP-dedup
+    expected_after_snp_dedup: 210      # placeholder; rule 02 writes the real n
+    permitted_uses: [pav, pseudogene, is_elements, plasmid, fba, gubbins]
+    forbidden_uses: []
+    qc:
+      # NOTE: CheckM *completeness* is deliberately NOT a filter.
+      # 42.8% (110/257) of Tier A falls below 98% completeness, and the
+      # shortfall is partly real reductive evolution, not assembly gaps.
+      # It is recorded as a covariate instead (see analysis.checkm_covariate).
+      use_completeness_filter: false
+      max_contamination: 2.0           # CheckM1 contamination IS valid
+      min_total_bp: 4400000
+      max_total_bp: 5000000
+      min_chromosome_bp: 4400000
+      max_chromosome_bp: 4750000
+      max_ambiguous_frac: 0.001
+      min_dnadiff_aligned_pct: 95.0    # marker-free completeness, vs CO92 chr
+
+  B:
+    name: backbone_set
+    source_levels: [complete, chromosome, scaffold, contig]
+    measured_prefilter_records: 4585
+    measured_after_threshold_nodedup: 4195
+    measured_after_gca_gcf_dedup: 3453  # <- your measured value
+    backbone_target_min: 1300
+    backbone_target_max: 1900
+    backbone_hard_cap: 2000             # hard ceiling on IQ-TREE taxa
+    permitted_uses: [snp, phylogeny, dating_tip, population_assignment]
+    forbidden_uses: [pav, pseudogene, is_elements, fba]
+    qc:
+      use_completeness_filter: false
+      max_contamination: 2.0            # CheckM2 contamination only
+      min_total_bp: 4400000
+      max_total_bp: 5000000
+      max_contigs: 500
+      min_contig_n50: 20000
+      max_ambiguous_frac: 0.005
+      min_dnadiff_aligned_pct: 95.0
+
+  C:
+    name: ancient_set
+    source: AncientMetagenomeDir        # via AMDirT export -> ENA accessions
+    pilot_min_depth: 10                 # phase 1: ~30 libraries, 200-400 GB
+    full_min_depth: 5                   # phase 2: ~60-80 libraries, 0.5-2 TB
+    pilot_target_n: 30
+    full_target_n: 80
+    permitted_uses: [snp, deep_calibration, coarse_pav]
+    forbidden_uses: [pseudogene, frameshift, is_elements, fba]
+    coarse_pav:
+      min_breadth: 0.90                 # of gene length
+      min_depth: 3
+    authentication:
+      require_damage: true
+      min_ct_5p_first_base: 0.05        # mapDamage2; tune per library prep
+      # NOTE: UDG-treated libraries will fail this. Record library prep from
+      # AncientMetagenomeDir library metadata and exempt UDG-full libraries.
+
+# ================================================================ DEDUPLICATION
+dedup:
+  # ANI is NOT used: all Y. pestis pairs sit above 99.99% ANI, so ANI has no
+  # resolving power in this species. Dedup is complete-linkage clustering on
+  # SNP distance read from snps.aligned.fa (never from a whole-genome
+  # alignment -- 3453 x 4.65 Mb would be ~16 GB).
+  #
+  # COMPLETE linkage, not single. At t = 0 single linkage is safe because
+  # identity is transitive; at t > 0 it chains (A-B=20, B-C=20, C-D=20
+  # collapses to a diameter-60 cluster with nothing logged). Same-strain
+  # assemblies measured 3-18 apart, so t = 0 is untenable and single linkage
+  # goes with it.
+  method: complete_linkage
+  distance_matrix: raw          # not the coverage-scaled matrix; merging must
+                                # rest on observed, not extrapolated, differences
+  # Chosen by scripts/dedup_threshold_sweep.py under a rule fixed BEFORE the
+  # output was seen: smallest t with (1) all 5 known same-strain pairs merged,
+  # (2) max cluster diameter <= 2t, (3) max cluster size <= 25. Measured
+  # 2026-10-09 on snp_distance_raw_tierA.npy. t = 20 / retained 174.
+  max_snp_distance: 20
+  # STILL UNCALIBRATED. Cannot bite on Tier A (joint overlap ~0.90) but will
+  # on Tier B drafts; set from the blocked-pair distribution after gate1d.
+  min_joint_called_frac: 0.70
+  # When the cap bites, keep divergent genomes, not representatives of the
+  # oversampled outbreak clusters. Greedy maximin seeded with the anchors.
+  cap_selection: farthest_point
+  representative_priority:              # applied in order
+    - refseq_gcf
+    - has_collection_date
+    - has_geo_loc_name
+    - closest_to_median_length
+  protect: whitelist                    # anchors never collapsed away
+
+# ============================================================= ANNOTATION / PAN
+annotation:
+  tool: bakta
+  version: "1.9.4"
+  db_version: "5.1"                     # Bakta DB v5.1, schema 5, full
+                                        # Zenodo record 10522951
+                                        # md5 f8823533b789dd315025fdcc46f1a8c1
+                                        # installed 2026-10-11, smoke-tested on CO92
+  # Every Tier A genome AND both references are re-annotated with ONE db
+  # version. Mixing PGAP vintages is the single largest source of spurious
+  # pseudogene differences.
+  reannotate_references: true
+
+pangenome:
+  tool: panaroo
+  version: "1.5"
+  clean_mode: strict
+  # DEFECT FIXED 2026-10-09: --remove-invalid-genes drops genes failing
+  # panaroo's validity checks, and internal stop codons are among those
+  # checks -- which is the defining feature of a nonsense/frameshift
+  # pseudogene. It removes exactly the calls this study measures, and the
+  # failure surfaces later as a pseudogene->orthogroup join failure whose
+  # message would blame contig namespaces instead.
+  #
+  # Run panaroo BOTH ways on Tier A, keep whichever lets the join succeed,
+  # and record the choice in Methods. compare_variants drives that.
+  extra: "--merge_paralogs"                            # candidate A (default)
+  extra_variant_b: "--remove-invalid-genes --merge_paralogs"  # candidate B
+  compare_variants: true
+  core_threshold: 0.99
+  second_opinion:
+    tool: ppanggolin
+    version: "2.1"
+
+pseudogene:
+  tool: pseudofinder
+  version: "1.1"
+  mode: annotate
+  search: diamond
+  reference_db: yersinia_enterobacterales   # Y. pseudotuberculosis + relatives
+  # DISABLED 2026-10-11. The gate was right in intent (when the count IS the
+  # result, low recall / low FP beats high recall) but bakta is the wrong
+  # second tool: measured on CO92, bakta's .faa contains ZERO sequences with
+  # an internal stop codon, which is structural -- pyrodigal's ORF definition
+  # excludes in-frame stops, so a gene with a premature stop cannot appear as a
+  # bakta CDS at all. bakta called 5 pseudo CDS where the curated RefSeq
+  # annotation calls 217, so requiring agreement would reject nearly every
+  # pseudofinder call.
+  require_bakta_agreement: false
+  bakta_tag_role: recorded_only
+  # The replacement guarantee is UNIFORMITY, not completeness: one bakta DB,
+  # one pseudofinder version, one DIAMOND reference DB across all 206 genomes,
+  # plus a single-genome recall benchmark on CO92 only (never as cross-strain
+  # data -- mixed PGAP vintages are the largest source of spurious pseudogene
+  # differences).
+  # Stratified, because the naive recall target is wrong. Tracing combine_pav
+  # (pseudogenes collapse to 0) over the CO92 audit:
+  #   no_bakta_CDS       n=65   absent from the bakta CDS set -> Panaroo codes 0
+  #                             (ABSENT), so the inactivation is ALREADY captured
+  #                             via the PAV channel. pseudofinder is NOT needed.
+  #   shorter_bakta_CDS  n=49   present but truncated -> Panaroo codes 1 (a
+  #                             functional gene); if pseudofinder misses it the
+  #                             inactivation is LOST.
+  #   full_length_bakta_CDS n=103  same, and these look entirely normal in PAV.
+  # So the genes pseudofinder must actually recover are 49+103 = 152, NOT 65.
+  # At zero recall on those, CO92 inactivation is undercounted by 152/217 = 70%,
+  # and because that undercount depends on each strain residual-ORF length
+  # distribution it biases the Q1 decay-rate regression.
+  recall_benchmark:
+    genome: GCF_000009065.1
+    source: RefSeq_curated
+    n_expected: 217
+    strata:
+      no_bakta_CDS:          {n: 65,  critical: false, note: already counted as absence via PAV}
+      shorter_bakta_CDS:     {n: 49,  critical: true}
+      full_length_bakta_CDS: {n: 103, critical: true, note: same extent different interpretation -- annotator disagreement NOT entanglement}
+      critical_subtotal: 152
+  # "absent" and "pseudogenised" are not independent in this pipeline: a gene
+  # whose residual ORF is too short to call is missing from the bakta GFF3 and
+  # Panaroo scores it as LOSS. Quantified by
+  # scripts/pseudogene_annotation_audit.py
+  entanglement_audit: results/qc/pseudogene_entanglement.tsv
+
+is_elements:
+  tool: isescan
+  version: "1.7.2.3"
+  families: [IS100, IS285, IS1541, IS1661]
+  reference_db: ISfinder
+
+# ===================================================================== VARIANTS
+variants:
+  caller: snippy
+  version: "4.6.0"
+  min_cov: 10
+  min_frac: 0.9
+  ctgs_mode_for_tier_b: true            # snippy --ctgs on assemblies
+
+masking:
+  prophage:
+    tool: phastest
+  repeats:
+    tool: mummer_nucmer                 # self-self repeats >= 500 bp, id >= 95%
+    min_len: 500
+    min_identity: 95
+  is_elements: true                     # mask ISEScan hits
+  recombination:
+    # Gubbins runs on Tier A ONLY (257 taxa, ~1.2 GB alignment).
+    # Running it on Tier B (3453 x 4.65 Mb ~ 16 GB) will exhaust memory.
+    tool: gubbins
+    version: "3.3"
+    tier: A
+    propagate_mask_to_tier_b: true      # merge Gubbins regions into the BED
+
+# ==================================================================== PHYLOGENY
+phylogeny:
+  tool: iqtree
+  version: "2.3.6"
+  model: "GTR+F+G4"
+  # Use -fconst, NOT +ASC. snippy-core retains full-length reference
+  # coordinates, so the constant-site counts are KNOWN and must be supplied
+  # exactly. +ASC conditions on constant sites being unobservable, which is
+  # the wrong likelihood here and inflates branch lengths.
+  use_fconst: true
+  fconst_source: "snp-sites -C"
+  ufboot: 1000
+  alrt: 1000
+  threads: 32
+  quick_full_tree:
+    # Fig.S4: all 3453 taxa, to show dedup does not change topology.
+    tool: veryfasttree
+    model: "-gtr -nt"
+
+# ======================================================================= DATING
+dating:
+  # Measured metadata support (your values, 2026-10-09):
+  #   PRE-dedup, config.metadata.measured_completeness
+  #   Tier A  collection_date 88.8%  | year range 1939-2025 (86 y)
+  #   All     collection_date 90.8%  | year range 1900-2025 (125 y)
+  # The +/-60% gate applies to the DATING SET (~350 taxa), not the download
+  # set: select_dating_taxa.py computes the realised fraction and raises
+  # below this value.
+  min_collection_date_frac: 0.60
+  taxa_target: 350
+  taxa_hard_cap: 400
+  composition:
+    ancient: 60                         # Tier C, archaeological / 14C dates
+    tier_a_with_date: 170               # 210 * 0.891
+    backbone_supplement: 120            # 1 per HC5 cluster, maximise year span
+
+  global:
+    tool: beast2
+    version: "2.7.7"
+    clock: ORC                          # Optimised Relaxed Clock package
+    site_model: bModelTest
+    tree_prior: BayesianSkyline
+    chains: 2
+    chain_length: 200000000
+    store_every: 20000
+    beagle: "-beagle_SSE"               # swap to -beagle_GPU if available
+    ess_threshold: 200
+    # CRITICAL: BEAST2 treats the input alignment as the complete site set.
+    # Feeding ~25k variable sites without constant-site weights inflates
+    # branch lengths by ~ 4.65e6 / 2.5e4 ~ 190x and destroys the clock rate.
+    constant_site_weights_required: true
+    constant_site_weights: "AUTO_FROM_SNP_SITES_C"
+
+  sensitivity:
+    random_local_clock: true            # RLC: does ORC absorb rate heterogeneity?
+    single_population: "1.ORI"          # the one modern population near-certain
+                                        # to carry temporal signal (global, ~1900-2020)
+
+  # A population gets its own clock ONLY if all four gates pass.
+  population_clock_gates:
+    min_dated_tips: 30
+    min_year_span: 50
+    min_tempest_r2: 0.30
+    require_positive_slope: true
+    date_randomization:
+      replicates: 20
+      criterion: "no_overlap_of_95_HPD"
+
+  fallback:
+    # Populations failing the gates get relative dating only, and the
+    # manuscript states explicitly that no absolute ages are reported for them.
+    tool: lsd2                          # via IQ-TREE --date
+    report_absolute_ages: false
+    rate_scan: [1.0e-9, 5.0e-9, 1.0e-8, 2.0e-8, 5.0e-8]
+
+# =========================================================== ANCESTRAL / NULL
+asr:
+  tool: pastml
+  version: "1.9"
+  prediction_method: MPPA
+  model: F81
+  # ASR runs on the Tier A + Tier C pruned tree, but inherits branch lengths
+  # and the time axis from the full dated tree.
+  tree: dated_tree_pruned_to_AC
+
+parallel_loss:
+  # Null model separating adaptation from drift: simulate loss on the SAME
+  # tree at the ML-estimated per-gene loss rate, count independent losses,
+  # compare to observed.
+  simulations: 1000
+  fdr_method: BH
+  fdr_alpha: 0.05
+
+  # --- region exclusions, from results/qc/recurrent_block_polarity.tsv ------
+  # Provenance: 2026-10-10, 3441 genomes, blocks >= 10 kb (3682 block rows,
+  # 161 distinct binned coordinates, 18 recurring >= 10x, 90 singletons).
+  # Outgroup GCA_000047365.1 (Y. pseudotuberculosis IP32953) globally calls
+  # 0.883 of CO92; bands: >= 0.70 -> derived LOSS, <= 0.20 -> CO92-lineage
+  # GAIN, in between -> AMBIGUOUS.
+  #
+  # The reference-relative deletion profile is valid for DEREPLICATION
+  # whatever the polarity -- a presence/absence difference proves two
+  # assemblies are not the same genome. It is NOT valid as a loss event for
+  # the ASR / parallel-loss null, which is what these lists are for.
+  polarity_source: outgroup_IP32953_GCA_000047365.1
+  polarity_table: results/qc/recurrent_block_polarity.tsv
+
+  # Determined: CO92-lineage acquisitions. The direction is known and it is
+  # NOT a loss in the query. Reported in the manuscript as
+  # "N blocks were excluded as CO92-lineage acquisitions".
+  exclude_regions:
+    - {replicon: NC_003143, start: 2370000, length: 35000,  reason: CO92_lineage_gain}
+    - {replicon: NC_003143, start: 2365000, length: 25000,  reason: CO92_lineage_gain}
+    - {replicon: NC_003143, start: 2555000, length: 10000,  reason: CO92_lineage_gain}
+
+  # Undetermined: the outgroup is only partially callable here, so
+  # species-level divergence cannot be separated from true absence. Kept in a
+  # separate key because "we determined it is not a loss" and "we could not
+  # determine anything" are different claims; the second is a limitation that
+  # must be stated, and these entries can move to exclude_regions if a closer
+  # outgroup resolves them.
+  exclude_regions_ambiguous:
+    - {replicon: NC_003143, start: 795000,  length: 15000,  reason: ambiguous_polarity}
+
+  # Structurally uninformative outgroup: the whole replicon is absent from
+  # GCA_000047365.1. pMT1 and pPCP1 are Y. pestis-specific and were acquired
+  # at speciation, so the outgroup cannot say anything about them -- the
+  # "CO92 gained it" reading was a category error in an earlier version of
+  # the rule. These are NOT excluded: plasmid loss is real Q2 signal (pMT1
+  # carries ymt and caf1, so losing it means losing flea transmissibility).
+  # Polarise by within-species ASR with basal lineages (Pestoides / 0.PE) as
+  # the ancestral proxy.
+  needs_internal_polarity:
+    - {replicon: NC_003134, start: 0,       length: 20000,  reason: outgroup_lacks_replicon}
+
+
+# ========================================================== METABOLIC MODELLING
+fba:
+  model: iPC815                         # Charusanti 2011, BMC Syst Biol 5:163
+                                        # 815 genes / 678 proteins /
+                                        # 963 metabolites / 1678 reactions
+  source: bigg_or_biomodels
+  solver: glpk                          # gurobi if licensed
+  cross_validation:
+    # iPC815 covers only ~815 of ~4000 genes (~20%). Conclusions must be
+    # scoped to metabolic MODULES, not the whole genome. Rebuild models for
+    # representative strains as a check.
+    tools: [gapseq, carveme]
+    n_representatives: 10
+  media:
+    mammalian_blood:
+      description: "amino-acid rich, glucose limited, iron strictly withheld"
+      temperature_c: 37
+      iron_exchange_lb: 0.0
+    flea_midgut:
+      description: "blood-meal components, low temperature, high osmolarity"
+      temperature_c: 26
+    oligotrophic:
+      description: "minimal medium, single carbon source scan"
+      carbon_source_scan: true
+      n_carbon_sources: 30
+
+# ===================================================================== METADATA
+metadata:
+  source: ncbi_biosample                # EnteroBase API needs a token (401)  fields: [collection_date, geo_loc_name, host, isolation_source, strain, lat_lon]
+  missing_tokens: ["missing", "not applicable", "not collected",
+                   "unknown", "na", "n/a", "none", ""]
+  measured_completeness:
+    # Denominators are PRE-dedup, exactly as flatten_metadata.py emits them.
+    # POST-dedup values describe the analysed set and are an OUTPUT of
+    # table1_datasets.py, not a config constant -- quote those in the paper.
+    all_4585:
+      collection_date: 0.908
+      geo_loc_name: 0.902
+      host: 0.347
+      isolation_source: 0.579
+    complete_chromosome_500:
+      collection_date: 0.888
+      geo_loc_name: 0.936
+      host: 0.588
+      isolation_source: 0.374
+  cross_check:
+    # Reliability: MEDIUM. Confirm service status and data freshness before
+    # relying on it; platform governance has changed in recent years.
+    source: bv_brc
+    enabled: false
+
+analysis:
+  checkm_covariate: true
+  # Fig.S1: CheckM completeness vs pseudofinder pseudogene count.
+  # A significant negative correlation demonstrates that the standard QC
+  # metric is systematically distorted on reductive-evolution genomes.
+  figs1_regression: true
+  # Fig.S3: same strain, complete vs draft assembly, both through panaroo,
+  # quantifying how many spurious losses a draft introduces.
+  figS3_draft_pav_bias:
+    enabled: true
+    n_paired_strains: 20
+
+paths:
+  data: data
+  results: results
+  logs: logs
+  benchmarks: benchmarks
+
+# ------------------------------------------------------- measured noise floor
+# Frozen from measurement, not assertion. The reference self-comparison is the
+# control that turned "how noisy is this pipeline" from a guess into a number;
+# it belongs in the paper (Fig.S5), not only in a debug log.
+qc:
+  # THE PRINCIPLE (Methods): this study measures genome divergence and decay,
+  # so any quality metric computed against a single reference is collinear
+  # with the signal. Four such metrics were tried as filters and all four
+  # deleted the same lineages (CheckM completeness, dnadiff AlignedBases,
+  # called_frac, residual-from-trend z). They are covariates, never filters.
+  reference_based_metrics_are_covariates: true
+  covariates_recorded:
+    - checkm_completeness
+    - dnadiff_aligned_pct
+    - called_frac
+  outlier_rule: within_lineage_robust_z    # was residual_from_trend (circular)
+  residual_z_threshold: -3.0
+  deletion_aware: true                     # uncalled_region_profile.py
+  # uncalled_region_profile.py separates the two physical causes of low
+  # callability: scattered IS-sized blocks (technical) vs contiguous >=10 kb
+  # blocks or whole missing replicons (real deletions). Measured 2026-10-09:
+  # 47 of the 50 lowest-callability Tier A genomes are BIOLOGICAL, carrying
+  # the ~102 kb IS100-flanked pgm locus and/or whole plasmids - i.e. the gene
+  # loss this study exists to measure.
+  measured_deletion_classes_2026_10_09:
+    biological: 47
+    technical: 3
+    of_50_lowest: true
+  pipeline_noise_floor:
+    measured_2026_10_09: true
+    self_comparison_called_frac: 0.955
+    uncalled_cause: >-
+      IS100/IS285/IS1541/IS1661 copies defeat unique mapping of the 250 bp
+      shredded pseudo-reads that snippy --ctgs produces, so those positions
+      are never called. 3.6% '-' plus 1.0% 'N' on the CO92 chromosome even
+      when CO92 is aligned to itself.
+    same_strain_distance_median: 7
+    same_strain_distance_max: 21     # scaled matrix; 18 on the raw matrix
+    same_strain_distances_raw: {CO92: 13, Antiqua: 7, PestoidesF: 5, A1122: 18, Angola: 3}
+    n_same_strain_pairs: 5
+    # Independent assemblies of one strain differ at base level; they are not
+    # identical. Any dereplication threshold below this floor cannot merge the
+    # same isolate sequenced twice, which is the whole point of dereplication.

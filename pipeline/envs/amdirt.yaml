@@ -1,0 +1,7 @@
+name: amdirt
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - amdirt

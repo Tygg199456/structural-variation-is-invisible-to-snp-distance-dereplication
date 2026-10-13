@@ -1,0 +1,12 @@
+name: cobra
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - cobra=0.29
+  - glpk
+  - python-libsbml
+  - pandas
+  - numpy

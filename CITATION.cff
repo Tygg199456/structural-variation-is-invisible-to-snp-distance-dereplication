@@ -10,9 +10,13 @@ doi: 10.5281/zenodo.23353814
 repository-code: "https://github.com/Tygg199456/structural-variation-is-invisible-to-snp-distance-dereplication"
 authors:
   - name: "Guangwei Tong"
+  - name: "Yongfei Zhou"
+  - name: "Wenxia Tian"
 preferred-citation:
   type: article
   title: "Structural variation is invisible to SNP-distance dereplication: the reference strain of Yersinia pestis merges with its own attenuated derivative"
   year: 2026
   authors:
     - name: "Guangwei Tong"
+    - name: "Yongfei Zhou"
+    - name: "Wenxia Tian"

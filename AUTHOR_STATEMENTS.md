@@ -8,8 +8,12 @@ reference strain of Yersinia pestis merges with its own attenuated derivative*
 
 ## Funding
 
-This research received no specific grant from any funding agency, commercial or
-not-for-profit sectors.
+This research was supported by the Earmarked Fund for Shanxi Agriculture Research
+System (2026CYJSTX15-7 to W.X.T.), the University-region Scientific and Technological
+Collaboration Funds (JSFW25-0151), the Special Fund for Science and Technology
+Innovation Teams of Shanxi Province (202204051001022 to W.X.T. and S.N.), and the
+Shanxi Key Laboratory of Animal Disease Research, Prevention and Control
+(202504010931010).
 
 ## Conflicts of interest
 
@@ -19,7 +23,12 @@ The authors declare that there are no conflicts of interest.
 
 | Author | CRediT roles |
 |---|---|
-| Guangwei Tong | Conceptualization, Methodology, Software, Formal analysis, Investigation, Data curation, Visualization, Writing – original draft, Writing – review & editing |
+| Guangwei Tong † | Conceptualization, Methodology, Software, Formal analysis, Data curation, Visualization, Writing – original draft |
+| Yongfei Zhou † | Investigation, Validation, Resources, Writing – review & editing |
+| Wenxia Tian * | Conceptualization, Supervision, Project administration, Funding acquisition, Writing – review & editing |
+
+† These authors contributed equally to this work. * Corresponding author: Wenxia Tian
+(18842418106@163.com).
 
 All authors read and approved the final manuscript.
 

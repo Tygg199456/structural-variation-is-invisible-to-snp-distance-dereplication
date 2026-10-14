@@ -13,6 +13,7 @@ authors:
     orcid: "https://orcid.org/0009-0008-5152-8653"
   - name: "Yongfei Zhou"
   - name: "Wenxia Tian"
+    orcid: "https://orcid.org/0000-0002-1767-3477"
 preferred-citation:
   type: article
   title: "Structural variation is invisible to SNP-distance dereplication: the reference strain of Yersinia pestis merges with its own attenuated derivative"
@@ -22,3 +23,4 @@ preferred-citation:
       orcid: "https://orcid.org/0009-0008-5152-8653"
     - name: "Yongfei Zhou"
     - name: "Wenxia Tian"
+      orcid: "https://orcid.org/0000-0002-1767-3477"

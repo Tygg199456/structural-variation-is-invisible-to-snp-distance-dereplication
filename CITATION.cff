@@ -10,6 +10,7 @@ doi: 10.5281/zenodo.23353814
 repository-code: "https://github.com/Tygg199456/structural-variation-is-invisible-to-snp-distance-dereplication"
 authors:
   - name: "Guangwei Tong"
+    orcid: "https://orcid.org/0009-0008-5152-8653"
   - name: "Yongfei Zhou"
   - name: "Wenxia Tian"
 preferred-citation:
@@ -18,5 +19,6 @@ preferred-citation:
   year: 2026
   authors:
     - name: "Guangwei Tong"
+      orcid: "https://orcid.org/0009-0008-5152-8653"
     - name: "Yongfei Zhou"
     - name: "Wenxia Tian"
